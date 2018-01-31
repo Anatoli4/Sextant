@@ -39,9 +39,9 @@ class OptaPerfomanceSpec: XCTestCase {
     }
   }
 
-  func testParsingAEXML() {
+  func testParsingXMLParser() {
     do {
-      let model: F15CompetitionStatsAEXMLModel = try parsedModel(from: "xml")
+      let model: F15CompetitionStatsXMLParserModel = try parsedModel(from: "xml")
     } catch {
       fail("\(error)")
       return
@@ -77,9 +77,9 @@ class OptaPerfomanceSpec: XCTestCase {
     }
   }
 
-  func testAEXML() {
+  func testXMLParser() {
     do {
-      let requestObject: Request<SingleResult<F15CompetitionStatsAEXMLModel>> = try requestXML()
+      let requestObject: Request<SingleResult<F15CompetitionStatsXMLParserModel>> = try requestXML()
       let model = try Gnomon.models(for: requestObject).toBlocking().first()
     } catch {
       fail("\(error)")

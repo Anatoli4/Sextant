@@ -15,10 +15,8 @@ Pod::Spec.new do |s|
 
   s.dependency 'Gnomon/Core'
   s.dependency 'Gnomon/JSON'
-  s.dependency 'Gnomon/XML'
   s.dependency 'Marshal'
   s.dependency 'Fuzi'
-  s.dependency 'Ji'
   s.dependency 'RxSwift', '~> 4.0'
 
   s.source_files = 'Sources/**/*.swift'

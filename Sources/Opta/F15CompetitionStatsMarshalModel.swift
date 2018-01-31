@@ -83,7 +83,7 @@ public struct F15PlayerMarshalModel: JSONMarshalModel {
   public let name: String
   public let position: Position?
   public let stats: [Stat]
-  public var teamId: String?
+  public var teamId: String
 
   public init(object: MarshaledObject) throws {
     guard let attributes = object.optionalAny(for: "@attributes") as? NSDictionary else {
@@ -94,6 +94,7 @@ public struct F15PlayerMarshalModel: JSONMarshalModel {
     let rawPosition: String = try object.value(for: "Position")
     self.position = Position(rawValue: rawPosition)
     stats = try object.value(for: "Stat")
+    teamId = ""
   }
 
   public struct Stat: JSONMarshalModel {

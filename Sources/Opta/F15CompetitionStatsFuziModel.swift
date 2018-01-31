@@ -6,7 +6,6 @@
 //  Copyright © 2016 NETCOSPORTS. All rights reserved.
 //
 
-import protocol Sextant.XMLFuziModel
 import Fuzi
 
 public struct F15CompetitionStatsFuziModel: XMLFuziModel {
@@ -45,7 +44,7 @@ public struct F15TeamFuziModel: XMLFuziModel {
   public init(_ xml: XMLElement) throws {
     guard let teamId = xml.attributes["uID"]?.trimmingCharacters(in: CharacterSet.decimalDigits.inverted) else { throw "no team" }
     id = teamId
-    name = ""//xml["Name"].string ?? ""
+    name = xml.firstChild(tag: "Name")?.stringValue ?? ""
     stats = xml.children(tag: "Stat").flatMap { try? Stat($0) }
     players = try xml.children(tag: "Player").map { try F15PlayerFuziModel(xml: $0, teamId: teamId) }
   }
@@ -67,15 +66,10 @@ public struct F15TeamFuziModel: XMLFuziModel {
 
 public struct F15PlayerFuziModel: XMLFuziModel {
 
-  public enum Position: String {
-    case defender = "Defender"
-  }
-
   public let id: String
   public let name: String
-  public let position: Position?
   public let stats: [Stat]
-  public var teamId: String?
+  public var teamId: String
 
   public init(xml: XMLElement, teamId: String) throws {
     try self.init(xml)
@@ -84,9 +78,9 @@ public struct F15PlayerFuziModel: XMLFuziModel {
 
   public init(_ xml: XMLElement) throws {
     id = xml.attributes["uID"] ?? ""
-    name = ""//xml["Name"].string
-    self.position = Position(rawValue: /*xml["Position"].string*/"")
+    name = xml.firstChild(tag: "Name")?.stringValue ?? ""
     stats = xml.children(tag: "Stat").flatMap { try? Stat($0) }
+    teamId = ""
   }
 
   public struct Stat: XMLFuziModel {
