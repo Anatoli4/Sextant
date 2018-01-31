@@ -1,14 +1,18 @@
 //
-//  F15CompetitionStatsFuziModel.swift
-//  Opta
-//
-//  Created by Dmitry Duleba on 4/7/16.
-//  Copyright © 2016 NETCOSPORTS. All rights reserved.
+//  Created by Sergei Mikhan on 01/31/18.
+//  Copyright © 2017 NetcoSports. All rights reserved.
 //
 
 import Fuzi
 
-public struct F15CompetitionStatsFuziModel: XMLFuziModel {
+/*
+ This class represents full F15 season statistics including all matches',
+ teams' and players' statistics. Sample request:
+ "/competition.php?feed_type=f15&competition=5&season_id=2016"
+ Note: matches' statistics are not present yet.
+ */
+
+public struct F15Model: XMLFuziModel {
 
   public let seasonId: String
   public let seasonName: String
@@ -17,7 +21,7 @@ public struct F15CompetitionStatsFuziModel: XMLFuziModel {
   public let competitionCode: String
   public let statisticsType: String
 
-  public let teams: [F15TeamFuziModel]
+  public let teams: [F15TeamModel]
 
   public init(_ xml: XMLElement) throws {
     let attributes = xml.attributes
@@ -29,24 +33,26 @@ public struct F15CompetitionStatsFuziModel: XMLFuziModel {
     competitionCode = attributes["competition_code"] ?? ""
     statisticsType = attributes["Type"] ?? ""
 
-    teams = try xml.children(tag: "Team").map { try F15TeamFuziModel($0) }
+    teams = try xml.children(tag: "Team").map { try F15TeamModel($0) }
   }
 }
 
-public struct F15TeamFuziModel: XMLFuziModel {
+public struct F15TeamModel: XMLFuziModel {
 
+  // swiftlint:disable:next identifier_name
   public let id: String
   public let name: String
   public let stats: [Stat]
 
-  public var players: [F15PlayerFuziModel]
+  public var players: [F15PlayerModel]
 
   public init(_ xml: XMLElement) throws {
-    guard let teamId = xml.attributes["uID"]?.trimmingCharacters(in: CharacterSet.decimalDigits.inverted) else { throw "no team" }
+    guard let teamUId = xml.attributes["uID"] else { throw "no team" }
+    let teamId = teamUId.trimmingCharacters(in: CharacterSet.decimalDigits.inverted)
     id = teamId
     name = xml.firstChild(tag: "Name")?.stringValue ?? ""
     stats = xml.children(tag: "Stat").flatMap { try? Stat($0) }
-    players = try xml.children(tag: "Player").map { try F15PlayerFuziModel(xml: $0, teamId: teamId) }
+    players = try xml.children(tag: "Player").map { try F15PlayerModel(xml: $0, teamId: teamId) }
   }
 
   public struct Stat: XMLFuziModel {
@@ -64,8 +70,9 @@ public struct F15TeamFuziModel: XMLFuziModel {
   }
 }
 
-public struct F15PlayerFuziModel: XMLFuziModel {
+public struct F15PlayerModel: XMLFuziModel {
 
+  // swiftlint:disable:next identifier_name
   public let id: String
   public let name: String
   public let stats: [Stat]

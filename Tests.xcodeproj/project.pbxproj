@@ -11,15 +11,12 @@
 		4558D11918401AB38E8E1786 /* Pods_Tests_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9632BBA3EEFC5F2F3D3ECF19 /* Pods_Tests_tvOSTests.framework */; };
 		AA6502EC2018BB89008C0838 /* f15.json in Resources */ = {isa = PBXBuildFile; fileRef = AA6502EA2018BB89008C0838 /* f15.json */; };
 		AA6502ED2018BB89008C0838 /* f15.xml in Resources */ = {isa = PBXBuildFile; fileRef = AA6502EB2018BB89008C0838 /* f15.xml */; };
-		AA6502EE2018BDF0008C0838 /* f15.json in Resources */ = {isa = PBXBuildFile; fileRef = AA6502EA2018BB89008C0838 /* f15.json */; };
-		AA6502EF2018BDF0008C0838 /* f15.xml in Resources */ = {isa = PBXBuildFile; fileRef = AA6502EB2018BB89008C0838 /* f15.xml */; };
 		AA6502F02018BDFB008C0838 /* f15.json in Resources */ = {isa = PBXBuildFile; fileRef = AA6502EA2018BB89008C0838 /* f15.json */; };
 		AA6502F12018BE08008C0838 /* f15.xml in Resources */ = {isa = PBXBuildFile; fileRef = AA6502EB2018BB89008C0838 /* f15.xml */; };
-		AAB2BD5D201235DF00C82869 /* OptaPerfomanceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB2BD5C201235DF00C82869 /* OptaPerfomanceSpec.swift */; };
+		AAB2BD5D201235DF00C82869 /* F15Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB2BD5C201235DF00C82869 /* F15Spec.swift */; };
 		AADF73E72021C98F003985AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADF73E62021C98F003985AE /* AppDelegate.swift */; };
 		AADF73EE2021C98F003985AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADF73ED2021C98F003985AE /* Assets.xcassets */; };
 		AADF73F12021C98F003985AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADF73EF2021C98F003985AE /* LaunchScreen.storyboard */; };
-		FC5752EA743A335D42A06DA9 /* Pods_Tests_macOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6846319295E4D85871077BB9 /* Pods_Tests_macOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +40,7 @@
 		9632BBA3EEFC5F2F3D3ECF19 /* Pods_Tests_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6502EA2018BB89008C0838 /* f15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = f15.json; sourceTree = "<group>"; };
 		AA6502EB2018BB89008C0838 /* f15.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = f15.xml; sourceTree = "<group>"; };
-		AAB2BD5C201235DF00C82869 /* OptaPerfomanceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptaPerfomanceSpec.swift; sourceTree = "<group>"; };
+		AAB2BD5C201235DF00C82869 /* F15Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F15Spec.swift; sourceTree = "<group>"; };
 		AADF73E42021C98E003985AE /* HostApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HostApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADF73E62021C98F003985AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AADF73ED2021C98F003985AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,7 +50,6 @@
 		B56E8B901F16615600D5F227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B59E9BA61EC361EC002018AE /* iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59E9BAB1EC361EC002018AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5D49AF71F16981800FD2889 /* macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D49AFB1F16981800FD2889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CECD4C2682324E936658247B /* Pods_Tests_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -79,14 +75,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AB8BBCC7D6B3A63F74773DE /* Pods_Tests_iOSTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5D49AF41F16981800FD2889 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC5752EA743A335D42A06DA9 /* Pods_Tests_macOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +144,6 @@
 			children = (
 				B59E9BA61EC361EC002018AE /* iOSTests.xctest */,
 				B56E8B8C1F16615600D5F227 /* tvOSTests.xctest */,
-				B5D49AF71F16981800FD2889 /* macOSTests.xctest */,
 				AADF73E42021C98E003985AE /* HostApplication.app */,
 			);
 			name = Products;
@@ -181,7 +168,7 @@
 		B5E72C8C1F72C3D400F63067 /* Specs */ = {
 			isa = PBXGroup;
 			children = (
-				AAB2BD5C201235DF00C82869 /* OptaPerfomanceSpec.swift */,
+				AAB2BD5C201235DF00C82869 /* F15Spec.swift */,
 			);
 			path = Specs;
 			sourceTree = "<group>";
@@ -249,27 +236,6 @@
 			productReference = B59E9BA61EC361EC002018AE /* iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B5D49AF61F16981800FD2889 /* macOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B5D49AFE1F16981800FD2889 /* Build configuration list for PBXNativeTarget "macOSTests" */;
-			buildPhases = (
-				E2D320D469F7AFC9F512E786 /* [CP] Check Pods Manifest.lock */,
-				B5F99A0A1F66A0CE00B46E70 /* SwiftLint */,
-				B5D49AF31F16981800FD2889 /* Sources */,
-				B5D49AF41F16981800FD2889 /* Frameworks */,
-				B5D49AF51F16981800FD2889 /* Resources */,
-				117B4451CDD5EC1F5F9F4CCD /* [CP] Embed Pods Frameworks */,
-				AE7B3E6F4B5A41500E459598 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = macOSTests;
-			productName = macOSTests;
-			productReference = B5D49AF71F16981800FD2889 /* macOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -295,10 +261,6 @@
 						ProvisioningStyle = Manual;
 						TestTargetID = AADF73E32021C98E003985AE;
 					};
-					B5D49AF61F16981800FD2889 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = B59E9B9F1EC361C1002018AE /* Build configuration list for PBXProject "Tests" */;
@@ -317,7 +279,6 @@
 				AADF73E32021C98E003985AE /* HostApplication */,
 				B59E9BA51EC361EC002018AE /* iOSTests */,
 				B56E8B8B1F16615600D5F227 /* tvOSTests */,
-				B5D49AF61F16981800FD2889 /* macOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -350,15 +311,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5D49AF51F16981800FD2889 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA6502EF2018BDF0008C0838 /* f15.xml in Resources */,
-				AA6502EE2018BDF0008C0838 /* f15.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -372,24 +324,22 @@
 				"${BUILT_PRODUCTS_DIR}/FormatterKit-tvOS/FormatterKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Fuzi-tvOS/Fuzi.framework",
 				"${BUILT_PRODUCTS_DIR}/Gnomon-tvOS/Gnomon.framework",
-				"${BUILT_PRODUCTS_DIR}/Marshal-tvOS/Marshal.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble-tvOS/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/RxBlocking-tvOS/RxBlocking.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift-tvOS/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Sextant-tvOS/Sextant.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-tvOS/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SignatureInterceptor-tvOS/SignatureInterceptor.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FormatterKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fuzi.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gnomon.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Marshal.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sextant.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SignatureInterceptor.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -409,40 +359,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-tvOSTests/Pods-Tests-tvOSTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		117B4451CDD5EC1F5F9F4CCD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Tests-macOSTests/Pods-Tests-macOSTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FormatterKit-macOS/FormatterKit.framework",
-				"${BUILT_PRODUCTS_DIR}/Fuzi-macOS/Fuzi.framework",
-				"${BUILT_PRODUCTS_DIR}/Gnomon-macOS/Gnomon.framework",
-				"${BUILT_PRODUCTS_DIR}/Marshal-macOS/Marshal.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble-macOS/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/RxBlocking-macOS/RxBlocking.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift-macOS/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Sextant-macOS/Sextant.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-macOS/SwiftyJSON.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FormatterKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fuzi.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gnomon.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Marshal.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sextant.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-macOSTests/Pods-Tests-macOSTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1EDF1805CBA33BC937AEBF6A /* [CP] Check Pods Manifest.lock */ = {
@@ -491,43 +407,26 @@
 				"${BUILT_PRODUCTS_DIR}/FormatterKit-iOS/FormatterKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Fuzi-iOS/Fuzi.framework",
 				"${BUILT_PRODUCTS_DIR}/Gnomon-iOS/Gnomon.framework",
-				"${BUILT_PRODUCTS_DIR}/Marshal-iOS/Marshal.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble-iOS/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/RxBlocking-iOS/RxBlocking.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift-iOS/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Sextant-iOS/Sextant.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SignatureInterceptor-iOS/SignatureInterceptor.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FormatterKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fuzi.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gnomon.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Marshal.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sextant.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SignatureInterceptor.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-iOSTests/Pods-Tests-iOSTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AE7B3E6F4B5A41500E459598 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-macOSTests/Pods-Tests-macOSTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B56E8BA21F16655700D5F227 /* SwiftLint */ = {
@@ -558,20 +457,6 @@
 			shellPath = /bin/sh;
 			shellScript = ./Pods/SwiftLint/swiftlint;
 		};
-		B5F99A0A1F66A0CE00B46E70 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = ./Pods/SwiftLint/swiftlint;
-		};
 		C58F03A580985F4215786555 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -585,24 +470,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-iOSTests/Pods-Tests-iOSTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E2D320D469F7AFC9F512E786 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Tests-macOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -627,14 +494,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB2BD5D201235DF00C82869 /* OptaPerfomanceSpec.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5D49AF31F16981800FD2889 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				AAB2BD5D201235DF00C82869 /* F15Spec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1019,114 +879,6 @@
 			};
 			name = Release;
 		};
-		B5D49AFC1F16981800FD2889 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 557BF3CDC1B1F8F2B0FB4BC5 /* Pods-Tests-macOSTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = macOSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.netcosports.tests.macos;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		B5D49AFD1F16981800FD2889 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 066A0114CDF0BE98AE176647 /* Pods-Tests-macOSTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = macOSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.netcosports.tests.macos;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1162,15 +914,6 @@
 			buildConfigurations = (
 				B59E9BAD1EC361EC002018AE /* Debug */,
 				B59E9BAE1EC361EC002018AE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B5D49AFE1F16981800FD2889 /* Build configuration list for PBXNativeTarget "macOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B5D49AFC1F16981800FD2889 /* Debug */,
-				B5D49AFD1F16981800FD2889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

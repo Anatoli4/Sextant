@@ -1,8 +1,6 @@
 //
-//  F15Stats.swift
-//  Tests
-//
-//  Created by Sergei Mikhan on 1/23/18.
+//  Created by Sergei Mikhan on 01/31/18.
+//  Copyright © 2017 NetcoSports. All rights reserved.
 //
 
 import UIKit

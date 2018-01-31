@@ -14,8 +14,6 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.10'
 
   s.dependency 'Gnomon/Core'
-  s.dependency 'Gnomon/JSON'
-  s.dependency 'Marshal'
   s.dependency 'Fuzi'
   s.dependency 'RxSwift', '~> 4.0'
 
