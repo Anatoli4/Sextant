@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2001-2018 Opta Sportsdata Ltd. All rights reserved. -->
+
+<!-- PRODUCTION HEADER
+     produced on:        valde-jobq-a02.nexus.opta.net
+     production time:    20180205T090321,390Z
+     production module:  Opta::Feed::XML::Soccer::F1
+-->
+<SoccerFeed>
+  <SoccerDocument Type="RESULTS Latest" competition_code="FR_FC" competition_id="361" competition_name="Coupe de France" game_system_id="1" season_id="2017" season_name="Season 2017/2018" timestamp="2018-02-05 09-03-21">
+    <MatchData detail_id="5" last_modified="2018-01-07T11:01:05+00:00" timestamp_accuracy_id="3" timing_id="3" uID="g963922">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t3272" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="12894">
+        <Date>2018-01-06 14:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stade Maurice Macquet</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t14040" />
+      <TeamData HalfScore="2" Score="3" Side="Away" TeamRef="t3272">
+        <Goal Period="FirstHalf" PlayerRef="p220967" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p443260" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p221159" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="5" last_modified="2018-01-06T20:24:11+00:00" timestamp_accuracy_id="3" timing_id="3" uID="g963929">
+      <MatchInfo GameWinner="t5443" GameWinnerType="AfterExtraTime" MatchDay="9" MatchType="Cup" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="3557">
+        <Date>2018-01-06 17:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stade Lebon</Stat>
+      <Stat Type="City">Angoulême</Stat>
+      <TeamData ExtraScore="0" HalfScore="0" NinetyScore="1" Score="1" Side="Home" TeamRef="t2323">
+        <Goal Period="SecondHalf" PlayerRef="p443247" Type="Goal" />
+      </TeamData>
+      <TeamData ExtraScore="1" HalfScore="0" NinetyScore="1" Score="2" Side="Away" TeamRef="t5443">
+        <Goal Period="SecondHalf" PlayerRef="p115960" Type="Goal" />
+        <Goal Period="ExtraSecondHalf" PlayerRef="p245657" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="5" last_modified="2018-01-06T14:38:49+00:00" timestamp_accuracy_id="3" timing_id="3" uID="g963900">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t6783" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="12884">
+        <Date>2018-01-06 12:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stade Leon Laurent</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t14030" />
+      <TeamData HalfScore="1" Score="2" Side="Away" TeamRef="t6783">
+        <Goal Period="FirstHalf" PlayerRef="p164031" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p217334" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="5" last_modified="2018-01-22T13:19:57+00:00" timestamp_accuracy_id="3" timing_id="3" uID="g963906">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t14032" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="12886">
+        <Date>2018-01-06 17:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stade Saint-Michel</Stat>
+      <TeamData HalfScore="2" Score="3" Side="Home" TeamRef="t14032">
+        <Goal Period="FirstHalf" PlayerRef="p443245" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p443244" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p443243" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t14033">
+        <Goal Period="SecondHalf" PlayerRef="p444337" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="5" last_modified="2018-01-06T20:37:51+00:00" timestamp_accuracy_id="3" timing_id="3" uID="g963911">
+      <MatchInfo GameWinner="t7423" GameWinnerType="ShootOut" MatchDay="9" MatchType="Cup" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="8468">
+        <Date>2018-01-06 17:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stade Bertrand Andrieux</Stat>
+      <Stat Type="City">Colomiers</Stat>
+      <TeamData ExtraScore="0" HalfScore="0" NinetyScore="1" PenaltyScore="4" Score="1" Side="Home" TeamRef="t7423">
+        <Goal Period="SecondHalf" PlayerRef="p443248" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Goal" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Goal" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Goal" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Goal" />
+      </TeamData>
+      <TeamData ExtraScore="0" HalfScore="0" NinetyScore="1" PenaltyScore="2" Score="1" Side="Away" TeamRef="t14035">
+        <Goal Period="SecondHalf" PlayerRef="p443249" Type="Goal" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Goal" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-06T16:05:47+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g963915">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t2344" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="12890">
+        <Date>2018-01-06 14:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Romain" LastName="Delpech" Type="Referee" uID="o41566" />
+        <MatchOfficial FirstName="Julien" LastName="Haulbert" Type="Lineman#1" uID="o48440" />
+        <MatchOfficial FirstName="Ludovic" LastName="Leducq" Type="Lineman#2" uID="o46152" />
+        <MatchOfficial FirstName="Julien" LastName="Rouquette" Type="Fourth official" uID="o52076" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade des Grands Pres</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t14036">
+        <Goal Period="FirstHalf" PlayerRef="p193453" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="2" Score="2" Side="Away" TeamRef="t2344">
+        <Goal Period="FirstHalf" PlayerRef="p203342" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p203342" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-06T14:58:54+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g963908">
+      <MatchInfo GameWinner="t3312" GameWinnerType="AfterExtraTime" MatchDay="9" MatchType="Cup" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="12888">
+        <Date>2018-01-06 12:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="William" LastName="Lavis" Type="Referee" uID="o41973" />
+        <MatchOfficial FirstName="Djemel" LastName="Zitouni" Type="Lineman#1" uID="o46065" />
+        <MatchOfficial FirstName="Cyril" LastName="Saint Cricq Lompre" Type="Lineman#2" uID="o46995" />
+        <MatchOfficial FirstName="Remy" LastName="Rasclard" Type="Fourth official" uID="o48778" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stades Robert Carles</Stat>
+      <TeamData ExtraScore="1" HalfScore="0" NinetyScore="0" Score="1" Side="Home" TeamRef="t14034">
+        <Goal Period="ExtraFirstHalf" PlayerRef="p442324" Type="Penalty" />
+      </TeamData>
+      <TeamData ExtraScore="2" HalfScore="0" NinetyScore="0" Score="2" Side="Away" TeamRef="t3312">
+        <Goal Period="ExtraFirstHalf" PlayerRef="p156934" Type="Goal" />
+        <Goal Period="ExtraFirstHalf" PlayerRef="p111086" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-06T16:05:53+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g963912">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t1272" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="3644">
+        <Date>2018-01-06 14:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Karim" LastName="Abed" Type="Referee" uID="o46154" />
+        <MatchOfficial FirstName="Laurent" LastName="Coniglio" Type="Lineman#1" uID="o53333" />
+        <MatchOfficial FirstName="Stephane" LastName="Panont" Type="Lineman#2" uID="o48663" />
+        <MatchOfficial FirstName="Jules" LastName="Telliez" Type="Fourth official" uID="o49313" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Ange-Casanova</Stat>
+      <Stat Type="City">Ajaccio</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t2544">
+        <Goal Period="SecondHalf" PlayerRef="p111534" Type="Penalty" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="2" Side="Away" TeamRef="t1272">
+        <Goal Period="SecondHalf" PlayerRef="p193425" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p442649" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-06T18:52:46+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g963928">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t428" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="1305">
+        <Date>2018-01-06 17:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Clément" LastName="Turpin" Type="Referee" uID="o40845" />
+        <MatchOfficial FirstName="Nicolas" LastName="Danos" Type="Lineman#1" uID="o45030" />
+        <MatchOfficial FirstName="Cyril" LastName="Gringore" Type="Lineman#2" uID="o46057" />
+        <MatchOfficial FirstName="Romain" LastName="Galibert" Type="Fourth official" uID="o46242" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Municipal de Roudourou</Stat>
+      <Stat Type="City">Guingamp</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t428">
+        <Goal Period="FirstHalf" PlayerRef="p201562" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t1245" />
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-08T14:07:14+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g963914">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t429" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="7251">
+        <Date>2018-01-06 14:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Jeremy" LastName="Stinat" Type="Referee" uID="o46049" />
+        <MatchOfficial FirstName="Jean-Philippe" LastName="Di Francesco" Type="Lineman#1" uID="o48445" />
+        <MatchOfficial FirstName="Cedric" LastName="Moreau" Type="Lineman#2" uID="o46083" />
+        <MatchOfficial FirstName="Yohann" LastName="Gagnant" Type="Fourth official" uID="o48604" />
+      </MatchOfficials>
+      <Stat Type="Venue">MMArena</Stat>
+      <Stat Type="City">Le Mans</Stat>
+      <TeamData HalfScore="2" Score="2" Side="Home" TeamRef="t920">
+        <Goal Period="FirstHalf" PlayerRef="p443204" Type="Penalty" />
+        <Goal Period="FirstHalf" PlayerRef="p443201" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="3" Score="4" Side="Away" TeamRef="t429">
+        <Goal Period="FirstHalf" PlayerRef="p195735" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p199409" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p172845" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p158047" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-06T21:54:35+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g963903">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t143" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="3254">
+        <Date>2018-01-06 20:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Antony" LastName="Gautier" Type="Referee" uID="o40851" />
+        <MatchOfficial FirstName="Michael" LastName="Annonier" Type="Lineman#1" uID="o43850" />
+        <MatchOfficial FirstName="Philippe" LastName="Jeanne" Type="Lineman#2" uID="o46151" />
+        <MatchOfficial FirstName="Antoine" LastName="Grare" Type="Fourth official" uID="o49123" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Marcel-Picot</Stat>
+      <Stat Type="City">Nancy</Stat>
+      <TeamData HalfScore="0" Score="2" Side="Home" TeamRef="t148">
+        <Goal Period="SecondHalf" PlayerRef="p38008" Type="Penalty" />
+        <Goal Period="SecondHalf" PlayerRef="p235050" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="3" Side="Away" TeamRef="t143">
+        <Goal Period="FirstHalf" PlayerRef="p166552" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p149519" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p52573" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-06T16:42:53+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g963907">
+      <MatchInfo GameWinner="t147" GameWinnerType="ShootOut" MatchDay="9" MatchType="Cup" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="8624">
+        <Date>2018-01-06 14:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Frank" LastName="Schneider" Type="Referee" uID="o41569" />
+        <MatchOfficial FirstName="Bastien" LastName="Melique" Type="Lineman#1" uID="o46891" />
+        <MatchOfficial FirstName="Maxime" LastName="Allard" Type="Lineman#2" uID="o49395" />
+        <MatchOfficial FirstName="Mickael" LastName="Leleu" Type="Fourth official" uID="o43289" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Paul Robbe</Stat>
+      <Stat Type="City">Pontarlier</Stat>
+      <TeamData ExtraScore="0" HalfScore="0" NinetyScore="1" PenaltyScore="2" Score="1" Side="Home" TeamRef="t7583">
+        <Goal Period="SecondHalf" PlayerRef="p92956" Type="Goal" />
+        <Goal Period="ShootOut" PlayerRef="p442660" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p442652" Type="Penalty" />
+      </TeamData>
+      <TeamData ExtraScore="0" HalfScore="1" NinetyScore="1" PenaltyScore="4" Score="1" Side="Away" TeamRef="t147">
+        <Goal Period="FirstHalf" PlayerRef="p38002" Type="Goal" />
+        <Goal Period="ShootOut" PlayerRef="p10955" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p148214" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p228361" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p72177" Type="Penalty" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-06T18:50:41+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g963921">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t1028" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="12893">
+        <Date>2018-01-06 17:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Stéphanie" LastName="Frappart" Type="Referee" uID="o42237" />
+        <MatchOfficial FirstName="Tugdual" LastName="Philippe" Type="Lineman#1" uID="o46074" />
+        <MatchOfficial FirstName="Jean" LastName="Grimm" Type="Lineman#2" uID="o48519" />
+        <MatchOfficial FirstName="William" LastName="Toulliou" Type="Fourth official" uID="o48746" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Auguste Demette</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t14039" />
+      <TeamData HalfScore="1" Score="2" Side="Away" TeamRef="t1028">
+        <Goal Period="FirstHalf" PlayerRef="p50996" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p439711" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="5" last_modified="2018-01-07T05:14:33+00:00" timestamp_accuracy_id="3" timing_id="3" uID="g963918">
+      <MatchInfo GameWinner="t14038" GameWinnerType="ShootOut" MatchDay="9" MatchType="Cup" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="12892">
+        <Date>2018-01-06 14:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stade Loius Villemer</Stat>
+      <TeamData ExtraScore="1" HalfScore="0" NinetyScore="1" PenaltyScore="3" Score="2" Side="Home" TeamRef="t14038">
+        <Goal Period="SecondHalf" PlayerRef="p443224" Type="Penalty" />
+        <Goal Period="ExtraFirstHalf" PlayerRef="p80487" Type="Goal" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Penalty" />
+      </TeamData>
+      <TeamData ExtraScore="1" HalfScore="0" NinetyScore="1" PenaltyScore="2" Score="2" Side="Away" TeamRef="t5445">
+        <Goal Period="SecondHalf" PlayerRef="p85207" Type="Goal" />
+        <Goal Period="ExtraFirstHalf" PlayerRef="p443225" Type="Goal" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Penalty" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-06T15:56:59+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g963924">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t921" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="8482">
+        <Date>2018-01-06 14:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Tony" LastName="Chapron" Type="Referee" uID="o38383" />
+        <MatchOfficial FirstName="Alexandre" LastName="Viala" Type="Lineman#1" uID="o46088" />
+        <MatchOfficial FirstName="Nicolas" LastName="Henninot" Type="Lineman#2" uID="o46067" />
+        <MatchOfficial FirstName="Marc" LastName="Bollengier" Type="Fourth official" uID="o49186" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade de Marville</Stat>
+      <Stat Type="City">Saint-Malo</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t7435">
+        <Goal Period="SecondHalf" PlayerRef="p442724" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="2" Side="Away" TeamRef="t921">
+        <Goal Period="SecondHalf" PlayerRef="p172841" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p86834" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-06T15:54:42+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g963901">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t138" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="12885">
+        <Date>2018-01-06 14:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Willy" LastName="Delajod" Type="Referee" uID="o46153" />
+        <MatchOfficial FirstName="Cedric" LastName="Favre" Type="Lineman#1" uID="o52078" />
+        <MatchOfficial FirstName="Yassine" LastName="Nacirdine" Type="Lineman#2" uID="o53332" />
+        <MatchOfficial FirstName="Alexandre" LastName="Mercier" Type="Fourth official" uID="o48600" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade de l&#39;Aar</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t14031">
+        <Goal Period="SecondHalf" PlayerRef="p209171" Type="Own" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="5" Side="Away" TeamRef="t138">
+        <Goal Period="SecondHalf" PlayerRef="p245034" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p150172" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p150172" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p92353" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p44304" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-06T15:56:12+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g963909">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t427" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="136">
+        <Date>2018-01-06 14:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Jerome" LastName="Brisard" Type="Referee" uID="o45978" />
+        <MatchOfficial FirstName="Julien" LastName="Aube" Type="Lineman#1" uID="o46071" />
+        <MatchOfficial FirstName="Yannick" LastName="Boutry" Type="Lineman#2" uID="o48524" />
+        <MatchOfficial FirstName="Remi" LastName="Landry" Type="Fourth official" uID="o48446" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stadium Municipal, Toulouse</Stat>
+      <Stat Type="City">Toulouse</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t427">
+        <Goal Period="SecondHalf" PlayerRef="p101779" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t1395" />
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-06T18:52:24+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g963910">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t146" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="4408">
+        <Date>2018-01-06 17:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Aurélien" LastName="Petit" Type="Referee" uID="o45144" />
+        <MatchOfficial FirstName="Cyril" LastName="Mugnier" Type="Lineman#1" uID="o48529" />
+        <MatchOfficial FirstName="Ludovic" LastName="Reyes" Type="Lineman#2" uID="o49400" />
+        <MatchOfficial FirstName="Arnaud" LastName="Baert" Type="Fourth official" uID="o49225" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade de Bellevue</Stat>
+      <Stat Type="City">Yzeure</Stat>
+      <TeamData HalfScore="2" Score="2" Side="Home" TeamRef="t3300">
+        <Goal Period="FirstHalf" PlayerRef="p202128" Type="Penalty" />
+        <Goal Period="FirstHalf" PlayerRef="p86141" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="2" Score="5" Side="Away" TeamRef="t146">
+        <Goal Period="FirstHalf" PlayerRef="p50442" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p98914" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p116643" Type="Penalty" />
+        <Goal Period="SecondHalf" PlayerRef="p98914" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p98914" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-07T15:07:50+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g963927">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t694" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="3400">
+        <Date>2018-01-07 13:15:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Nicolas" LastName="Rainville" Type="Referee" uID="o40841" />
+        <MatchOfficial FirstName="Benjamin" LastName="Pages" Type="Lineman#1" uID="o48452" />
+        <MatchOfficial FirstName="Yoann" LastName="Benoit" Type="Lineman#2" uID="o53334" />
+        <MatchOfficial FirstName="Benjamin" LastName="Lepaysant" Type="Fourth official" uID="o48570" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Raymond-Kopa</Stat>
+      <Stat Type="City">Angers</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t2128" />
+      <TeamData HalfScore="2" Score="2" Side="Away" TeamRef="t694">
+        <Goal Period="FirstHalf" PlayerRef="p68545" Type="Own" />
+        <Goal Period="FirstHalf" PlayerRef="p216227" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-07T18:18:05+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g963919">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t145" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="4401">
+        <Date>2018-01-07 16:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Stéphane" LastName="Jochem" Type="Referee" uID="o42036" />
+        <MatchOfficial FirstName="Guillaume" LastName="Debart" Type="Lineman#1" uID="o46087" />
+        <MatchOfficial FirstName="Erwan" LastName="Finjean" Type="Lineman#2" uID="o53336" />
+        <MatchOfficial FirstName="Jeremie" LastName="Pignard" Type="Fourth official" uID="o49024" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Marcel-Tribut</Stat>
+      <TeamData HalfScore="0" Score="2" Side="Home" TeamRef="t3288">
+        <Goal Period="SecondHalf" PlayerRef="p203155" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p68155" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="4" Side="Away" TeamRef="t145">
+        <Goal Period="FirstHalf" PlayerRef="p250694" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p51621" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p166325" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p250694" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="5" last_modified="2018-01-07T19:03:39+00:00" timestamp_accuracy_id="3" timing_id="3" uID="g963905">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t2540" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="8982">
+        <Date>2018-01-07 16:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stade Michel-Hidalgo</Stat>
+      <Stat Type="City">Saint-Gratien</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t8832">
+        <Goal Period="SecondHalf" PlayerRef="p149008" Type="Penalty" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="2" Side="Away" TeamRef="t2540">
+        <Goal Period="FirstHalf" PlayerRef="p443289" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p180805" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-07T18:20:55+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g963899">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t154" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="12883">
+        <Date>2018-01-07 16:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Johan" LastName="Hamel" Type="Referee" uID="o41568" />
+        <MatchOfficial FirstName="Mehdi" LastName="Rahmouni" Type="Lineman#1" uID="o48444" />
+        <MatchOfficial FirstName="Ceprayil" LastName="Yuksel" Type="Lineman#2" uID="o53335" />
+        <MatchOfficial FirstName="Philippe" LastName="Lucas" Type="Fourth official" uID="o49026" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Lafarge</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t14029" />
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t154">
+        <Goal Period="SecondHalf" PlayerRef="p12284" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="5" last_modified="2018-01-07T18:51:20+00:00" timestamp_accuracy_id="3" timing_id="3" uID="g963904">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t5315" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="11664">
+        <Date>2018-01-07 16:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stade Auguste Gentelet</Stat>
+      <Stat Type="City">Fleury Merogis</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t12199" />
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t5315">
+        <Goal Period="SecondHalf" PlayerRef="p443288" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-07T15:48:15+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g963917">
+      <MatchInfo GameWinner="t144" GameWinnerType="AfterExtraTime" MatchDay="9" MatchType="Cup" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="1310">
+        <Date>2018-01-07 13:15:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Mikael" LastName="Lesage" Type="Referee" uID="o41564" />
+        <MatchOfficial FirstName="Sebastien" LastName="Denis" Type="Lineman#1" uID="o46149" />
+        <MatchOfficial FirstName="Mikael" LastName="Berchebru" Type="Lineman#2" uID="o48658" />
+        <MatchOfficial FirstName="Abdelatif" LastName="Kherradji" Type="Fourth official" uID="o46069" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Vélodrome</Stat>
+      <Stat Type="City">Marseille</Stat>
+      <TeamData ExtraScore="1" HalfScore="0" NinetyScore="0" Score="1" Side="Home" TeamRef="t144">
+        <Goal Period="ExtraFirstHalf" PlayerRef="p115380" Type="Goal" />
+      </TeamData>
+      <TeamData ExtraScore="0" HalfScore="0" NinetyScore="0" Score="0" Side="Away" TeamRef="t1996" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-07T21:49:55+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g963923">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t149" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="1315">
+        <Date>2018-01-07 20:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Amaury" LastName="Delerue" Type="Referee" uID="o41972" />
+        <MatchOfficial FirstName="Bertrand" LastName="Jouannaud" Type="Lineman#1" uID="o46090" />
+        <MatchOfficial FirstName="Frederic" LastName="Hebrard" Type="Lineman#2" uID="o46150" />
+        <MatchOfficial FirstName="Eric" LastName="Wattellier" Type="Fourth official" uID="o46148" />
+      </MatchOfficials>
+      <Stat Type="Venue">Roazhon Park</Stat>
+      <Stat Type="City">Rennes</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t150">
+        <Goal Period="SecondHalf" PlayerRef="p159967" Type="Penalty" />
+      </TeamData>
+      <TeamData HalfScore="4" Score="6" Side="Away" TeamRef="t149">
+        <Goal Period="FirstHalf" PlayerRef="p46497" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p61278" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p61278" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p220160" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p220160" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p46497" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-07T18:18:36+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g963898">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t693" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="2107">
+        <Date>2018-01-07 16:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Sébastien" LastName="Desiage" Type="Referee" uID="o42021" />
+        <MatchOfficial FirstName="Francois" LastName="Boudikian" Type="Lineman#1" uID="o46890" />
+        <MatchOfficial FirstName="Mathieu" LastName="Grosbost" Type="Lineman#2" uID="o48443" />
+        <MatchOfficial FirstName="Brendan" LastName="Roffet" Type="Fourth official" uID="o49378" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Bonal</Stat>
+      <Stat Type="City">Montbéliard</Stat>
+      <TeamData HalfScore="3" Score="6" Side="Home" TeamRef="t693">
+        <Goal Period="FirstHalf" PlayerRef="p199668" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p213401" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p129491" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p73857" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p208949" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p205292" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t1430" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-07T15:21:19+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g963913">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t152" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="1319">
+        <Date>2018-01-07 13:15:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Olivier" LastName="Thual" Type="Referee" uID="o19547" />
+        <MatchOfficial FirstName="Christophe" LastName="Mouysset" Type="Lineman#1" uID="o46675" />
+        <MatchOfficial FirstName="Gwenael" LastName="Pasqualotti" Type="Lineman#2" uID="o48525" />
+        <MatchOfficial FirstName="Thierry" LastName="Bouille" Type="Fourth official" uID="o48447" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Geoffroy-Guichard</Stat>
+      <Stat Type="City">Saint-Étienne</Stat>
+      <TeamData HalfScore="0" Score="2" Side="Home" TeamRef="t152">
+        <Goal Period="SecondHalf" PlayerRef="p195883" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p55711" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t2336" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-07T15:48:47+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g963902">
+      <MatchInfo GameWinner="t153" GameWinnerType="AfterExtraTime" MatchDay="9" MatchType="Cup" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="1320">
+        <Date>2018-01-07 13:15:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Benoit" LastName="Millot" Type="Referee" uID="o42037" />
+        <MatchOfficial FirstName="Stephan" LastName="Luzi" Type="Lineman#1" uID="o46093" />
+        <MatchOfficial FirstName="Eric" LastName="Danizan" Type="Lineman#2" uID="o46058" />
+        <MatchOfficial FirstName="Floris" LastName="Aubin" Type="Fourth official" uID="o41559" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade de la Meinau</Stat>
+      <Stat Type="City">Strasbourg</Stat>
+      <TeamData ExtraScore="2" HalfScore="0" NinetyScore="1" Score="3" Side="Home" TeamRef="t153">
+        <Goal Period="SecondHalf" PlayerRef="p67272" Type="Goal" />
+        <Goal Period="ExtraFirstHalf" PlayerRef="p177840" Type="Goal" />
+        <Goal Period="ExtraFirstHalf" PlayerRef="p51516" Type="Goal" />
+      </TeamData>
+      <TeamData ExtraScore="1" HalfScore="0" NinetyScore="1" Score="2" Side="Away" TeamRef="t2130">
+        <Goal Period="SecondHalf" PlayerRef="p80935" Type="Goal" />
+        <Goal Period="ExtraFirstHalf" PlayerRef="p111265" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-07T15:51:36+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g963925">
+      <MatchInfo GameWinner="t11428" GameWinnerType="AfterExtraTime" MatchDay="9" MatchType="Cup" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="11124">
+        <Date>2018-01-07 13:15:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Thomas" LastName="Leonard" Type="Referee" uID="o41560" />
+        <MatchOfficial FirstName="Pascal" LastName="Poupeau" Type="Lineman#1" uID="o48574" />
+        <MatchOfficial FirstName="Ludovic" LastName="Zmyslony" Type="Lineman#2" uID="o48522" />
+        <MatchOfficial FirstName="Yann" LastName="Flament" Type="Fourth official" uID="o49526" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Louis Dior</Stat>
+      <Stat Type="City">Granville</Stat>
+      <TeamData ExtraScore="1" HalfScore="0" NinetyScore="1" Score="2" Side="Home" TeamRef="t11428">
+        <Goal Period="SecondHalf" PlayerRef="p223169" Type="Goal" />
+        <Goal Period="ExtraFirstHalf" PlayerRef="p89090" Type="Penalty" />
+      </TeamData>
+      <TeamData ExtraScore="0" HalfScore="1" NinetyScore="1" Score="1" Side="Away" TeamRef="t140">
+        <Goal Period="FirstHalf" PlayerRef="p48768" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-07T18:24:52+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g963916">
+      <MatchInfo MatchDay="9" MatchType="Cup" MatchWinner="t430" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="12891">
+        <Date>2018-01-07 16:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Bastien" LastName="Dechepy" Type="Referee" uID="o46939" />
+        <MatchOfficial FirstName="Fredji" LastName="Harchay" Type="Lineman#1" uID="o48527" />
+        <MatchOfficial FirstName="Aurelien" LastName="Drouet" Type="Lineman#2" uID="o48660" />
+        <MatchOfficial FirstName="Aurélien" LastName="Grizon" Type="Fourth official" uID="o52840" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Municipal de Senlis</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t14037" />
+      <TeamData HalfScore="2" Score="4" Side="Away" TeamRef="t430">
+        <Goal Period="FirstHalf" PlayerRef="p193539" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p193409" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p103124" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p103124" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="5" last_modified="2018-01-07T20:19:26+00:00" timestamp_accuracy_id="3" timing_id="3" uID="g963926">
+      <MatchInfo GameWinner="t3271" GameWinnerType="ShootOut" MatchDay="9" MatchType="Cup" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="3639">
+        <Date>2018-01-07 16:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stade de la Rabine</Stat>
+      <Stat Type="City">Vannes</Stat>
+      <TeamData ExtraScore="1" HalfScore="0" NinetyScore="0" PenaltyScore="3" Score="1" Side="Home" TeamRef="t2539">
+        <Goal Period="ExtraSecondHalf" PlayerRef="p93187" Type="Goal" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Penalty" />
+      </TeamData>
+      <TeamData ExtraScore="1" HalfScore="0" NinetyScore="0" PenaltyScore="5" Score="1" Side="Away" TeamRef="t3271">
+        <Goal Period="ExtraSecondHalf" PlayerRef="p443290" Type="Goal" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p443290" Type="Penalty" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-08T22:39:03+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g963920">
+      <MatchInfo GameWinner="t142" GameWinnerType="AfterExtraTime" MatchDay="9" MatchType="Cup" Period="FullTime" RoundNumber="9" RoundType="Round" Venue_id="1306">
+        <Date>2018-01-08 20:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Sébastien" LastName="Moreira" Type="Referee" uID="o41195" />
+        <MatchOfficial FirstName="Huseyin" LastName="Ocak" Type="Lineman#1" uID="o46084" />
+        <MatchOfficial FirstName="Mohamed" LastName="Benkemouche" Type="Lineman#2" uID="o48450" />
+        <MatchOfficial FirstName="Antoine" LastName="Valnet" Type="Fourth official" uID="o48659" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Felix Bollaert-Delelis</Stat>
+      <Stat Type="City">Lens</Stat>
+      <TeamData ExtraScore="1" HalfScore="0" NinetyScore="2" Score="3" Side="Home" TeamRef="t142">
+        <Goal Period="SecondHalf" PlayerRef="p210205" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p62128" Type="Penalty" />
+        <Goal Period="ExtraFirstHalf" PlayerRef="p62128" Type="Goal" />
+      </TeamData>
+      <TeamData ExtraScore="0" HalfScore="1" NinetyScore="2" Score="2" Side="Away" TeamRef="t2129">
+        <Goal Period="FirstHalf" PlayerRef="p67217" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p67217" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-23T19:20:44+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g969075">
+      <MatchInfo MatchDay="10" MatchType="Cup" MatchWinner="t3312" Period="FullTime" RoundNumber="10" RoundType="Round" Venue_id="10768">
+        <Date>2018-01-23 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Sébastien" LastName="Moreira" Type="Referee" uID="o41195" />
+        <MatchOfficial FirstName="Huseyin" LastName="Ocak" Type="Lineman#1" uID="o46084" />
+        <MatchOfficial FirstName="Mehdi" LastName="Rahmouni" Type="Lineman#2" uID="o48444" />
+        <MatchOfficial FirstName="William" LastName="Lavis" Type="Fourth official" uID="o41973" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Marcel-Verchere</Stat>
+      <Stat Type="City">Bourg-en-Bresse</Stat>
+      <TeamData HalfScore="0" Score="2" Side="Home" TeamRef="t3312">
+        <Goal Period="SecondHalf" PlayerRef="p176094" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p59964" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t427" />
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-23T20:18:57+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g969077">
+      <MatchInfo GameWinner="t1028" GameWinnerType="ShootOut" MatchDay="10" MatchType="Cup" Period="FullTime" RoundNumber="10" RoundType="Round" Venue_id="12886">
+        <Date>2018-01-23 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Olivier" LastName="Thual" Type="Referee" uID="o19547" />
+        <MatchOfficial FirstName="Matthieu" LastName="Lombard" Type="Lineman#1" uID="o47031" />
+        <MatchOfficial FirstName="Christophe" LastName="Mouysset" Type="Lineman#2" uID="o46675" />
+        <MatchOfficial FirstName="Jeremie" LastName="Pignard" Type="Fourth official" uID="o49024" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Saint-Michel</Stat>
+      <TeamData ExtraScore="0" HalfScore="1" NinetyScore="1" PenaltyScore="3" Score="1" Side="Home" TeamRef="t14032">
+        <Goal Period="FirstHalf" PlayerRef="p443243" Type="Goal" />
+        <Goal Period="ShootOut" PlayerRef="p444375" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p444371" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p444376" Type="Penalty" />
+      </TeamData>
+      <TeamData ExtraScore="0" HalfScore="1" NinetyScore="1" PenaltyScore="4" Score="1" Side="Away" TeamRef="t1028">
+        <Goal Period="FirstHalf" PlayerRef="p44357" Type="Goal" />
+        <Goal Period="ShootOut" PlayerRef="p108994" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p97443" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p45082" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p119628" Type="Penalty" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-23T20:19:27+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g969067">
+      <MatchInfo GameWinner="t6783" GameWinnerType="ShootOut" MatchDay="10" MatchType="Cup" Period="FullTime" RoundNumber="10" RoundType="Round" Venue_id="2234">
+        <Date>2018-01-23 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Thomas" LastName="Leonard" Type="Referee" uID="o41560" />
+        <MatchOfficial FirstName="Cyril" LastName="Mugnier" Type="Lineman#1" uID="o48529" />
+        <MatchOfficial FirstName="Eric" LastName="Danizan" Type="Lineman#2" uID="o46058" />
+        <MatchOfficial FirstName="Philippe" LastName="Lucas" Type="Fourth official" uID="o49026" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Gaston Petit</Stat>
+      <Stat Type="City">Chateauroux</Stat>
+      <TeamData ExtraScore="0" HalfScore="0" NinetyScore="1" PenaltyScore="3" Score="1" Side="Home" TeamRef="t921">
+        <Goal Period="SecondHalf" PlayerRef="p44314" Type="Goal" />
+        <Goal Period="ShootOut" PlayerRef="p231745" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p44314" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p38260" Type="Penalty" />
+      </TeamData>
+      <TeamData ExtraScore="0" HalfScore="0" NinetyScore="1" PenaltyScore="4" Score="1" Side="Away" TeamRef="t6783">
+        <Goal Period="SecondHalf" PlayerRef="p110303" Type="Goal" />
+        <Goal Period="ShootOut" PlayerRef="p220391" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p110307" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p429523" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p228294" Type="Penalty" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-23T19:20:10+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g969081">
+      <MatchInfo MatchDay="10" MatchType="Cup" MatchWinner="t693" Period="FullTime" RoundNumber="10" RoundType="Round" Venue_id="8468">
+        <Date>2018-01-23 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Alexandre" LastName="Castro" Type="Referee" uID="o38382" />
+        <MatchOfficial FirstName="Johann" LastName="Perruaux" Type="Lineman#1" uID="o46889" />
+        <MatchOfficial FirstName="Cyril" LastName="Saint Cricq Lompre" Type="Lineman#2" uID="o46995" />
+        <MatchOfficial FirstName="Jules" LastName="Telliez" Type="Fourth official" uID="o49313" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Bertrand Andrieux</Stat>
+      <Stat Type="City">Colomiers</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t7423">
+        <Goal Period="SecondHalf" PlayerRef="p444390" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="2" Side="Away" TeamRef="t693">
+        <Goal Period="FirstHalf" PlayerRef="p243689" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p129491" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-23T21:58:18+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g969082">
+      <MatchInfo MatchDay="10" MatchType="Cup" MatchWinner="t144" Period="FullTime" RoundNumber="10" RoundType="Round" Venue_id="3640">
+        <Date>2018-01-23 20:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Johan" LastName="Hamel" Type="Referee" uID="o41568" />
+        <MatchOfficial FirstName="Yannick" LastName="Boutry" Type="Lineman#1" uID="o48524" />
+        <MatchOfficial FirstName="Tugdual" LastName="Philippe" Type="Lineman#2" uID="o46074" />
+        <MatchOfficial FirstName="Arnaud" LastName="Baert" Type="Fourth official" uID="o49225" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade de la Colombière</Stat>
+      <Stat Type="City">Epinal</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t2540" />
+      <TeamData HalfScore="0" Score="2" Side="Away" TeamRef="t144">
+        <Goal Period="SecondHalf" PlayerRef="p122775" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p97041" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-23T19:25:14+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g969068">
+      <MatchInfo MatchDay="10" MatchType="Cup" MatchWinner="t138" Period="FullTime" RoundNumber="10" RoundType="Round" Venue_id="137">
+        <Date>2018-01-23 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Amaury" LastName="Delerue" Type="Referee" uID="o41972" />
+        <MatchOfficial FirstName="Bertrand" LastName="Jouannaud" Type="Lineman#1" uID="o46090" />
+        <MatchOfficial FirstName="Frederic" LastName="Haquette" Type="Lineman#2" uID="o46081" />
+        <MatchOfficial FirstName="Pierre" LastName="Gaillouste" Type="Fourth official" uID="o46632" />
+      </MatchOfficials>
+      <Stat Type="Venue">La Beaujoire-Louis-Fonteneau</Stat>
+      <Stat Type="City">Nantes</Stat>
+      <TeamData HalfScore="1" Score="3" Side="Home" TeamRef="t430">
+        <Goal Period="FirstHalf" PlayerRef="p115961" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p115961" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p183779" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="3" Score="4" Side="Away" TeamRef="t138">
+        <Goal Period="FirstHalf" PlayerRef="p214243" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p82313" Type="Own" />
+        <Goal Period="FirstHalf" PlayerRef="p216530" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p245034" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-23T19:22:01+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g969069">
+      <MatchInfo MatchDay="10" MatchType="Cup" MatchWinner="t142" Period="FullTime" RoundNumber="10" RoundType="Round" Venue_id="4385">
+        <Date>2018-01-23 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Aurélien" LastName="Petit" Type="Referee" uID="o45144" />
+        <MatchOfficial FirstName="Anthony" LastName="Bremont" Type="Lineman#1" uID="o47052" />
+        <MatchOfficial FirstName="Pascal" LastName="Poupeau" Type="Lineman#2" uID="o48574" />
+        <MatchOfficial FirstName="Yohann" LastName="Rouinsard" Type="Fourth official" uID="o41969" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Fred Aubert</Stat>
+      <Stat Type="City">Saint-Brieuc</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t3271" />
+      <TeamData HalfScore="1" Score="1" Side="Away" TeamRef="t142">
+        <Goal Period="FirstHalf" PlayerRef="p62128" Type="Penalty" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="5" last_modified="2018-01-23T20:14:58+00:00" timestamp_accuracy_id="3" timing_id="3" uID="g969079">
+      <MatchInfo GameWinner="t11428" GameWinnerType="AfterExtraTime" MatchDay="10" MatchType="Cup" Period="FullTime" RoundNumber="10" RoundType="Round" Venue_id="11124">
+        <Date>2018-01-23 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Stéphane" LastName="Jochem" Type="Referee" uID="o42036" />
+        <MatchOfficial FirstName="Gilles" LastName="Lang" Type="Lineman#1" uID="o46892" />
+        <MatchOfficial FirstName="Julien" LastName="Blanchais" Type="Lineman#2" uID="o49396" />
+        <MatchOfficial FirstName="Antoine" LastName="Grare" Type="Fourth official" uID="o49123" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Louis Dior</Stat>
+      <Stat Type="City">Granville</Stat>
+      <TeamData ExtraScore="2" HalfScore="1" NinetyScore="1" Score="3" Side="Home" TeamRef="t11428">
+        <Goal Period="FirstHalf" PlayerRef="p220955" Type="Goal" />
+        <Goal Period="ExtraFirstHalf" PlayerRef="p245032" Type="Goal" />
+        <Goal Period="ExtraSecondHalf" PlayerRef="p245032" Type="Goal" />
+      </TeamData>
+      <TeamData ExtraScore="1" HalfScore="1" NinetyScore="1" Score="2" Side="Away" TeamRef="t3272">
+        <Goal Period="FirstHalf" PlayerRef="p205822" Type="Goal" />
+        <Goal Period="ExtraFirstHalf" PlayerRef="p220967" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="5" last_modified="2018-01-24T21:23:14+00:00" timestamp_accuracy_id="3" timing_id="3" uID="g969072">
+      <MatchInfo GameWinner="t1272" GameWinnerType="ShootOut" MatchDay="10" MatchType="Cup" Period="FullTime" RoundNumber="10" RoundType="Round" Venue_id="6388">
+        <Date>2018-01-24 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Florent" LastName="Batta" Type="Referee" uID="o42035" />
+        <MatchOfficial FirstName="Mikael" LastName="Berchebru" Type="Lineman#1" uID="o48658" />
+        <MatchOfficial FirstName="Fredji" LastName="Harchay" Type="Lineman#2" uID="o48527" />
+        <MatchOfficial FirstName="Alexandre" LastName="Mercier" Type="Fourth official" uID="o48600" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Biesheim</Stat>
+      <Stat Type="City">Biesheim</Stat>
+      <TeamData ExtraScore="1" HalfScore="1" NinetyScore="1" PenaltyScore="0" Score="2" Side="Home" TeamRef="t5315">
+        <Goal Period="FirstHalf" PlayerRef="p444491" Type="Goal" />
+        <Goal Period="ExtraFirstHalf" PlayerRef="p221043" Type="Goal" />
+      </TeamData>
+      <TeamData ExtraScore="1" HalfScore="0" NinetyScore="1" PenaltyScore="3" Score="2" Side="Away" TeamRef="t1272">
+        <Goal Period="SecondHalf" PlayerRef="p76622" Type="Goal" />
+        <Goal Period="ExtraSecondHalf" PlayerRef="p193425" Type="Goal" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p" Type="Penalty" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-24T21:59:51+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g969078">
+      <MatchInfo MatchDay="10" MatchType="Cup" MatchWinner="t143" Period="FullTime" RoundNumber="10" RoundType="Round" Venue_id="1313">
+        <Date>2018-01-24 20:05:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Ruddy" LastName="Buquet" Type="Referee" uID="o40850" />
+        <MatchOfficial FirstName="Guillaume" LastName="Debart" Type="Lineman#1" uID="o46087" />
+        <MatchOfficial FirstName="Frederic" LastName="Cano" Type="Lineman#2" uID="o43849" />
+        <MatchOfficial FirstName="Romain" LastName="Delpech" Type="Fourth official" uID="o41566" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Louis II</Stat>
+      <Stat Type="City">Monaco</Stat>
+      <TeamData HalfScore="1" Score="2" Side="Home" TeamRef="t146">
+        <Goal Period="FirstHalf" PlayerRef="p50442" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p109653" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="2" Score="3" Side="Away" TeamRef="t143">
+        <Goal Period="FirstHalf" PlayerRef="p102747" Type="Own" />
+        <Goal Period="FirstHalf" PlayerRef="p110504" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p178347" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-24T19:18:59+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g969070">
+      <MatchInfo MatchDay="10" MatchType="Cup" MatchWinner="t147" Period="FullTime" RoundNumber="10" RoundType="Round" Venue_id="2108">
+        <Date>2018-01-24 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Benoit" LastName="Millot" Type="Referee" uID="o42037" />
+        <MatchOfficial FirstName="Julien" LastName="Pacelli" Type="Lineman#1" uID="o46094" />
+        <MatchOfficial FirstName="Stephan" LastName="Luzi" Type="Lineman#2" uID="o46093" />
+        <MatchOfficial FirstName="Romain" LastName="Lissorgue" Type="Fourth official" uID="o46089" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade de la Mosson</Stat>
+      <Stat Type="City">Montpellier</Stat>
+      <TeamData HalfScore="1" Score="4" Side="Home" TeamRef="t147">
+        <Goal Period="FirstHalf" PlayerRef="p216438" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p197017" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p216438" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p204454" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="2" Score="3" Side="Away" TeamRef="t694">
+        <Goal Period="FirstHalf" PlayerRef="p216227" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p216227" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p218357" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-24T19:20:00+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g969076">
+      <MatchInfo MatchDay="10" MatchType="Cup" MatchWinner="t149" Period="FullTime" RoundNumber="10" RoundType="Round" Venue_id="1311">
+        <Date>2018-01-24 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Antony" LastName="Gautier" Type="Referee" uID="o40851" />
+        <MatchOfficial FirstName="Michael" LastName="Annonier" Type="Lineman#1" uID="o43850" />
+        <MatchOfficial FirstName="Philippe" LastName="Jeanne" Type="Lineman#2" uID="o46151" />
+        <MatchOfficial FirstName="Mehdi" LastName="Mokhtari" Type="Fourth official" uID="o46677" />
+      </MatchOfficials>
+      <Stat Type="Venue">Parc des Princes</Stat>
+      <Stat Type="City">Paris</Stat>
+      <TeamData HalfScore="2" Score="4" Side="Home" TeamRef="t149">
+        <Goal Period="FirstHalf" PlayerRef="p45084" Type="Own" />
+        <Goal Period="FirstHalf" PlayerRef="p120743" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p54782" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p116406" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="2" Side="Away" TeamRef="t428">
+        <Goal Period="FirstHalf" PlayerRef="p205880" Type="Penalty" />
+        <Goal Period="SecondHalf" PlayerRef="p68157" Type="Penalty" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="5" last_modified="2018-01-24T20:01:03+00:00" timestamp_accuracy_id="3" timing_id="3" uID="g969074">
+      <MatchInfo MatchDay="10" MatchType="Cup" MatchWinner="t5443" Period="FullTime" RoundNumber="10" RoundType="Round" Venue_id="12892">
+        <Date>2018-01-24 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Willy" LastName="Delajod" Type="Referee" uID="o46153" />
+        <MatchOfficial FirstName="Frederic" LastName="Hebrard" Type="Lineman#1" uID="o46150" />
+        <MatchOfficial FirstName="Regis" LastName="Gaillard" Type="Lineman#2" uID="o46085" />
+        <MatchOfficial FirstName="Pierre" LastName="Legat" Type="Fourth official" uID="o49371" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Loius Villemer</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t14038">
+        <Goal Period="SecondHalf" PlayerRef="p98797" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="2" Side="Away" TeamRef="t5443">
+        <Goal Period="SecondHalf" PlayerRef="p115960" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p115960" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-24T20:15:18+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g969080">
+      <MatchInfo GameWinner="t145" GameWinnerType="ShootOut" MatchDay="10" MatchType="Cup" Period="FullTime" RoundNumber="10" RoundType="Round" Venue_id="3571">
+        <Date>2018-01-24 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Frank" LastName="Schneider" Type="Referee" uID="o41569" />
+        <MatchOfficial FirstName="Djemel" LastName="Zitouni" Type="Lineman#1" uID="o46065" />
+        <MatchOfficial FirstName="Nicolas" LastName="Henninot" Type="Lineman#2" uID="o46067" />
+        <MatchOfficial FirstName="Yann" LastName="Flament" Type="Fourth official" uID="o49526" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade de la Vallée du Cher</Stat>
+      <Stat Type="City">Tours</Stat>
+      <TeamData ExtraScore="0" HalfScore="0" NinetyScore="0" PenaltyScore="1" Score="0" Side="Home" TeamRef="t2344">
+        <Goal Period="ShootOut" PlayerRef="p44421" Type="Penalty" />
+      </TeamData>
+      <TeamData ExtraScore="0" HalfScore="0" NinetyScore="0" PenaltyScore="2" Score="0" Side="Away" TeamRef="t145">
+        <Goal Period="ShootOut" PlayerRef="p166325" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p104662" Type="Penalty" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-24T20:10:18+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g969073">
+      <MatchInfo GameWinner="t154" GameWinnerType="ShootOut" MatchDay="10" MatchType="Cup" Period="FullTime" RoundNumber="10" RoundType="Round" Venue_id="1323">
+        <Date>2018-01-24 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Karim" LastName="Abed" Type="Referee" uID="o46154" />
+        <MatchOfficial FirstName="Julien" LastName="Aube" Type="Lineman#1" uID="o46071" />
+        <MatchOfficial FirstName="Aurelien" LastName="Drouet" Type="Lineman#2" uID="o48660" />
+        <MatchOfficial FirstName="Faouzi" LastName="Benchabane" Type="Fourth official" uID="o46359" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade de l&#39;Aube</Stat>
+      <Stat Type="City">Troyes</Stat>
+      <TeamData ExtraScore="0" HalfScore="1" NinetyScore="1" PenaltyScore="4" Score="1" Side="Home" TeamRef="t154">
+        <Goal Period="FirstHalf" PlayerRef="p12284" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p44085" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p12284" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p110350" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p149410" Type="Penalty" />
+      </TeamData>
+      <TeamData ExtraScore="0" HalfScore="0" NinetyScore="1" PenaltyScore="3" Score="1" Side="Away" TeamRef="t152">
+        <Goal Period="SecondHalf" PlayerRef="p173253" Type="Goal" />
+        <Goal Period="ShootOut" PlayerRef="p79237" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p101494" Type="Penalty" />
+        <Goal Period="ShootOut" PlayerRef="p45136" Type="Penalty" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-25T21:54:41+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g969071">
+      <MatchInfo MatchDay="10" MatchType="Cup" MatchWinner="t153" Period="FullTime" RoundNumber="10" RoundType="Round" Venue_id="1320">
+        <Date>2018-01-25 20:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Clément" LastName="Turpin" Type="Referee" uID="o40845" />
+        <MatchOfficial FirstName="Nicolas" LastName="Danos" Type="Lineman#1" uID="o45030" />
+        <MatchOfficial FirstName="Cyril" LastName="Gringore" Type="Lineman#2" uID="o46057" />
+        <MatchOfficial FirstName="Eric" LastName="Wattellier" Type="Fourth official" uID="o46148" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade de la Meinau</Stat>
+      <Stat Type="City">Strasbourg</Stat>
+      <TeamData HalfScore="1" Score="2" Side="Home" TeamRef="t153">
+        <Goal Period="FirstHalf" PlayerRef="p177840" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p79917" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t429">
+        <Goal Period="SecondHalf" PlayerRef="p227127" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-28T15:04:37+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g974765">
+      <MatchInfo MatchDay="11" MatchType="Cup" Period="PreMatch" RoundNumber="11" RoundType="Round" Venue_id="1299">
+        <Date>2018-02-06 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stade de l&#39;Abbé-Deschamps</Stat>
+      <Stat Type="City">Auxerre</Stat>
+      <TeamData Side="Home" TeamRef="t138" />
+      <TeamData Side="Away" TeamRef="t5443" />
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-28T15:04:25+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g974761">
+      <MatchInfo MatchDay="11" MatchType="Cup" Period="PreMatch" RoundNumber="11" RoundType="Round" Venue_id="10768">
+        <Date>2018-02-06 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stade Marcel-Verchere</Stat>
+      <Stat Type="City">Bourg-en-Bresse</Stat>
+      <TeamData Side="Home" TeamRef="t3312" />
+      <TeamData Side="Away" TeamRef="t144" />
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-28T15:05:03+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g974762">
+      <MatchInfo MatchDay="11" MatchType="Cup" Period="PreMatch" RoundNumber="11" RoundType="Round" Venue_id="2107">
+        <Date>2018-02-06 20:05:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stade Bonal</Stat>
+      <Stat Type="City">Montbéliard</Stat>
+      <TeamData Side="Home" TeamRef="t693" />
+      <TeamData Side="Away" TeamRef="t149" />
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-28T15:05:28+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g974764">
+      <MatchInfo MatchDay="11" MatchType="Cup" Period="PreMatch" RoundNumber="11" RoundType="Round" Venue_id="7864">
+        <Date>2018-02-07 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stade des Marais</Stat>
+      <Stat Type="City">Chambly</Stat>
+      <TeamData Side="Home" TeamRef="t6783" />
+      <TeamData Side="Away" TeamRef="t11428" />
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-28T15:05:19+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g974763">
+      <MatchInfo MatchDay="11" MatchType="Cup" Period="PreMatch" RoundNumber="11" RoundType="Round" Venue_id="1306">
+        <Date>2018-02-07 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stade Felix Bollaert-Delelis</Stat>
+      <Stat Type="City">Lens</Stat>
+      <TeamData Side="Home" TeamRef="t142" />
+      <TeamData Side="Away" TeamRef="t154" />
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-28T15:05:11+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g974759">
+      <MatchInfo MatchDay="11" MatchType="Cup" Period="PreMatch" RoundNumber="11" RoundType="Round" Venue_id="1312">
+        <Date>2018-02-07 17:30:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stade Saint-Symphorien</Stat>
+      <Stat Type="City">Metz</Stat>
+      <TeamData Side="Home" TeamRef="t145" />
+      <TeamData Side="Away" TeamRef="t1028" />
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-28T15:05:40+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g974760">
+      <MatchInfo MatchDay="11" MatchType="Cup" Period="PreMatch" RoundNumber="11" RoundType="Round" Venue_id="2108">
+        <Date>2018-02-07 20:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stade de la Mosson</Stat>
+      <Stat Type="City">Montpellier</Stat>
+      <TeamData Side="Home" TeamRef="t147" />
+      <TeamData Side="Away" TeamRef="t143" />
+    </MatchData>
+    <MatchData detail_id="4" last_modified="2018-01-28T15:06:06+00:00" timestamp_accuracy_id="3" timing_id="1" uID="g974766">
+      <MatchInfo MatchDay="11" MatchType="Cup" Period="PreMatch" RoundNumber="11" RoundType="Round" Venue_id="4497">
+        <Date>2018-02-08 20:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stade des Alpes</Stat>
+      <Stat Type="City">Grenoble</Stat>
+      <TeamData Side="Home" TeamRef="t1272" />
+      <TeamData Side="Away" TeamRef="t153" />
+    </MatchData>
+    <TimingTypes>
+      <DetailTypes>
+        <DetailType detail_id="0" name="Unknown" />
+        <DetailType detail_id="1" name="All Events (with positions)" />
+        <DetailType detail_id="2" name="All Events" />
+        <DetailType detail_id="3" name="Key Events" />
+        <DetailType detail_id="4" name="Lineups, Goals &amp; Cards" />
+        <DetailType detail_id="5" name="Goals" />
+        <DetailType detail_id="6" name="Scores" />
+      </DetailTypes>
+      <TimestampAccuracyTypes>
+        <TimestampAccuracyType name="Unknown" timestamp_accuracy_id="0" />
+        <TimestampAccuracyType name="Fully Accurate Timestamps (24hr + Match Times)" timestamp_accuracy_id="1" />
+        <TimestampAccuracyType name="Accurate Match Times only" timestamp_accuracy_id="2" />
+        <TimestampAccuracyType name="To The Minute Accurate" timestamp_accuracy_id="3" />
+        <TimestampAccuracyType name="Low Level Accurate Match Times" timestamp_accuracy_id="4" />
+        <TimestampAccuracyType name="No Match Time Accuracy" timestamp_accuracy_id="5" />
+      </TimestampAccuracyTypes>
+      <TimingType>
+        <TimingType name="Unknown" timing_id="0" />
+        <TimingType name="Live" timing_id="1" />
+        <TimingType name="Live Delayed" timing_id="2" />
+        <TimingType name="Post Match (less than 24 hours)" timing_id="3" />
+        <TimingType name="Post Match (24 hours+)" timing_id="4" />
+      </TimingType>
+    </TimingTypes>
+    <Team uID="t14039">
+      <Name>SC Hazebrouck</Name>
+    </Team>
+    <Team uID="t920">
+      <Name>Le Mans</Name>
+    </Team>
+    <Team uID="t428">
+      <Name>Guingamp</Name>
+    </Team>
+    <Team uID="t14034">
+      <Name>Fabrègues</Name>
+    </Team>
+    <Team uID="t2129">
+      <Name>Boulogne</Name>
+    </Team>
+    <Team uID="t14030">
+      <Name>CO Avallonnais</Name>
+    </Team>
+    <Team uID="t14035">
+      <Name>Le Puy Foot 43</Name>
+    </Team>
+    <Team uID="t11428">
+      <Name>US Granvillaise</Name>
+    </Team>
+    <Team uID="t921">
+      <Name>Châteauroux</Name>
+    </Team>
+    <Team uID="t14038">
+      <Name>Saint-Lô</Name>
+    </Team>
+    <Team uID="t430">
+      <Name>Nantes</Name>
+    </Team>
+    <Team uID="t148">
+      <Name>Nancy</Name>
+    </Team>
+    <Team uID="t152">
+      <Name>St Etienne</Name>
+    </Team>
+    <Team uID="t142">
+      <Name>Lens</Name>
+    </Team>
+    <Team uID="t3312">
+      <Name>Bourg-en-Bresse</Name>
+    </Team>
+    <Team uID="t2540">
+      <Name>Epinal</Name>
+    </Team>
+    <Team uID="t149">
+      <Name>Paris Saint-Germain</Name>
+    </Team>
+    <Team uID="t5445">
+      <Name>Aubervilliers</Name>
+    </Team>
+    <Team uID="t138">
+      <Name>Auxerre</Name>
+    </Team>
+    <Team uID="t2539">
+      <Name>Vannes</Name>
+    </Team>
+    <Team uID="t3272">
+      <Name>Concarneau</Name>
+    </Team>
+    <Team uID="t429">
+      <Name>Lille</Name>
+    </Team>
+    <Team uID="t14031">
+      <Name>Schiltigheim</Name>
+    </Team>
+    <Team uID="t153">
+      <Name>Strasbourg</Name>
+    </Team>
+    <Team uID="t2344">
+      <Name>Tours</Name>
+    </Team>
+    <Team uID="t5443">
+      <Name>Les Herbiers</Name>
+    </Team>
+    <Team uID="t1430">
+      <Name>Amiens</Name>
+    </Team>
+    <Team uID="t1245">
+      <Name>Niort</Name>
+    </Team>
+    <Team uID="t1272">
+      <Name>Grenoble</Name>
+    </Team>
+    <Team uID="t2128">
+      <Name>Angers</Name>
+    </Team>
+    <Team uID="t693">
+      <Name>Sochaux</Name>
+    </Team>
+    <Team uID="t2130">
+      <Name>Dijon</Name>
+    </Team>
+    <Team uID="t1028">
+      <Name>Caen</Name>
+    </Team>
+    <Team uID="t14040">
+      <Name>AC Houilles</Name>
+    </Team>
+    <Team uID="t6783">
+      <Name>Chambly</Name>
+    </Team>
+    <Team uID="t3300">
+      <Name>Yzeure</Name>
+    </Team>
+    <Team uID="t427">
+      <Name>Toulouse</Name>
+    </Team>
+    <Team uID="t14037">
+      <Name>USM Senlis</Name>
+    </Team>
+    <Team uID="t144">
+      <Name>Marseille</Name>
+    </Team>
+    <Team uID="t1996">
+      <Name>Valenciennes</Name>
+    </Team>
+    <Team uID="t14036">
+      <Name>FC Chartres</Name>
+    </Team>
+    <Team uID="t3271">
+      <Name>Stade Briochin</Name>
+    </Team>
+    <Team uID="t147">
+      <Name>Montpellier</Name>
+    </Team>
+    <Team uID="t7583">
+      <Name>Pontarlier</Name>
+    </Team>
+    <Team uID="t14033">
+      <Name>Sud Nivernais Imphy-Decize Sn</Name>
+    </Team>
+    <Team uID="t1395">
+      <Name>Nice</Name>
+    </Team>
+    <Team uID="t145">
+      <Name>Metz</Name>
+    </Team>
+    <Team uID="t12199">
+      <Name>Fleury 91</Name>
+    </Team>
+    <Team uID="t8832">
+      <Name>Entente SSG</Name>
+    </Team>
+    <Team uID="t140">
+      <Name>Bordeaux</Name>
+    </Team>
+    <Team uID="t14032">
+      <Name>Canet Roussillon FC</Name>
+    </Team>
+    <Team uID="t7423">
+      <Name>Colomiers</Name>
+    </Team>
+    <Team uID="t150">
+      <Name>Rennes</Name>
+    </Team>
+    <Team uID="t7435">
+      <Name>Saint-Malo</Name>
+    </Team>
+    <Team uID="t2336">
+      <Name>Nîmes</Name>
+    </Team>
+    <Team uID="t143">
+      <Name>Lyon</Name>
+    </Team>
+    <Team uID="t154">
+      <Name>Troyes</Name>
+    </Team>
+    <Team uID="t5315">
+      <Name>Biesheim</Name>
+    </Team>
+    <Team uID="t2323">
+      <Name>Angoulême</Name>
+    </Team>
+    <Team uID="t694">
+      <Name>Lorient</Name>
+    </Team>
+    <Team uID="t14029">
+      <Name>FC Still 1930</Name>
+    </Team>
+    <Team uID="t146">
+      <Name>Monaco</Name>
+    </Team>
+    <Team uID="t2544">
+      <Name>GFC Ajaccio</Name>
+    </Team>
+    <Team uID="t3288">
+      <Name>Dunkerque</Name>
+    </Team>
+  </SoccerDocument>
+</SoccerFeed>

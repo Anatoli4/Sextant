@@ -7,16 +7,18 @@ import Gnomon
 
 public class OptaAPIManager {
 
-  public static var settings = Settings()
+  // swiftlint:disable variable_name
+  public struct Competition {
+    let id: String
+    let season: String
 
-  public typealias F15Result = SingleOptionalResult<F15Model>
-  public typealias F15Request = Request<F15Result>
-
-  public static func f15Request(for competitionId: String, season: String) throws -> F15Request {
-    return try buider(for: .f15(competitionId: competitionId, seasonId: season))
-      .setXPath("SoccerFeed/SoccerDocument")
-      .build()
+    public init(id: String, season: String) {
+      self.id = id
+      self.season = season
+    }
   }
+
+  public static var settings = Settings()
 
   fileprivate static func buider<ResultType: Result>(for feedType: FeedType) -> RequestBuilder<ResultType> {
     let feedParams = params(forFeedType: feedType)
@@ -26,23 +28,55 @@ public class OptaAPIManager {
   }
 }
 
+// MARK: - F1
+// swiftlint:disable variable_name
+extension OptaAPIManager {
+  public typealias F1Result = SingleOptionalResult<F1Model>
+  public typealias F1Request = Request<F1Result>
+
+  public static func f1Request(competition: OptaAPIManager.Competition) throws -> F1Request {
+    return try buider(for: .f1(competition: competition))
+      .setXPath("SoccerFeed/SoccerDocument")
+      .build()
+  }
+
+  public static  func f1Requests(competitions: [OptaAPIManager.Competition]) throws -> [F1Request] {
+      let requests = try competitions.map {
+        return try f1Request(competition: $0)
+      }
+      return requests
+  }
+}
+
+// MARK: - F15
+extension OptaAPIManager {
+  public typealias F15Result = SingleOptionalResult<F15Model>
+  public typealias F15Request = Request<F15Result>
+
+  public static func f15Request(for competitionId: String, season: String) throws -> F15Request {
+    return try buider(for: .f15(competition: Competition(id: competitionId, season: season)))
+      .setXPath("SoccerFeed/SoccerDocument")
+      .build()
+  }
+}
+
 extension OptaAPIManager {
 
   enum FeedType {
-    case fixturesAndResults(competitionId: String, seasonId: String)
-    case standings(competitionId: String, seasonId: String)
-    case liveScores(competitionId: String, seasonId: String)
+    case f1(competition: Competition)
+    case standings(competition: Competition)
+    case liveScores(competition: Competition)
     case liveMatch(id: String)
     case matchCommentary(id: String)
     case matchStatistics(id: String)
-    case teamStatistics(competitionId: String, seasonId: String, teamId: String)
-    case f15(competitionId: String, seasonId: String)
+    case teamStatistics(competition: Competition, teamId: String)
+    case f15(competition: Competition)
     case detailedPrematchStatistics(matchId: String)
     case liveMatchStatistics(id: String)
 
     var key: String {
       switch self {
-      case .fixturesAndResults:
+      case .f1:
         return "F1"
       case .standings:
         return "F3"
@@ -67,7 +101,7 @@ extension OptaAPIManager {
 
     var URLPath: String {
       switch self {
-      case .fixturesAndResults, .standings, .liveScores, .f15:
+      case .f1, .standings, .liveScores, .f15:
         return "competition.php"
       case .teamStatistics:
         return "team_competition.php"
@@ -93,12 +127,12 @@ extension OptaAPIManager {
     ]
 
     switch forFeedType {
-    case .fixturesAndResults(let id, let season):
-      allParams += params(with: id, seasonId: season)
-    case .standings(let id, let season):
-      allParams += params(with: id, seasonId: season)
-    case .liveScores(let id, let season):
-      allParams += params(with: id, seasonId: season)
+    case .f1(let competiton):
+      allParams += params(with: competiton)
+    case .standings(let competiton):
+      allParams += params(with: competiton)
+    case .liveScores(let competiton):
+      allParams += params(with: competiton)
     case .liveMatch(let id):
       allParams += params(withMatchId: id)
     case .matchCommentary(let id):
@@ -106,11 +140,11 @@ extension OptaAPIManager {
       allParams += params(withLanguage: "en")
     case .matchStatistics(let id):
       allParams += params(withMatchId: id)
-    case .teamStatistics(let id, let season, let team):
-      allParams += params(with: id, seasonId: season)
+    case .teamStatistics(let competiton, let team):
+      allParams += params(with: competiton)
       allParams += params(withTeamId: team)
-    case .f15(let id, let season):
-      allParams += params(with: id, seasonId: season)
+    case .f15(let competiton):
+      allParams += params(with: competiton)
     case .detailedPrematchStatistics(let match):
       allParams += params(withMatchId: match)
     case .liveMatchStatistics(let id):
@@ -123,10 +157,10 @@ extension OptaAPIManager {
 
 extension OptaAPIManager {
 
-  fileprivate static func params(with competitionId: String, seasonId: String) -> [String: String] {
+  fileprivate static func params(with competition: Competition) -> [String: String] {
     return [
-      "competition": competitionId,
-      "season_id": seasonId
+      "competition": competition.id,
+      "season_id": competition.season
     ]
   }
 

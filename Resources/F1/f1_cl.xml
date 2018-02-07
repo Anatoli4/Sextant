@@ -1,0 +1,2280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2001-2018 Opta Sportsdata Ltd. All rights reserved. -->
+
+<!-- PRODUCTION HEADER
+     produced on:        valde-jobq-a03.nexus.opta.net
+     production time:    20180205T090240,676Z
+     production module:  Opta::Feed::XML::Soccer::F1
+-->
+<SoccerFeed>
+  <SoccerDocument Type="RESULTS Latest" competition_code="EU_CL" competition_id="5" competition_name="Champions League" game_system_id="1" season_id="2017" season_name="Season 2017/2018" timestamp="2018-02-05 09-02-40">
+    <MatchData detail_id="1" last_modified="2017-09-13T16:51:54+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952356">
+      <MatchInfo GroupName="D" MatchDay="1" MatchType="Regular" MatchWinner="t178" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1349">
+        <Date>2017-09-12 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Damir" LastName="Skomina" Type="Referee" uID="o40740" />
+        <MatchOfficial FirstName="Jure" LastName="Praprotnik" Type="Lineman#1" uID="o46345" />
+        <MatchOfficial FirstName="Robert" LastName="Vukan" Type="Lineman#2" uID="o46346" />
+        <MatchOfficial FirstName="Tomaz" LastName="Klancnik" Type="Fourth official" uID="o46569" />
+      </MatchOfficials>
+      <Stat Type="Venue">Camp Nou</Stat>
+      <Stat Type="City">Barcelona</Stat>
+      <TeamData HalfScore="1" Score="3" Side="Home" TeamRef="t178">
+        <Goal Period="FirstHalf" PlayerRef="p19054" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p19054" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p34703" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t128" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-13T13:50:09+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952368">
+      <MatchInfo GroupName="A" MatchDay="1" MatchType="Regular" MatchWinner="t1340" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2713">
+        <Date>2017-09-12 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Alberto" LastName="Undiano Mallenco" Type="Referee" uID="o11095" />
+        <MatchOfficial FirstName="Roberto" LastName="Alonso Fernández" Type="Lineman#1" uID="o43863" />
+        <MatchOfficial FirstName="Juan Carlos" LastName="Yuste Jiménez" Type="Lineman#2" uID="o40983" />
+        <MatchOfficial FirstName="Roberto" LastName="Díaz Pérez del Palomar" Type="Fourth official" uID="o44412" />
+      </MatchOfficials>
+      <Stat Type="Venue">Estádio da Luz</Stat>
+      <Stat Type="City">Lisbon</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t251">
+        <Goal Period="SecondHalf" PlayerRef="p60841" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="2" Side="Away" TeamRef="t1340">
+        <Goal Period="SecondHalf" PlayerRef="p240906" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p116387" Type="Penalty" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-13T13:37:57+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952398">
+      <MatchInfo GroupName="B" MatchDay="1" MatchType="Regular" MatchWinner="t149" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="12">
+        <Date>2017-09-12 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Daniele" LastName="Orsato" Type="Referee" uID="o40448" />
+        <MatchOfficial FirstName="Riccardo" LastName="Di Fiore" Type="Lineman#1" uID="o40728" />
+        <MatchOfficial FirstName="Lorenzo" LastName="Manganelli" Type="Lineman#2" uID="o40958" />
+        <MatchOfficial FirstName="Andrea" LastName="Crispo" Type="Fourth official" uID="o41553" />
+      </MatchOfficials>
+      <Stat Type="Venue">Celtic Park</Stat>
+      <Stat Type="City">Glasgow</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t61" />
+      <TeamData HalfScore="3" Score="5" Side="Away" TeamRef="t149">
+        <Goal Period="FirstHalf" PlayerRef="p220160" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p61278" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p40720" Type="Penalty" />
+        <Goal Period="SecondHalf" PlayerRef="p52223" Type="Own" />
+        <Goal Period="SecondHalf" PlayerRef="p40720" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-13T14:18:30+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952386">
+      <MatchInfo GroupName="C" MatchDay="1" MatchType="Regular" MatchWinner="t8" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="35">
+        <Date>2017-09-12 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Anastasios" LastName="Sidiropoulos" Type="Referee" uID="o42168" />
+        <MatchOfficial FirstName="Polychronis" LastName="Kostaras" Type="Lineman#1" uID="o46471" />
+        <MatchOfficial FirstName="Lazaros" LastName="Dimitriadis" Type="Lineman#2" uID="o46328" />
+        <MatchOfficial FirstName="Damianos" LastName="Efthimiadis" Type="Fourth official" uID="o46469" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData HalfScore="2" Score="6" Side="Home" TeamRef="t8">
+        <Goal Period="FirstHalf" PlayerRef="p105700" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p49579" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p94245" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p74797" Type="Own" />
+        <Goal Period="SecondHalf" PlayerRef="p169102" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p41328" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t3107" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-13T17:48:42+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952399">
+      <MatchInfo GroupName="B" MatchDay="1" MatchType="Regular" MatchWinner="t156" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2775">
+        <Date>2017-09-12 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Paolo" LastName="Tagliavento" Type="Referee" uID="o18021" />
+        <MatchOfficial FirstName="Filippo" LastName="Meli" Type="Lineman#1" uID="o41110" />
+        <MatchOfficial FirstName="Alessandro" LastName="Costanzo" Type="Lineman#2" uID="o41629" />
+        <MatchOfficial FirstName="Alessandro" LastName="Giallatini" Type="Fourth official" uID="o41214" />
+      </MatchOfficials>
+      <Stat Type="Venue">Allianz Arena</Stat>
+      <Stat Type="City">München</Stat>
+      <TeamData HalfScore="1" Score="3" Side="Home" TeamRef="t156">
+        <Goal Period="FirstHalf" PlayerRef="p56764" Type="Penalty" />
+        <Goal Period="SecondHalf" PlayerRef="p165687" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p61558" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t241" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-13T09:47:05+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952350">
+      <MatchInfo GroupName="A" MatchDay="1" MatchType="Regular" MatchWinner="t1" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="28">
+        <Date>2017-09-12 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Ruddy" LastName="Buquet" Type="Referee" uID="o40850" />
+        <MatchOfficial FirstName="Guillaume" LastName="Debart" Type="Lineman#1" uID="o46087" />
+        <MatchOfficial FirstName="Frederic" LastName="Cano" Type="Lineman#2" uID="o43849" />
+        <MatchOfficial FirstName="Cyril" LastName="Gringore" Type="Fourth official" uID="o46057" />
+      </MatchOfficials>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData HalfScore="1" Score="3" Side="Home" TeamRef="t1">
+        <Goal Period="FirstHalf" PlayerRef="p41184" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p176297" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p66749" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t481" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-13T16:01:22+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952366">
+      <MatchInfo GroupName="D" MatchDay="1" MatchType="Regular" MatchWinner="t255" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="3063">
+        <Date>2017-09-12 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Viktor" LastName="Kassai" Type="Referee" uID="o40732" />
+        <MatchOfficial FirstName="György" LastName="Ring" Type="Lineman#1" uID="o46236" />
+        <MatchOfficial FirstName="Vencel" LastName="Toth" Type="Lineman#2" uID="o46237" />
+        <MatchOfficial FirstName="Peter" LastName="Berettyán" Type="Fourth official" uID="o46549" />
+      </MatchOfficials>
+      <Stat Type="Venue">Georgios Karaiskakis Stadium</Stat>
+      <Stat Type="City">Piraeus</Stat>
+      <TeamData HalfScore="0" Score="2" Side="Home" TeamRef="t202">
+        <Goal Period="SecondHalf" PlayerRef="p149695" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p149695" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="3" Score="3" Side="Away" TeamRef="t255">
+        <Goal Period="FirstHalf" PlayerRef="p154310" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p52117" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p141746" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-13T16:58:52+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952392">
+      <MatchInfo GroupName="C" MatchDay="1" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1336">
+        <Date>2017-09-12 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Milorad" LastName="Mazic" Type="Referee" uID="o41452" />
+        <MatchOfficial FirstName="Milovan" LastName="Ristic" Type="Lineman#1" uID="o44230" />
+        <MatchOfficial FirstName="Dalibor" LastName="Djurdjevic" Type="Lineman#2" uID="o44227" />
+        <MatchOfficial FirstName="Nemanja" LastName="Petrovic" Type="Fourth official" uID="o46493" />
+      </MatchOfficials>
+      <Stat Type="Venue">Olimpico</Stat>
+      <Stat Type="City">Roma</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t121" />
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t175" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-14T14:50:55+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952423">
+      <MatchInfo GroupName="G" MatchDay="1" MatchType="Regular" MatchWinner="t378" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2710">
+        <Date>2017-09-13 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Anthony" LastName="Taylor" Type="Referee" uID="o40933" />
+        <MatchOfficial FirstName="Gary" LastName="Beswick" Type="Lineman#1" uID="o43269" />
+        <MatchOfficial FirstName="Adam" LastName="Nunn" Type="Lineman#2" uID="o43329" />
+        <MatchOfficial FirstName="Constantine" LastName="Hatzidakis" Type="Fourth official" uID="o43523" />
+      </MatchOfficials>
+      <Stat Type="Venue">Estádio do Dragão</Stat>
+      <Stat Type="City">Porto</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t201">
+        <Goal Period="FirstHalf" PlayerRef="p37986" Type="Own" />
+      </TeamData>
+      <TeamData HalfScore="2" Score="3" Side="Away" TeamRef="t378">
+        <Goal Period="FirstHalf" PlayerRef="p159422" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p66838" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p19520" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-14T11:54:08+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952380">
+      <MatchInfo GroupName="F" MatchDay="1" MatchType="Regular" MatchWinner="t43" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="114">
+        <Date>2017-09-13 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Szymon" LastName="Marciniak" Type="Referee" uID="o42003" />
+        <MatchOfficial FirstName="Pawel" LastName="Sokolnicki" Type="Lineman#1" uID="o45007" />
+        <MatchOfficial FirstName="Tomasz" LastName="Listkiewicz" Type="Lineman#2" uID="o46343" />
+        <MatchOfficial FirstName="Radoslaw" LastName="Siejka" Type="Fourth official" uID="o46344" />
+      </MatchOfficials>
+      <Stat Type="Venue">De Kuip</Stat>
+      <Stat Type="City">Rotterdam</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t198" />
+      <TeamData HalfScore="3" Score="4" Side="Away" TeamRef="t43">
+        <Goal Period="FirstHalf" PlayerRef="p37572" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p97299" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p205651" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p97299" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-20T16:55:14+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952411">
+      <MatchInfo GroupName="E" MatchDay="1" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="39">
+        <Date>2017-09-13 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Danny" LastName="Makkelie" Type="Referee" uID="o42023" />
+        <MatchOfficial FirstName="Mario" LastName="Diks" Type="Lineman#1" uID="o43210" />
+        <MatchOfficial FirstName="Hessel" LastName="Steegstra " Type="Lineman#2" uID="o43158" />
+        <MatchOfficial FirstName="Joost" LastName="van Zuilen" Type="Fourth official" uID="o43229" />
+      </MatchOfficials>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData HalfScore="2" Score="2" Side="Home" TeamRef="t14">
+        <Goal Period="FirstHalf" PlayerRef="p92217" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p118748" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="2" Side="Away" TeamRef="t179">
+        <Goal Period="FirstHalf" PlayerRef="p83912" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p116195" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-20T16:55:30+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952410">
+      <MatchInfo GroupName="E" MatchDay="1" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="3328">
+        <Date>2017-09-13 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Deniz" LastName="Aytekin" Type="Referee" uID="o38595" />
+        <MatchOfficial FirstName="Guido" LastName="Kleve" Type="Lineman#1" uID="o41156" />
+        <MatchOfficial FirstName="Mark" LastName="Borsch" Type="Lineman#2" uID="o41147" />
+        <MatchOfficial FirstName="Eduard" LastName="Beitinger" Type="Fourth official" uID="o41200" />
+      </MatchOfficials>
+      <Stat Type="Venue">Ljudski vrt</Stat>
+      <Stat Type="City">Maribor</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t3033">
+        <Goal Period="SecondHalf" PlayerRef="p101967" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t205">
+        <Goal Period="SecondHalf" PlayerRef="p31886" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-14T13:54:54+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952422">
+      <MatchInfo GroupName="G" MatchDay="1" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="6865">
+        <Date>2017-09-13 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Michael" LastName="Oliver" Type="Referee" uID="o40962" />
+        <MatchOfficial FirstName="Stuart" LastName="Burt" Type="Lineman#1" uID="o43257" />
+        <MatchOfficial FirstName="Simon" LastName="Bennett" Type="Lineman#2" uID="o43280" />
+        <MatchOfficial FirstName="Harry" LastName="Lennard" Type="Fourth official" uID="o43273" />
+      </MatchOfficials>
+      <Stat Type="Venue">Red Bull Arena</Stat>
+      <Stat Type="City">Leipzig</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t6339">
+        <Goal Period="FirstHalf" PlayerRef="p66579" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="1" Side="Away" TeamRef="t146">
+        <Goal Period="FirstHalf" PlayerRef="p166989" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-14T16:51:56+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952434">
+      <MatchInfo GroupName="H" MatchDay="1" MatchType="Regular" MatchWinner="t186" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1360">
+        <Date>2017-09-13 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Benoit" LastName="Bastien" Type="Referee" uID="o42022" />
+        <MatchOfficial FirstName="Hicham" LastName="Zakrani" Type="Lineman#1" uID="o46082" />
+        <MatchOfficial FirstName="Frederic" LastName="Haquette" Type="Lineman#2" uID="o46081" />
+        <MatchOfficial FirstName="Julien" LastName="Pacelli" Type="Fourth official" uID="o46094" />
+      </MatchOfficials>
+      <Stat Type="Venue">Santiago Bernabéu</Stat>
+      <Stat Type="City">Madrid</Stat>
+      <TeamData HalfScore="1" Score="3" Side="Home" TeamRef="t186">
+        <Goal Period="FirstHalf" PlayerRef="p14937" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p17861" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p14937" Type="Penalty" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t479" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-20T16:55:22+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952348">
+      <MatchInfo GroupName="F" MatchDay="1" MatchType="Regular" MatchWinner="t455" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="3570">
+        <Date>2017-09-13 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Felix" LastName="Zwayer" Type="Referee" uID="o40892" />
+        <MatchOfficial FirstName="Thorsten" LastName="Schiffner" Type="Lineman#1" uID="o41157" />
+        <MatchOfficial FirstName="Marco" LastName="Achmüller" Type="Lineman#2" uID="o41082" />
+        <MatchOfficial FirstName="Rafael" LastName="Foltyn" Type="Fourth official" uID="o41427" />
+      </MatchOfficials>
+      <Stat Type="Venue">Metalist Stadium</Stat>
+      <Stat Type="City">Kharkiv</Stat>
+      <TeamData HalfScore="1" Score="2" Side="Home" TeamRef="t455">
+        <Goal Period="FirstHalf" PlayerRef="p52870" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p86527" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t459">
+        <Goal Period="SecondHalf" PlayerRef="p103076" Type="Penalty" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-15T10:54:32+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952435">
+      <MatchInfo GroupName="H" MatchDay="1" MatchType="Regular" MatchWinner="t6" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="5">
+        <Date>2017-09-13 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Gianluca" LastName="Rocchi" Type="Referee" uID="o18022" />
+        <MatchOfficial FirstName="Elenito" LastName="Di Liberatore" Type="Lineman#1" uID="o40752" />
+        <MatchOfficial FirstName="Mauro" LastName="Tonolini" Type="Lineman#2" uID="o40770" />
+        <MatchOfficial FirstName="Alberto" LastName="Tegoni" Type="Fourth official" uID="o42441" />
+      </MatchOfficials>
+      <Stat Type="Venue">Wembley Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData HalfScore="2" Score="3" Side="Home" TeamRef="t6">
+        <Goal Period="FirstHalf" PlayerRef="p78830" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p85971" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p78830" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="1" Side="Away" TeamRef="t157">
+        <Goal Period="FirstHalf" PlayerRef="p56377" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-27T11:51:40+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952437">
+      <MatchInfo GroupName="H" MatchDay="2" MatchType="Regular" MatchWinner="t6" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2861">
+        <Date>2017-09-26 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Pavel" LastName="Kralovec" Type="Referee" uID="o40786" />
+        <MatchOfficial FirstName="Roman" LastName="Slysko" Type="Lineman#1" uID="o40993" />
+        <MatchOfficial FirstName="Ivo" LastName="Nadvornik" Type="Lineman#2" uID="o46496" />
+        <MatchOfficial FirstName="Martin" LastName="Wilczek" Type="Fourth official" uID="o46357" />
+      </MatchOfficials>
+      <Stat Type="Venue">GSP Stadium</Stat>
+      <Stat Type="City">Nicosia</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t479" />
+      <TeamData HalfScore="1" Score="3" Side="Away" TeamRef="t6">
+        <Goal Period="FirstHalf" PlayerRef="p78830" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p78830" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p78830" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-27T15:19:03+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952424">
+      <MatchInfo GroupName="G" MatchDay="2" MatchType="Regular" MatchWinner="t378" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="11180">
+        <Date>2017-09-26 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Sergei" LastName="Karasev" Type="Referee" uID="o41464" />
+        <MatchOfficial FirstName="Anton" LastName="Averianov" Type="Lineman#1" uID="o44863" />
+        <MatchOfficial FirstName="Tikhon" LastName="Kalugin" Type="Lineman#2" uID="o44864" />
+        <MatchOfficial FirstName="Maksim" LastName="Gavrilin" Type="Fourth official" uID="o45924" />
+      </MatchOfficials>
+      <Stat Type="Venue">Vodafone Arena</Stat>
+      <Stat Type="City">Istanbul</Stat>
+      <TeamData HalfScore="2" Score="2" Side="Home" TeamRef="t378">
+        <Goal Period="FirstHalf" PlayerRef="p159422" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p19520" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t6339" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-27T17:54:10+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952436">
+      <MatchInfo GroupName="H" MatchDay="2" MatchType="Regular" MatchWinner="t186" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1369">
+        <Date>2017-09-26 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Björn" LastName="Kuipers" Type="Referee" uID="o39370" />
+        <MatchOfficial FirstName="Sander" LastName="van Roekel" Type="Lineman#1" uID="o43206" />
+        <MatchOfficial FirstName="Erwin" LastName="Zeinstra" Type="Lineman#2" uID="o43207" />
+        <MatchOfficial FirstName="Mario" LastName="Diks" Type="Fourth official" uID="o43210" />
+      </MatchOfficials>
+      <Stat Type="Venue">SIGNAL IDUNA PARK</Stat>
+      <Stat Type="City">Dortmund</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t157">
+        <Goal Period="SecondHalf" PlayerRef="p54694" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="3" Side="Away" TeamRef="t186">
+        <Goal Period="FirstHalf" PlayerRef="p36903" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p14937" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p14937" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-27T13:40:48+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952381">
+      <MatchInfo GroupName="F" MatchDay="2" MatchType="Regular" MatchWinner="t43" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2691">
+        <Date>2017-09-26 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Jorge" LastName="Sousa" Type="Referee" uID="o40882" />
+        <MatchOfficial FirstName="Álvaro" LastName="Mesquita" Type="Lineman#1" uID="o46372" />
+        <MatchOfficial FirstName="Ricardo Jorge" LastName="Santos" Type="Lineman#2" uID="o46123" />
+        <MatchOfficial FirstName="Nuno" LastName="Pereira" Type="Fourth official" uID="o46134" />
+      </MatchOfficials>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData HalfScore="0" Score="2" Side="Home" TeamRef="t43">
+        <Goal Period="SecondHalf" PlayerRef="p103955" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p61366" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t455" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-27T13:33:55+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952425">
+      <MatchInfo GroupName="G" MatchDay="2" MatchType="Regular" MatchWinner="t201" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1313">
+        <Date>2017-09-26 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Slavko" LastName="Vincic" Type="Referee" uID="o42727" />
+        <MatchOfficial FirstName="Tomaz" LastName="Klancnik" Type="Lineman#1" uID="o46569" />
+        <MatchOfficial FirstName="Andraž" LastName="Kovacic" Type="Lineman#2" uID="o46509" />
+        <MatchOfficial FirstName="Grega" LastName="Kordez" Type="Fourth official" uID="o49594" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Louis II</Stat>
+      <Stat Type="City">Monaco</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t146" />
+      <TeamData HalfScore="1" Score="3" Side="Away" TeamRef="t201">
+        <Goal Period="FirstHalf" PlayerRef="p83465" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p83465" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p73698" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-27T16:13:28+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952349">
+      <MatchInfo GroupName="F" MatchDay="2" MatchType="Regular" MatchWinner="t459" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1339">
+        <Date>2017-09-26 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="William" LastName="Collum" Type="Referee" uID="o41004" />
+        <MatchOfficial FirstName="David" LastName="McGeachie" Type="Lineman#1" uID="o43178" />
+        <MatchOfficial FirstName="Douglas" LastName="Ross" Type="Lineman#2" uID="o43164" />
+        <MatchOfficial FirstName="Frank" LastName="Connor" Type="Fourth official" uID="o43166" />
+      </MatchOfficials>
+      <Stat Type="Venue">San Paolo</Stat>
+      <Stat Type="City">Napoli</Stat>
+      <TeamData HalfScore="1" Score="3" Side="Home" TeamRef="t459">
+        <Goal Period="FirstHalf" PlayerRef="p75592" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p54917" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p51732" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t198">
+        <Goal Period="SecondHalf" PlayerRef="p172912" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-27T17:08:47+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952412">
+      <MatchInfo GroupName="E" MatchDay="2" MatchType="Regular" MatchWinner="t179" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2474">
+        <Date>2017-09-26 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Aleksei" LastName="Kulbakov" Type="Referee" uID="o41209" />
+        <MatchOfficial FirstName="Dmitri" LastName="Zhuk" Type="Lineman#1" uID="o46545" />
+        <MatchOfficial FirstName="Oleg" LastName="Maslyanko" Type="Lineman#2" uID="o46544" />
+        <MatchOfficial FirstName="Yury" LastName="Khomchenko" Type="Fourth official" uID="o48105" />
+      </MatchOfficials>
+      <Stat Type="Venue">Ramón Sánchez-Pizjuán</Stat>
+      <Stat Type="City">Sevilla</Stat>
+      <TeamData HalfScore="2" Score="3" Side="Home" TeamRef="t179">
+        <Goal Period="FirstHalf" PlayerRef="p83912" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p83912" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p83912" Type="Penalty" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t3033" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-27T16:16:00+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952413">
+      <MatchInfo GroupName="E" MatchDay="2" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="9824">
+        <Date>2017-09-26 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Clément" LastName="Turpin" Type="Referee" uID="o40845" />
+        <MatchOfficial FirstName="Nicolas" LastName="Danos" Type="Lineman#1" uID="o45030" />
+        <MatchOfficial FirstName="Cyril" LastName="Gringore" Type="Lineman#2" uID="o46057" />
+        <MatchOfficial FirstName="Hicham" LastName="Zakrani" Type="Fourth official" uID="o46082" />
+      </MatchOfficials>
+      <Stat Type="Venue">Otkrytie Arena</Stat>
+      <Stat Type="City">Moscow</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t205">
+        <Goal Period="FirstHalf" PlayerRef="p65866" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="1" Side="Away" TeamRef="t14">
+        <Goal Period="FirstHalf" PlayerRef="p84583" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-28T13:04:23+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952387">
+      <MatchInfo GroupName="C" MatchDay="2" MatchType="Regular" MatchWinner="t8" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="12175">
+        <Date>2017-09-27 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Cüneyt" LastName="Çakir" Type="Referee" uID="o40744" />
+        <MatchOfficial FirstName="Bahattin" LastName="Duran" Type="Lineman#1" uID="o43856" />
+        <MatchOfficial FirstName="Tarik" LastName="Ongun" Type="Lineman#2" uID="o43857" />
+        <MatchOfficial FirstName="Mustafa" LastName="Eyisoy" Type="Fourth official" uID="o46096" />
+      </MatchOfficials>
+      <Stat Type="Venue">Wanda Metropolitano</Stat>
+      <Stat Type="City">Madrid</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t175">
+        <Goal Period="FirstHalf" PlayerRef="p76650" Type="Penalty" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="2" Side="Away" TeamRef="t8">
+        <Goal Period="SecondHalf" PlayerRef="p94245" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p88482" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-30T14:43:06+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952369">
+      <MatchInfo GroupName="A" MatchDay="2" MatchType="Regular" MatchWinner="t481" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2208">
+        <Date>2017-09-27 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Craig" LastName="Thomson" Type="Referee" uID="o13156" />
+        <MatchOfficial FirstName="Alan" LastName="Mulvanny" Type="Lineman#1" uID="o43182" />
+        <MatchOfficial FirstName="Graeme" LastName="Stewart" Type="Lineman#2" uID="o43181" />
+        <MatchOfficial FirstName="Stuart" LastName="Stevenson" Type="Fourth official" uID="o43169" />
+      </MatchOfficials>
+      <Stat Type="Venue">St Jakob-Park</Stat>
+      <Stat Type="City">Basel</Stat>
+      <TeamData HalfScore="2" Score="5" Side="Home" TeamRef="t481">
+        <Goal Period="FirstHalf" PlayerRef="p185057" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p47085" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p185057" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p214538" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p50165" Type="Penalty" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t251" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-30T14:43:06+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952351">
+      <MatchInfo GroupName="A" MatchDay="2" MatchType="Regular" MatchWinner="t1" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="11515">
+        <Date>2017-09-27 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Jonas" LastName="Eriksson" Type="Referee" uID="o39541" />
+        <MatchOfficial FirstName="Mathias" LastName="Klasenius" Type="Lineman#1" uID="o44229" />
+        <MatchOfficial FirstName="Daniel" LastName="Warnmark" Type="Lineman#2" uID="o44231" />
+        <MatchOfficial FirstName="Mehmet" LastName="Culum" Type="Fourth official" uID="o45472" />
+      </MatchOfficials>
+      <Stat Type="Venue">VEB Arena</Stat>
+      <Stat Type="City">Moscow</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t1340">
+        <Goal Period="SecondHalf" PlayerRef="p218376" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="3" Score="4" Side="Away" TeamRef="t1">
+        <Goal Period="FirstHalf" PlayerRef="p148225" Type="Penalty" />
+        <Goal Period="FirstHalf" PlayerRef="p66749" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p66749" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p57249" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-28T17:45:14+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952393">
+      <MatchInfo GroupName="C" MatchDay="2" MatchType="Regular" MatchWinner="t121" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="10948">
+        <Date>2017-09-27 17:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Artur" LastName="Dias Soares" Type="Referee" uID="o42113" />
+        <MatchOfficial FirstName="Rui" LastName="Licínio Tavares" Type="Lineman#1" uID="o46603" />
+        <MatchOfficial FirstName="Paulo" LastName="Soares" Type="Lineman#2" uID="o46129" />
+        <MatchOfficial FirstName="Bruno" LastName="Rodrigues" Type="Fourth official" uID="o46127" />
+      </MatchOfficials>
+      <Stat Type="Venue">Baku Olympic Stadium</Stat>
+      <Stat Type="City">Baku</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t3107">
+        <Goal Period="FirstHalf" PlayerRef="p111516" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="2" Score="2" Side="Away" TeamRef="t121">
+        <Goal Period="FirstHalf" PlayerRef="p42544" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p66806" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-28T14:44:39+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952357">
+      <MatchInfo GroupName="D" MatchDay="2" MatchType="Regular" MatchWinner="t128" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="7598">
+        <Date>2017-09-27 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Tobias" LastName="Stieler" Type="Referee" uID="o41096" />
+        <MatchOfficial FirstName="Mike" LastName="Pickel" Type="Lineman#1" uID="o37234" />
+        <MatchOfficial FirstName="Jan" LastName="Seidel" Type="Lineman#2" uID="o41183" />
+        <MatchOfficial FirstName="Christian" LastName="Gittelmann" Type="Fourth official" uID="o41928" />
+      </MatchOfficials>
+      <Stat Type="Venue">Allianz Stadium</Stat>
+      <Stat Type="City">Torino</Stat>
+      <TeamData HalfScore="0" Score="2" Side="Home" TeamRef="t128">
+        <Goal Period="SecondHalf" PlayerRef="p46197" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p40232" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t202" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-28T12:26:19+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952400">
+      <MatchInfo GroupName="B" MatchDay="2" MatchType="Regular" MatchWinner="t149" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1311">
+        <Date>2017-09-27 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Antonio Miguel" LastName="Mateu Lahoz" Type="Referee" uID="o41066" />
+        <MatchOfficial FirstName="Pau" LastName="Cebrián Devís" Type="Lineman#1" uID="o43864" />
+        <MatchOfficial FirstName="Roberto" LastName="Díaz Pérez del Palomar" Type="Lineman#2" uID="o44412" />
+        <MatchOfficial FirstName="Teodoro" LastName="Sobrino Magán" Type="Fourth official" uID="o43448" />
+      </MatchOfficials>
+      <Stat Type="Venue">Parc des Princes</Stat>
+      <Stat Type="City">Paris</Stat>
+      <TeamData HalfScore="2" Score="3" Side="Home" TeamRef="t149">
+        <Goal Period="FirstHalf" PlayerRef="p15780" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p40720" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p61278" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t156" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-28T18:26:42+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952401">
+      <MatchInfo GroupName="B" MatchDay="2" MatchType="Regular" MatchWinner="t61" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2113">
+        <Date>2017-09-27 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Jesús" LastName="Gil Manzano" Type="Referee" uID="o42061" />
+        <MatchOfficial FirstName="Juan Carlos" LastName="Yuste Jiménez" Type="Lineman#1" uID="o40983" />
+        <MatchOfficial FirstName="Ángel" LastName="Nevado Rodríguez" Type="Lineman#2" uID="o44362" />
+        <MatchOfficial FirstName="Roberto" LastName="Alonso Fernández" Type="Fourth official" uID="o43863" />
+      </MatchOfficials>
+      <Stat Type="Venue">Constant Vanden Stockstadion</Stat>
+      <Stat Type="City">Brussels</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t241" />
+      <TeamData HalfScore="1" Score="3" Side="Away" TeamRef="t61">
+        <Goal Period="FirstHalf" PlayerRef="p57544" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p19688" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p124165" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-09-28T14:42:07+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952362">
+      <MatchInfo GroupName="D" MatchDay="2" MatchType="Regular" MatchWinner="t178" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2116">
+        <Date>2017-09-27 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Ovidiu" LastName="Hategan" Type="Referee" uID="o41605" />
+        <MatchOfficial FirstName="Octavian" LastName="Sovre" Type="Lineman#1" uID="o45602" />
+        <MatchOfficial FirstName="Sebastian" LastName="Gheorghe" Type="Lineman#2" uID="o45585" />
+        <MatchOfficial FirstName="Adrian" LastName="Ghinguleac" Type="Fourth official" uID="o45586" />
+      </MatchOfficials>
+      <Stat Type="Venue">Estádio José Alvalade</Stat>
+      <Stat Type="City">Lisbon</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t255" />
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t178">
+        <Goal Period="SecondHalf" PlayerRef="p78108" Type="Own" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-10-18T16:05:53+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952438">
+      <MatchInfo GroupName="H" MatchDay="3" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2861">
+        <Date>2017-10-17 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Aleksei" LastName="Kulbakov" Type="Referee" uID="o41209" />
+        <MatchOfficial FirstName="Dmitri" LastName="Zhuk" Type="Lineman#1" uID="o46545" />
+        <MatchOfficial FirstName="Oleg" LastName="Maslyanko" Type="Lineman#2" uID="o46544" />
+        <MatchOfficial FirstName="Yury" LastName="Khomchenko" Type="Fourth official" uID="o48105" />
+      </MatchOfficials>
+      <Stat Type="Venue">GSP Stadium</Stat>
+      <Stat Type="City">Nicosia</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t479">
+        <Goal Period="SecondHalf" PlayerRef="p44290" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t157">
+        <Goal Period="SecondHalf" PlayerRef="p39476" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-10-18T16:47:53+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952385">
+      <MatchInfo GroupName="F" MatchDay="3" MatchType="Regular" MatchWinner="t455" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="114">
+        <Date>2017-10-17 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Alberto" LastName="Undiano Mallenco" Type="Referee" uID="o11095" />
+        <MatchOfficial FirstName="Roberto" LastName="Alonso Fernández" Type="Lineman#1" uID="o43863" />
+        <MatchOfficial FirstName="Juan Carlos" LastName="Yuste Jiménez" Type="Lineman#2" uID="o40983" />
+        <MatchOfficial FirstName="Raúl" LastName="Cabañero Martínez" Type="Fourth official" uID="o44373" />
+      </MatchOfficials>
+      <Stat Type="Venue">De Kuip</Stat>
+      <Stat Type="City">Rotterdam</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t198">
+        <Goal Period="FirstHalf" PlayerRef="p88935" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="2" Side="Away" TeamRef="t455">
+        <Goal Period="FirstHalf" PlayerRef="p100649" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p100649" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-10-18T13:34:09+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952375">
+      <MatchInfo GroupName="F" MatchDay="3" MatchType="Regular" MatchWinner="t43" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2691">
+        <Date>2017-10-17 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Antonio Miguel" LastName="Mateu Lahoz" Type="Referee" uID="o41066" />
+        <MatchOfficial FirstName="Pau" LastName="Cebrián Devís" Type="Lineman#1" uID="o43864" />
+        <MatchOfficial FirstName="Roberto" LastName="Díaz Pérez del Palomar" Type="Lineman#2" uID="o44412" />
+        <MatchOfficial FirstName="Teodoro" LastName="Sobrino Magán" Type="Fourth official" uID="o43448" />
+      </MatchOfficials>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData HalfScore="2" Score="2" Side="Home" TeamRef="t43">
+        <Goal Period="FirstHalf" PlayerRef="p103955" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p205651" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t459">
+        <Goal Period="SecondHalf" PlayerRef="p212533" Type="Penalty" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-10-18T13:55:16+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952415">
+      <MatchInfo GroupName="E" MatchDay="3" MatchType="Regular" MatchWinner="t14" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="3328">
+        <Date>2017-10-17 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Viktor" LastName="Kassai" Type="Referee" uID="o40732" />
+        <MatchOfficial FirstName="György" LastName="Ring" Type="Lineman#1" uID="o46236" />
+        <MatchOfficial FirstName="Vencel" LastName="Toth" Type="Lineman#2" uID="o46237" />
+        <MatchOfficial FirstName="Balázs" LastName="Buzás" Type="Fourth official" uID="o46551" />
+      </MatchOfficials>
+      <Stat Type="Venue">Ljudski vrt</Stat>
+      <Stat Type="City">Maribor</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t3033" />
+      <TeamData HalfScore="4" Score="7" Side="Away" TeamRef="t14">
+        <Goal Period="FirstHalf" PlayerRef="p84583" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p118748" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p92217" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p118748" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p169187" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p81880" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p92217" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-10-18T16:57:27+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952426">
+      <MatchInfo GroupName="G" MatchDay="3" MatchType="Regular" MatchWinner="t378" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1313">
+        <Date>2017-10-17 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Milorad" LastName="Mazic" Type="Referee" uID="o41452" />
+        <MatchOfficial FirstName="Milovan" LastName="Ristic" Type="Lineman#1" uID="o44230" />
+        <MatchOfficial FirstName="Dalibor" LastName="Djurdjevic" Type="Lineman#2" uID="o44227" />
+        <MatchOfficial FirstName="Nemanja" LastName="Petrovic" Type="Fourth official" uID="o46493" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Louis II</Stat>
+      <Stat Type="City">Monaco</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t146">
+        <Goal Period="FirstHalf" PlayerRef="p48847" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="2" Side="Away" TeamRef="t378">
+        <Goal Period="FirstHalf" PlayerRef="p66838" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p66838" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-10-18T13:31:45+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952427">
+      <MatchInfo GroupName="G" MatchDay="3" MatchType="Regular" MatchWinner="t6339" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="6865">
+        <Date>2017-10-17 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Paolo" LastName="Tagliavento" Type="Referee" uID="o18021" />
+        <MatchOfficial FirstName="Riccardo" LastName="Di Fiore" Type="Lineman#1" uID="o40728" />
+        <MatchOfficial FirstName="Lorenzo" LastName="Manganelli" Type="Lineman#2" uID="o40958" />
+        <MatchOfficial FirstName="Fabiano" LastName="Preti" Type="Fourth official" uID="o41259" />
+      </MatchOfficials>
+      <Stat Type="Venue">Red Bull Arena</Stat>
+      <Stat Type="City">Leipzig</Stat>
+      <TeamData HalfScore="3" Score="3" Side="Home" TeamRef="t6339">
+        <Goal Period="FirstHalf" PlayerRef="p198523" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p66579" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p101601" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="2" Score="2" Side="Away" TeamRef="t201">
+        <Goal Period="FirstHalf" PlayerRef="p42874" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p83465" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-10-18T13:41:04+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952439">
+      <MatchInfo GroupName="H" MatchDay="3" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1360">
+        <Date>2017-10-17 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Szymon" LastName="Marciniak" Type="Referee" uID="o42003" />
+        <MatchOfficial FirstName="Pawel" LastName="Sokolnicki" Type="Lineman#1" uID="o45007" />
+        <MatchOfficial FirstName="Tomasz" LastName="Listkiewicz" Type="Lineman#2" uID="o46343" />
+        <MatchOfficial FirstName="Radoslaw" LastName="Siejka" Type="Fourth official" uID="o46344" />
+      </MatchOfficials>
+      <Stat Type="Venue">Santiago Bernabéu</Stat>
+      <Stat Type="City">Madrid</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t186">
+        <Goal Period="FirstHalf" PlayerRef="p14937" Type="Penalty" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="1" Side="Away" TeamRef="t6">
+        <Goal Period="FirstHalf" PlayerRef="p90152" Type="Own" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-10-18T18:10:39+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952414">
+      <MatchInfo GroupName="E" MatchDay="3" MatchType="Regular" MatchWinner="t205" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="9824">
+        <Date>2017-10-17 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Gianluca" LastName="Rocchi" Type="Referee" uID="o18022" />
+        <MatchOfficial FirstName="Elenito" LastName="Di Liberatore" Type="Lineman#1" uID="o40752" />
+        <MatchOfficial FirstName="Filippo" LastName="Meli" Type="Lineman#2" uID="o41110" />
+        <MatchOfficial FirstName="Andrea" LastName="Crispo" Type="Fourth official" uID="o41553" />
+      </MatchOfficials>
+      <Stat Type="Venue">Otkrytie Arena</Stat>
+      <Stat Type="City">Moscow</Stat>
+      <TeamData HalfScore="1" Score="5" Side="Home" TeamRef="t205">
+        <Goal Period="FirstHalf" PlayerRef="p80758" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p52941" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p80758" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p78117" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p47429" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="1" Side="Away" TeamRef="t179">
+        <Goal Period="FirstHalf" PlayerRef="p48714" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-10-19T11:42:47+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952364">
+      <MatchInfo GroupName="D" MatchDay="3" MatchType="Regular" MatchWinner="t178" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1349">
+        <Date>2017-10-18 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="William" LastName="Collum" Type="Referee" uID="o41004" />
+        <MatchOfficial FirstName="Frank" LastName="Connor" Type="Lineman#1" uID="o43166" />
+        <MatchOfficial FirstName="Douglas" LastName="Ross" Type="Lineman#2" uID="o43164" />
+        <MatchOfficial FirstName="Dougie" LastName="Potter" Type="Fourth official" uID="o43398" />
+      </MatchOfficials>
+      <Stat Type="Venue">Camp Nou</Stat>
+      <Stat Type="City">Barcelona</Stat>
+      <TeamData HalfScore="1" Score="3" Side="Home" TeamRef="t178">
+        <Goal Period="FirstHalf" PlayerRef="p214286" Type="Own" />
+        <Goal Period="SecondHalf" PlayerRef="p19054" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p101188" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t202">
+        <Goal Period="SecondHalf" PlayerRef="p214286" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-10-19T10:36:58+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952352">
+      <MatchInfo GroupName="A" MatchDay="3" MatchType="Regular" MatchWinner="t1" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2713">
+        <Date>2017-10-18 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Felix" LastName="Zwayer" Type="Referee" uID="o40892" />
+        <MatchOfficial FirstName="Thorsten" LastName="Schiffner" Type="Lineman#1" uID="o41157" />
+        <MatchOfficial FirstName="Marco" LastName="Achmüller" Type="Lineman#2" uID="o41082" />
+        <MatchOfficial FirstName="Rafael" LastName="Foltyn" Type="Fourth official" uID="o41427" />
+      </MatchOfficials>
+      <Stat Type="Venue">Estádio da Luz</Stat>
+      <Stat Type="City">Lisbon</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t251" />
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t1">
+        <Goal Period="SecondHalf" PlayerRef="p176297" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-10-19T18:15:43+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952372">
+      <MatchInfo GroupName="A" MatchDay="3" MatchType="Regular" MatchWinner="t481" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="11515">
+        <Date>2017-10-18 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Björn" LastName="Kuipers" Type="Referee" uID="o39370" />
+        <MatchOfficial FirstName="Sander" LastName="van Roekel" Type="Lineman#1" uID="o43206" />
+        <MatchOfficial FirstName="Erwin" LastName="Zeinstra" Type="Lineman#2" uID="o43207" />
+        <MatchOfficial FirstName="Mario" LastName="Diks" Type="Fourth official" uID="o43210" />
+      </MatchOfficials>
+      <Stat Type="Venue">VEB Arena</Stat>
+      <Stat Type="City">Moscow</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t1340" />
+      <TeamData HalfScore="1" Score="2" Side="Away" TeamRef="t481">
+        <Goal Period="FirstHalf" PlayerRef="p84447" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p185057" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-10-19T13:19:26+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952388">
+      <MatchInfo GroupName="C" MatchDay="3" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="35">
+        <Date>2017-10-18 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Damir" LastName="Skomina" Type="Referee" uID="o40740" />
+        <MatchOfficial FirstName="Jure" LastName="Praprotnik" Type="Lineman#1" uID="o46345" />
+        <MatchOfficial FirstName="Robert" LastName="Vukan" Type="Lineman#2" uID="o46346" />
+        <MatchOfficial FirstName="Grega" LastName="Kordez" Type="Fourth official" uID="o49594" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData HalfScore="2" Score="3" Side="Home" TeamRef="t8">
+        <Goal Period="FirstHalf" PlayerRef="p41270" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p42786" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p42786" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="3" Side="Away" TeamRef="t121">
+        <Goal Period="FirstHalf" PlayerRef="p42593" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p42544" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p42544" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-10-19T11:32:50+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952403">
+      <MatchInfo GroupName="B" MatchDay="3" MatchType="Regular" MatchWinner="t156" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2775">
+        <Date>2017-10-18 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Sergei" LastName="Karasev" Type="Referee" uID="o41464" />
+        <MatchOfficial FirstName="Anton" LastName="Averianov" Type="Lineman#1" uID="o44863" />
+        <MatchOfficial FirstName="Tikhon" LastName="Kalugin" Type="Lineman#2" uID="o44864" />
+        <MatchOfficial FirstName="Maksim" LastName="Gavrilin" Type="Fourth official" uID="o45924" />
+      </MatchOfficials>
+      <Stat Type="Venue">Allianz Arena</Stat>
+      <Stat Type="City">München</Stat>
+      <TeamData HalfScore="2" Score="3" Side="Home" TeamRef="t156">
+        <Goal Period="FirstHalf" PlayerRef="p55634" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p165687" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p38392" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t61" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-10-19T12:29:23+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952394">
+      <MatchInfo GroupName="C" MatchDay="3" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="10948">
+        <Date>2017-10-18 17:00:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Ruddy" LastName="Buquet" Type="Referee" uID="o40850" />
+        <MatchOfficial FirstName="Guillaume" LastName="Debart" Type="Lineman#1" uID="o46087" />
+        <MatchOfficial FirstName="Frederic" LastName="Cano" Type="Lineman#2" uID="o43849" />
+        <MatchOfficial FirstName="Bertrand" LastName="Jouannaud" Type="Fourth official" uID="o46090" />
+      </MatchOfficials>
+      <Stat Type="Venue">Baku Olympic Stadium</Stat>
+      <Stat Type="City">Baku</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t3107" />
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t175" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-10-19T13:39:38+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952358">
+      <MatchInfo GroupName="D" MatchDay="3" MatchType="Regular" MatchWinner="t128" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="7598">
+        <Date>2017-10-18 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Michael" LastName="Oliver" Type="Referee" uID="o40962" />
+        <MatchOfficial FirstName="Stuart" LastName="Burt" Type="Lineman#1" uID="o43257" />
+        <MatchOfficial FirstName="Simon" LastName="Bennett" Type="Lineman#2" uID="o43280" />
+        <MatchOfficial FirstName="Harry" LastName="Lennard" Type="Fourth official" uID="o43273" />
+      </MatchOfficials>
+      <Stat Type="Venue">Allianz Stadium</Stat>
+      <Stat Type="City">Torino</Stat>
+      <TeamData HalfScore="1" Score="2" Side="Home" TeamRef="t128">
+        <Goal Period="FirstHalf" PlayerRef="p46696" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p46197" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="1" Side="Away" TeamRef="t255">
+        <Goal Period="FirstHalf" PlayerRef="p53693" Type="Own" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-10-19T13:26:01+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952404">
+      <MatchInfo GroupName="B" MatchDay="3" MatchType="Regular" MatchWinner="t149" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2113">
+        <Date>2017-10-18 19:45:00</Date>
+        <TZ>BST</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Pavel" LastName="Kralovec" Type="Referee" uID="o40786" />
+        <MatchOfficial FirstName="Roman" LastName="Slysko" Type="Lineman#1" uID="o40993" />
+        <MatchOfficial FirstName="Ivo" LastName="Nadvornik" Type="Lineman#2" uID="o46496" />
+        <MatchOfficial FirstName="Martin" LastName="Wilczek" Type="Fourth official" uID="o46357" />
+      </MatchOfficials>
+      <Stat Type="Venue">Constant Vanden Stockstadion</Stat>
+      <Stat Type="City">Brussels</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t241" />
+      <TeamData HalfScore="2" Score="4" Side="Away" TeamRef="t149">
+        <Goal Period="FirstHalf" PlayerRef="p220160" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p40720" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p46497" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p61278" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-01T18:16:31+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952395">
+      <MatchInfo GroupName="C" MatchDay="4" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="12175">
+        <Date>2017-10-31 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Deniz" LastName="Aytekin" Type="Referee" uID="o38595" />
+        <MatchOfficial FirstName="Guido" LastName="Kleve" Type="Lineman#1" uID="o41156" />
+        <MatchOfficial FirstName="Markus" LastName="Häcker" Type="Lineman#2" uID="o41154" />
+        <MatchOfficial FirstName="Eduard" LastName="Beitinger" Type="Fourth official" uID="o41200" />
+      </MatchOfficials>
+      <Stat Type="Venue">Wanda Metropolitano</Stat>
+      <Stat Type="City">Madrid</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t175">
+        <Goal Period="SecondHalf" PlayerRef="p167199" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="1" Side="Away" TeamRef="t3107">
+        <Goal Period="FirstHalf" PlayerRef="p51860" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-01T13:32:17+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952373">
+      <MatchInfo GroupName="A" MatchDay="4" MatchType="Regular" MatchWinner="t1340" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2208">
+        <Date>2017-10-31 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Milorad" LastName="Mazic" Type="Referee" uID="o41452" />
+        <MatchOfficial FirstName="Milovan" LastName="Ristic" Type="Lineman#1" uID="o44230" />
+        <MatchOfficial FirstName="Dalibor" LastName="Djurdjevic" Type="Lineman#2" uID="o44227" />
+        <MatchOfficial FirstName="Nemanja" LastName="Petrovic" Type="Fourth official" uID="o46493" />
+      </MatchOfficials>
+      <Stat Type="Venue">St Jakob-Park</Stat>
+      <Stat Type="City">Basel</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t481">
+        <Goal Period="FirstHalf" PlayerRef="p119593" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="2" Side="Away" TeamRef="t1340">
+        <Goal Period="SecondHalf" PlayerRef="p51437" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p51855" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-01T12:14:22+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952406">
+      <MatchInfo GroupName="B" MatchDay="4" MatchType="Regular" MatchWinner="t156" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="12">
+        <Date>2017-10-31 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Danny" LastName="Makkelie" Type="Referee" uID="o42023" />
+        <MatchOfficial FirstName="Mario" LastName="Diks" Type="Lineman#1" uID="o43210" />
+        <MatchOfficial FirstName="Hessel" LastName="Steegstra " Type="Lineman#2" uID="o43158" />
+        <MatchOfficial FirstName="Joost" LastName="van Zuilen" Type="Fourth official" uID="o43229" />
+      </MatchOfficials>
+      <Stat Type="Venue">Celtic Park</Stat>
+      <Stat Type="City">Glasgow</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t61">
+        <Goal Period="SecondHalf" PlayerRef="p107695" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="2" Side="Away" TeamRef="t156">
+        <Goal Period="FirstHalf" PlayerRef="p129508" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p37793" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-01T14:19:56+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952353">
+      <MatchInfo GroupName="A" MatchDay="4" MatchType="Regular" MatchWinner="t1" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="28">
+        <Date>2017-10-31 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Gediminas" LastName="Mazeika" Type="Referee" uID="o41453" />
+        <MatchOfficial FirstName="Vytautas" LastName="Šimkus" Type="Lineman#1" uID="o46552" />
+        <MatchOfficial FirstName="Vytenis" LastName="Kazlauskas" Type="Lineman#2" uID="o46553" />
+        <MatchOfficial FirstName="Dovydas" LastName="Sužied&amp;#279;lis" Type="Fourth official" uID="o46949" />
+      </MatchOfficials>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData HalfScore="1" Score="2" Side="Home" TeamRef="t1">
+        <Goal Period="FirstHalf" PlayerRef="p228531" Type="Own" />
+        <Goal Period="SecondHalf" PlayerRef="p58877" Type="Penalty" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t251" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-22T18:43:27+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952363">
+      <MatchInfo GroupName="D" MatchDay="4" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="3063">
+        <Date>2017-10-31 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Anthony" LastName="Taylor" Type="Referee" uID="o40933" />
+        <MatchOfficial FirstName="Gary" LastName="Beswick" Type="Lineman#1" uID="o43269" />
+        <MatchOfficial FirstName="Adam" LastName="Nunn" Type="Lineman#2" uID="o43329" />
+        <MatchOfficial FirstName="Stuart" LastName="Burt" Type="Fourth official" uID="o43257" />
+      </MatchOfficials>
+      <Stat Type="Venue">Georgios Karaiskakis Stadium</Stat>
+      <Stat Type="City">Piraeus</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t202" />
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t178" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-02T10:11:26+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952405">
+      <MatchInfo GroupName="B" MatchDay="4" MatchType="Regular" MatchWinner="t149" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1311">
+        <Date>2017-10-31 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="David José" LastName="Fernández Borbalán" Type="Referee" uID="o18746" />
+        <MatchOfficial FirstName="Raúl" LastName="Cabañero Martínez" Type="Lineman#1" uID="o44373" />
+        <MatchOfficial FirstName="Diego" LastName="Barbero Sevilla" Type="Lineman#2" uID="o44896" />
+        <MatchOfficial FirstName="Miguel" LastName="Martínez Munuera" Type="Fourth official" uID="o44363" />
+      </MatchOfficials>
+      <Stat Type="Venue">Parc des Princes</Stat>
+      <Stat Type="City">Paris</Stat>
+      <TeamData HalfScore="2" Score="5" Side="Home" TeamRef="t149">
+        <Goal Period="FirstHalf" PlayerRef="p61170" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p61278" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p89068" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p89068" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p89068" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t241" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-01T12:49:01+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952389">
+      <MatchInfo GroupName="C" MatchDay="4" MatchType="Regular" MatchWinner="t121" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1336">
+        <Date>2017-10-31 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Jonas" LastName="Eriksson" Type="Referee" uID="o39541" />
+        <MatchOfficial FirstName="Mathias" LastName="Klasenius" Type="Lineman#1" uID="o44229" />
+        <MatchOfficial FirstName="Daniel" LastName="Warnmark" Type="Lineman#2" uID="o44231" />
+        <MatchOfficial FirstName="Mehmet" LastName="Culum" Type="Fourth official" uID="o45472" />
+      </MatchOfficials>
+      <Stat Type="Venue">Olimpico</Stat>
+      <Stat Type="City">Roma</Stat>
+      <TeamData HalfScore="2" Score="3" Side="Home" TeamRef="t121">
+        <Goal Period="FirstHalf" PlayerRef="p58928" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p58928" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p55340" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-01T16:40:07+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952359">
+      <MatchInfo GroupName="D" MatchDay="4" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2116">
+        <Date>2017-10-31 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Clément" LastName="Turpin" Type="Referee" uID="o40845" />
+        <MatchOfficial FirstName="Cyril" LastName="Gringore" Type="Lineman#1" uID="o46057" />
+        <MatchOfficial FirstName="Guillaume" LastName="Debart" Type="Lineman#2" uID="o46087" />
+        <MatchOfficial FirstName="Hicham" LastName="Zakrani" Type="Fourth official" uID="o46082" />
+      </MatchOfficials>
+      <Stat Type="Venue">Estádio José Alvalade</Stat>
+      <Stat Type="City">Lisbon</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t255">
+        <Goal Period="FirstHalf" PlayerRef="p61573" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t128">
+        <Goal Period="SecondHalf" PlayerRef="p40232" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-02T15:08:46+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952429">
+      <MatchInfo GroupName="G" MatchDay="4" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="11180">
+        <Date>2017-11-01 17:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Paolo" LastName="Tagliavento" Type="Referee" uID="o18021" />
+        <MatchOfficial FirstName="Alessandro" LastName="Giallatini" Type="Lineman#1" uID="o41214" />
+        <MatchOfficial FirstName="Filippo" LastName="Meli" Type="Lineman#2" uID="o41110" />
+        <MatchOfficial FirstName="Riccardo" LastName="Di Fiore" Type="Fourth official" uID="o40728" />
+      </MatchOfficials>
+      <Stat Type="Venue">Vodafone Arena</Stat>
+      <Stat Type="City">Istanbul</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t378">
+        <Goal Period="SecondHalf" PlayerRef="p66838" Type="Penalty" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="1" Side="Away" TeamRef="t146">
+        <Goal Period="FirstHalf" PlayerRef="p109653" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-02T16:59:06+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952440">
+      <MatchInfo GroupName="H" MatchDay="4" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1369">
+        <Date>2017-11-01 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Matej" LastName="Jug" Type="Referee" uID="o41457" />
+        <MatchOfficial FirstName="Matej" LastName="Žuni&amp;#269;" Type="Lineman#1" uID="o46740" />
+        <MatchOfficial FirstName="Manuel" LastName="Vidali" Type="Lineman#2" uID="o46347" />
+        <MatchOfficial FirstName="Tomislav" LastName="Pospeh" Type="Fourth official" uID="o49593" />
+      </MatchOfficials>
+      <Stat Type="Venue">SIGNAL IDUNA PARK</Stat>
+      <Stat Type="City">Dortmund</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t157">
+        <Goal Period="FirstHalf" PlayerRef="p120772" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t479">
+        <Goal Period="SecondHalf" PlayerRef="p44290" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-02T15:53:12+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952428">
+      <MatchInfo GroupName="G" MatchDay="4" MatchType="Regular" MatchWinner="t201" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2710">
+        <Date>2017-11-01 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Ovidiu" LastName="Hategan" Type="Referee" uID="o41605" />
+        <MatchOfficial FirstName="Octavian" LastName="Sovre" Type="Lineman#1" uID="o45602" />
+        <MatchOfficial FirstName="Sebastian" LastName="Gheorghe" Type="Lineman#2" uID="o45585" />
+        <MatchOfficial FirstName="Adrian" LastName="Ghinguleac" Type="Fourth official" uID="o45586" />
+      </MatchOfficials>
+      <Stat Type="Venue">Estádio do Dragão</Stat>
+      <Stat Type="City">Porto</Stat>
+      <TeamData HalfScore="1" Score="3" Side="Home" TeamRef="t201">
+        <Goal Period="FirstHalf" PlayerRef="p102578" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p32284" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p87668" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t6339">
+        <Goal Period="SecondHalf" PlayerRef="p165153" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-02T17:00:52+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952417">
+      <MatchInfo GroupName="E" MatchDay="4" MatchType="Regular" MatchWinner="t14" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="39">
+        <Date>2017-11-01 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Ivan" LastName="Kruzliak" Type="Referee" uID="o42667" />
+        <MatchOfficial FirstName="Martin" LastName="Balko" Type="Lineman#1" uID="o40994" />
+        <MatchOfficial FirstName="Tomas" LastName="Somolani" Type="Lineman#2" uID="o46488" />
+        <MatchOfficial FirstName="Branislav" LastName="Hancko" Type="Fourth official" uID="o48072" />
+      </MatchOfficials>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData HalfScore="0" Score="3" Side="Home" TeamRef="t14">
+        <Goal Period="SecondHalf" PlayerRef="p40755" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p112338" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p118748" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t3033" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-02T11:55:10+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952376">
+      <MatchInfo GroupName="F" MatchDay="4" MatchType="Regular" MatchWinner="t43" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1339">
+        <Date>2017-11-01 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Dr. Felix" LastName="Brych" Type="Referee" uID="o18519" />
+        <MatchOfficial FirstName="Mark" LastName="Borsch" Type="Lineman#1" uID="o41147" />
+        <MatchOfficial FirstName="Stefan" LastName="Lupp" Type="Lineman#2" uID="o37232" />
+        <MatchOfficial FirstName="Marco" LastName="Achmüller" Type="Fourth official" uID="o41082" />
+      </MatchOfficials>
+      <Stat Type="Venue">San Paolo</Stat>
+      <Stat Type="City">Napoli</Stat>
+      <TeamData HalfScore="1" Score="2" Side="Home" TeamRef="t459">
+        <Goal Period="FirstHalf" PlayerRef="p75592" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p85955" Type="Penalty" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="4" Side="Away" TeamRef="t43">
+        <Goal Period="FirstHalf" PlayerRef="p57410" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p97299" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p103955" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p37572" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-02T19:20:01+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952416">
+      <MatchInfo GroupName="E" MatchDay="4" MatchType="Regular" MatchWinner="t179" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2474">
+        <Date>2017-11-01 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Artur" LastName="Dias Soares" Type="Referee" uID="o42113" />
+        <MatchOfficial FirstName="Rui" LastName="Licínio Tavares" Type="Lineman#1" uID="o46603" />
+        <MatchOfficial FirstName="Paulo" LastName="Soares" Type="Lineman#2" uID="o46129" />
+        <MatchOfficial FirstName="Bruno" LastName="Rodrigues" Type="Fourth official" uID="o46127" />
+      </MatchOfficials>
+      <Stat Type="Venue">Ramón Sánchez-Pizjuán</Stat>
+      <Stat Type="City">Sevilla</Stat>
+      <TeamData HalfScore="1" Score="2" Side="Home" TeamRef="t179">
+        <Goal Period="FirstHalf" PlayerRef="p171101" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p49309" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t205">
+        <Goal Period="SecondHalf" PlayerRef="p83672" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-02T18:07:24+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952384">
+      <MatchInfo GroupName="F" MatchDay="4" MatchType="Regular" MatchWinner="t455" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="3570">
+        <Date>2017-11-01 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Anastasios" LastName="Sidiropoulos" Type="Referee" uID="o42168" />
+        <MatchOfficial FirstName="Polychronis" LastName="Kostaras" Type="Lineman#1" uID="o46471" />
+        <MatchOfficial FirstName="Lazaros" LastName="Dimitriadis" Type="Lineman#2" uID="o46328" />
+        <MatchOfficial FirstName="Damianos" LastName="Efthimiadis" Type="Fourth official" uID="o46469" />
+      </MatchOfficials>
+      <Stat Type="Venue">Metalist Stadium</Stat>
+      <Stat Type="City">Kharkiv</Stat>
+      <TeamData HalfScore="2" Score="3" Side="Home" TeamRef="t455">
+        <Goal Period="FirstHalf" PlayerRef="p52664" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p86527" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p52664" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="1" Side="Away" TeamRef="t198">
+        <Goal Period="FirstHalf" PlayerRef="p80521" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-02T13:07:38+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952441">
+      <MatchInfo GroupName="H" MatchDay="4" MatchType="Regular" MatchWinner="t6" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="5">
+        <Date>2017-11-01 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Cüneyt" LastName="Çakir" Type="Referee" uID="o40744" />
+        <MatchOfficial FirstName="Bahattin" LastName="Duran" Type="Lineman#1" uID="o43856" />
+        <MatchOfficial FirstName="Tarik" LastName="Ongun" Type="Lineman#2" uID="o43857" />
+        <MatchOfficial FirstName="Mustafa" LastName="Eyisoy" Type="Fourth official" uID="o46096" />
+      </MatchOfficials>
+      <Stat Type="Venue">Wembley Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData HalfScore="1" Score="3" Side="Home" TeamRef="t6">
+        <Goal Period="FirstHalf" PlayerRef="p108823" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p80607" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p108823" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t186">
+        <Goal Period="SecondHalf" PlayerRef="p14937" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-23T13:13:55+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952442">
+      <MatchInfo GroupName="H" MatchDay="5" MatchType="Regular" MatchWinner="t186" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2861">
+        <Date>2017-11-21 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Artur" LastName="Dias Soares" Type="Referee" uID="o42113" />
+        <MatchOfficial FirstName="Rui" LastName="Licínio Tavares" Type="Lineman#1" uID="o46603" />
+        <MatchOfficial FirstName="Paulo" LastName="Soares" Type="Lineman#2" uID="o46129" />
+        <MatchOfficial FirstName="Bruno" LastName="Rodrigues" Type="Fourth official" uID="o46127" />
+      </MatchOfficials>
+      <Stat Type="Venue">GSP Stadium</Stat>
+      <Stat Type="City">Nicosia</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t479" />
+      <TeamData HalfScore="4" Score="6" Side="Away" TeamRef="t186">
+        <Goal Period="FirstHalf" PlayerRef="p19927" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p88477" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p37055" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p19927" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p14937" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p14937" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-22T18:41:39+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952430">
+      <MatchInfo GroupName="G" MatchDay="5" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="11180">
+        <Date>2017-11-21 17:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Antonio Miguel" LastName="Mateu Lahoz" Type="Referee" uID="o41066" />
+        <MatchOfficial FirstName="Pau" LastName="Cebrián Devís" Type="Lineman#1" uID="o43864" />
+        <MatchOfficial FirstName="Roberto" LastName="Díaz Pérez del Palomar" Type="Lineman#2" uID="o44412" />
+        <MatchOfficial FirstName="Diego" LastName="Barbero Sevilla" Type="Fourth official" uID="o44896" />
+      </MatchOfficials>
+      <Stat Type="Venue">Vodafone Arena</Stat>
+      <Stat Type="City">Istanbul</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t378">
+        <Goal Period="FirstHalf" PlayerRef="p159422" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="1" Side="Away" TeamRef="t201">
+        <Goal Period="FirstHalf" PlayerRef="p116404" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-22T11:28:17+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952443">
+      <MatchInfo GroupName="H" MatchDay="5" MatchType="Regular" MatchWinner="t6" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1369">
+        <Date>2017-11-21 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Clément" LastName="Turpin" Type="Referee" uID="o40845" />
+        <MatchOfficial FirstName="Nicolas" LastName="Danos" Type="Lineman#1" uID="o45030" />
+        <MatchOfficial FirstName="Cyril" LastName="Gringore" Type="Lineman#2" uID="o46057" />
+        <MatchOfficial FirstName="Hicham" LastName="Zakrani" Type="Fourth official" uID="o46082" />
+      </MatchOfficials>
+      <Stat Type="Venue">SIGNAL IDUNA PARK</Stat>
+      <Stat Type="City">Dortmund</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t157">
+        <Goal Period="FirstHalf" PlayerRef="p54694" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="2" Side="Away" TeamRef="t6">
+        <Goal Period="SecondHalf" PlayerRef="p78830" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p85971" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-22T11:22:06+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952382">
+      <MatchInfo GroupName="F" MatchDay="5" MatchType="Regular" MatchWinner="t43" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2691">
+        <Date>2017-11-21 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Ivan" LastName="Kruzliak" Type="Referee" uID="o42667" />
+        <MatchOfficial FirstName="Martin" LastName="Balko" Type="Lineman#1" uID="o40994" />
+        <MatchOfficial FirstName="Tomas" LastName="Somolani" Type="Lineman#2" uID="o46488" />
+        <MatchOfficial FirstName="Roman" LastName="Slysko" Type="Fourth official" uID="o40993" />
+      </MatchOfficials>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t43">
+        <Goal Period="SecondHalf" PlayerRef="p103955" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t198" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-22T13:30:09+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952431">
+      <MatchInfo GroupName="G" MatchDay="5" MatchType="Regular" MatchWinner="t6339" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1313">
+        <Date>2017-11-21 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Alberto" LastName="Undiano Mallenco" Type="Referee" uID="o11095" />
+        <MatchOfficial FirstName="Roberto" LastName="Alonso Fernández" Type="Lineman#1" uID="o43863" />
+        <MatchOfficial FirstName="Juan Carlos" LastName="Yuste Jiménez" Type="Lineman#2" uID="o40983" />
+        <MatchOfficial FirstName="Raúl" LastName="Cabañero Martínez" Type="Fourth official" uID="o44373" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stade Louis II</Stat>
+      <Stat Type="City">Monaco</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t146">
+        <Goal Period="FirstHalf" PlayerRef="p48847" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="4" Score="4" Side="Away" TeamRef="t6339">
+        <Goal Period="FirstHalf" PlayerRef="p165153" Type="Penalty" />
+        <Goal Period="FirstHalf" PlayerRef="p175592" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p165153" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p162654" Type="Own" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-22T13:43:43+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952377">
+      <MatchInfo GroupName="F" MatchDay="5" MatchType="Regular" MatchWinner="t459" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1339">
+        <Date>2017-11-21 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Damir" LastName="Skomina" Type="Referee" uID="o40740" />
+        <MatchOfficial FirstName="Jure" LastName="Praprotnik" Type="Lineman#1" uID="o46345" />
+        <MatchOfficial FirstName="Robert" LastName="Vukan" Type="Lineman#2" uID="o46346" />
+        <MatchOfficial FirstName="Tomaz" LastName="Klancnik" Type="Fourth official" uID="o46569" />
+      </MatchOfficials>
+      <Stat Type="Venue">San Paolo</Stat>
+      <Stat Type="City">Napoli</Stat>
+      <TeamData HalfScore="0" Score="3" Side="Home" TeamRef="t459">
+        <Goal Period="SecondHalf" PlayerRef="p126440" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p54917" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p75592" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t455" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-22T13:57:04+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952419">
+      <MatchInfo GroupName="E" MatchDay="5" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2474">
+        <Date>2017-11-21 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Dr. Felix" LastName="Brych" Type="Referee" uID="o18519" />
+        <MatchOfficial FirstName="Mark" LastName="Borsch" Type="Lineman#1" uID="o41147" />
+        <MatchOfficial FirstName="Stefan" LastName="Lupp" Type="Lineman#2" uID="o37232" />
+        <MatchOfficial FirstName="Jan" LastName="Seidel" Type="Fourth official" uID="o41183" />
+      </MatchOfficials>
+      <Stat Type="Venue">Ramón Sánchez-Pizjuán</Stat>
+      <Stat Type="City">Sevilla</Stat>
+      <TeamData HalfScore="0" Score="3" Side="Home" TeamRef="t179">
+        <Goal Period="SecondHalf" PlayerRef="p86261" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p83912" Type="Penalty" />
+        <Goal Period="SecondHalf" PlayerRef="p83912" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="3" Score="3" Side="Away" TeamRef="t14">
+        <Goal Period="FirstHalf" PlayerRef="p92217" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p92217" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p110979" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-22T14:55:10+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952418">
+      <MatchInfo GroupName="E" MatchDay="5" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="9824">
+        <Date>2017-11-21 17:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="William" LastName="Collum" Type="Referee" uID="o41004" />
+        <MatchOfficial FirstName="David" LastName="McGeachie" Type="Lineman#1" uID="o43178" />
+        <MatchOfficial FirstName="Frank" LastName="Connor" Type="Lineman#2" uID="o43166" />
+        <MatchOfficial FirstName="Dougie" LastName="Potter" Type="Fourth official" uID="o43398" />
+      </MatchOfficials>
+      <Stat Type="Venue">Otkrytie Arena</Stat>
+      <Stat Type="City">Moscow</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t205">
+        <Goal Period="SecondHalf" PlayerRef="p83672" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t3033">
+        <Goal Period="SecondHalf" PlayerRef="p103298" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-23T14:12:11+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952396">
+      <MatchInfo GroupName="C" MatchDay="5" MatchType="Regular" MatchWinner="t175" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="12175">
+        <Date>2017-11-22 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Björn" LastName="Kuipers" Type="Referee" uID="o39370" />
+        <MatchOfficial FirstName="Sander" LastName="van Roekel" Type="Lineman#1" uID="o43206" />
+        <MatchOfficial FirstName="Erwin" LastName="Zeinstra" Type="Lineman#2" uID="o43207" />
+        <MatchOfficial FirstName="Mario" LastName="Diks" Type="Fourth official" uID="o43210" />
+      </MatchOfficials>
+      <Stat Type="Venue">Wanda Metropolitano</Stat>
+      <Stat Type="City">Madrid</Stat>
+      <TeamData HalfScore="0" Score="2" Side="Home" TeamRef="t175">
+        <Goal Period="SecondHalf" PlayerRef="p76650" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p42779" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t121" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-23T13:40:58+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952354">
+      <MatchInfo GroupName="A" MatchDay="5" MatchType="Regular" MatchWinner="t481" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2208">
+        <Date>2017-11-22 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Daniele" LastName="Orsato" Type="Referee" uID="o40448" />
+        <MatchOfficial FirstName="Riccardo" LastName="Di Fiore" Type="Lineman#1" uID="o40728" />
+        <MatchOfficial FirstName="Lorenzo" LastName="Manganelli" Type="Lineman#2" uID="o40958" />
+        <MatchOfficial FirstName="Alessandro" LastName="Giallatini" Type="Fourth official" uID="o41214" />
+      </MatchOfficials>
+      <Stat Type="Venue">St Jakob-Park</Stat>
+      <Stat Type="City">Basel</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t481">
+        <Goal Period="SecondHalf" PlayerRef="p47085" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-23T14:38:10+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952370">
+      <MatchInfo GroupName="A" MatchDay="5" MatchType="Regular" MatchWinner="t1340" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="11515">
+        <Date>2017-11-22 17:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Deniz" LastName="Aytekin" Type="Referee" uID="o38595" />
+        <MatchOfficial FirstName="Rafael" LastName="Foltyn" Type="Lineman#1" uID="o41427" />
+        <MatchOfficial FirstName="Markus" LastName="Häcker" Type="Lineman#2" uID="o41154" />
+        <MatchOfficial FirstName="Eduard" LastName="Beitinger" Type="Fourth official" uID="o41200" />
+      </MatchOfficials>
+      <Stat Type="Venue">VEB Arena</Stat>
+      <Stat Type="City">Moscow</Stat>
+      <TeamData HalfScore="1" Score="2" Side="Home" TeamRef="t1340">
+        <Goal Period="FirstHalf" PlayerRef="p52194" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p84633" Type="Own" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t251" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-23T12:17:44+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952390">
+      <MatchInfo GroupName="C" MatchDay="5" MatchType="Regular" MatchWinner="t8" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="10948">
+        <Date>2017-11-22 17:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Jorge" LastName="Sousa" Type="Referee" uID="o40882" />
+        <MatchOfficial FirstName="Álvaro" LastName="Mesquita" Type="Lineman#1" uID="o46372" />
+        <MatchOfficial FirstName="Ricardo Jorge" LastName="Santos" Type="Lineman#2" uID="o46123" />
+        <MatchOfficial FirstName="Nuno" LastName="Pereira" Type="Fourth official" uID="o46134" />
+      </MatchOfficials>
+      <Stat Type="Venue">Baku Olympic Stadium</Stat>
+      <Stat Type="City">Baku</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t3107" />
+      <TeamData HalfScore="2" Score="4" Side="Away" TeamRef="t8">
+        <Goal Period="FirstHalf" PlayerRef="p47431" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p42786" Type="Penalty" />
+        <Goal Period="SecondHalf" PlayerRef="p17878" Type="Penalty" />
+        <Goal Period="SecondHalf" PlayerRef="p47431" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-23T15:45:13+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952360">
+      <MatchInfo GroupName="D" MatchDay="5" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="7598">
+        <Date>2017-11-22 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Milorad" LastName="Mazic" Type="Referee" uID="o41452" />
+        <MatchOfficial FirstName="Milovan" LastName="Ristic" Type="Lineman#1" uID="o44230" />
+        <MatchOfficial FirstName="Dalibor" LastName="Djurdjevic" Type="Lineman#2" uID="o44227" />
+        <MatchOfficial FirstName="Nemanja" LastName="Petrovic" Type="Fourth official" uID="o46493" />
+      </MatchOfficials>
+      <Stat Type="Venue">Allianz Stadium</Stat>
+      <Stat Type="City">Torino</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t128" />
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t178" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-23T13:35:15+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952408">
+      <MatchInfo GroupName="B" MatchDay="5" MatchType="Regular" MatchWinner="t149" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1311">
+        <Date>2017-11-22 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Anastasios" LastName="Sidiropoulos" Type="Referee" uID="o42168" />
+        <MatchOfficial FirstName="Polychronis" LastName="Kostaras" Type="Lineman#1" uID="o46471" />
+        <MatchOfficial FirstName="Lazaros" LastName="Dimitriadis" Type="Lineman#2" uID="o46328" />
+        <MatchOfficial FirstName="Damianos" LastName="Efthimiadis" Type="Fourth official" uID="o46469" />
+      </MatchOfficials>
+      <Stat Type="Venue">Parc des Princes</Stat>
+      <Stat Type="City">Paris</Stat>
+      <TeamData HalfScore="4" Score="7" Side="Home" TeamRef="t149">
+        <Goal Period="FirstHalf" PlayerRef="p61278" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p40720" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p220160" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p61278" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p61170" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p40720" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p15780" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="1" Side="Away" TeamRef="t61">
+        <Goal Period="FirstHalf" PlayerRef="p122399" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-23T16:19:10+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952407">
+      <MatchInfo GroupName="B" MatchDay="5" MatchType="Regular" MatchWinner="t156" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2113">
+        <Date>2017-11-22 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Anthony" LastName="Taylor" Type="Referee" uID="o40933" />
+        <MatchOfficial FirstName="Gary" LastName="Beswick" Type="Lineman#1" uID="o43269" />
+        <MatchOfficial FirstName="Adam" LastName="Nunn" Type="Lineman#2" uID="o43329" />
+        <MatchOfficial FirstName="Stuart" LastName="Burt" Type="Fourth official" uID="o43257" />
+      </MatchOfficials>
+      <Stat Type="Venue">Constant Vanden Stockstadion</Stat>
+      <Stat Type="City">Brussels</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t241">
+        <Goal Period="SecondHalf" PlayerRef="p61843" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="2" Side="Away" TeamRef="t156">
+        <Goal Period="SecondHalf" PlayerRef="p168568" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p56764" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-11-23T17:10:41+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952367">
+      <MatchInfo GroupName="D" MatchDay="5" MatchType="Regular" MatchWinner="t255" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2116">
+        <Date>2017-11-22 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Felix" LastName="Zwayer" Type="Referee" uID="o40892" />
+        <MatchOfficial FirstName="Thorsten" LastName="Schiffner" Type="Lineman#1" uID="o41157" />
+        <MatchOfficial FirstName="Marco" LastName="Achmüller" Type="Lineman#2" uID="o41082" />
+        <MatchOfficial FirstName="Holger" LastName="Henschel" Type="Fourth official" uID="o37216" />
+      </MatchOfficials>
+      <Stat Type="Venue">Estádio José Alvalade</Stat>
+      <Stat Type="City">Lisbon</Stat>
+      <TeamData HalfScore="2" Score="3" Side="Home" TeamRef="t255">
+        <Goal Period="FirstHalf" PlayerRef="p61573" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p52893" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p52893" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t202">
+        <Goal Period="SecondHalf" PlayerRef="p49433" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-12-06T14:47:04+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952365">
+      <MatchInfo GroupName="D" MatchDay="6" MatchType="Regular" MatchWinner="t178" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1349">
+        <Date>2017-12-05 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Craig" LastName="Thomson" Type="Referee" uID="o13156" />
+        <MatchOfficial FirstName="Alan" LastName="Mulvanny" Type="Lineman#1" uID="o43182" />
+        <MatchOfficial FirstName="Graeme" LastName="Stewart" Type="Lineman#2" uID="o43181" />
+        <MatchOfficial FirstName="Stuart" LastName="Stevenson" Type="Fourth official" uID="o43169" />
+      </MatchOfficials>
+      <Stat Type="Venue">Camp Nou</Stat>
+      <Stat Type="City">Barcelona</Stat>
+      <TeamData HalfScore="0" Score="2" Side="Home" TeamRef="t178">
+        <Goal Period="SecondHalf" PlayerRef="p86876" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p14095" Type="Own" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t255" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-12-06T15:51:36+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952371">
+      <MatchInfo GroupName="A" MatchDay="6" MatchType="Regular" MatchWinner="t481" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2713">
+        <Date>2017-12-05 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Jesús" LastName="Gil Manzano" Type="Referee" uID="o42061" />
+        <MatchOfficial FirstName="Ángel" LastName="Nevado Rodríguez" Type="Lineman#1" uID="o44362" />
+        <MatchOfficial FirstName="Teodoro" LastName="Sobrino Magán" Type="Lineman#2" uID="o43448" />
+        <MatchOfficial FirstName="Juan Carlos" LastName="Yuste Jiménez" Type="Fourth official" uID="o40983" />
+      </MatchOfficials>
+      <Stat Type="Venue">Estádio da Luz</Stat>
+      <Stat Type="City">Lisbon</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t251" />
+      <TeamData HalfScore="1" Score="2" Side="Away" TeamRef="t481">
+        <Goal Period="FirstHalf" PlayerRef="p96787" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p185057" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-12-06T13:05:59+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952409">
+      <MatchInfo GroupName="B" MatchDay="6" MatchType="Regular" MatchWinner="t241" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="12">
+        <Date>2017-12-05 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Matej" LastName="Jug" Type="Referee" uID="o41457" />
+        <MatchOfficial FirstName="Matej" LastName="Žuni&amp;#269;" Type="Lineman#1" uID="o46740" />
+        <MatchOfficial FirstName="Manuel" LastName="Vidali" Type="Lineman#2" uID="o46347" />
+        <MatchOfficial FirstName="Tomislav" LastName="Pospeh" Type="Fourth official" uID="o49593" />
+      </MatchOfficials>
+      <Stat Type="Venue">Celtic Park</Stat>
+      <Stat Type="City">Glasgow</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t61" />
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t241">
+        <Goal Period="SecondHalf" PlayerRef="p102169" Type="Own" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-12-06T12:30:47+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952391">
+      <MatchInfo GroupName="C" MatchDay="6" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="35">
+        <Date>2017-12-05 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Danny" LastName="Makkelie" Type="Referee" uID="o42023" />
+        <MatchOfficial FirstName="Mario" LastName="Diks" Type="Lineman#1" uID="o43210" />
+        <MatchOfficial FirstName="Hessel" LastName="Steegstra " Type="Lineman#2" uID="o43158" />
+        <MatchOfficial FirstName="Jan" LastName="de Vries" Type="Fourth official" uID="o43221" />
+      </MatchOfficials>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t8">
+        <Goal Period="SecondHalf" PlayerRef="p65807" Type="Own" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t175">
+        <Goal Period="SecondHalf" PlayerRef="p89335" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-12-06T13:42:23+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952402">
+      <MatchInfo GroupName="B" MatchDay="6" MatchType="Regular" MatchWinner="t156" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2775">
+        <Date>2017-12-05 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Cüneyt" LastName="Çakir" Type="Referee" uID="o40744" />
+        <MatchOfficial FirstName="Bahattin" LastName="Duran" Type="Lineman#1" uID="o43856" />
+        <MatchOfficial FirstName="Tarik" LastName="Ongun" Type="Lineman#2" uID="o43857" />
+        <MatchOfficial FirstName="Mustafa" LastName="Eyisoy" Type="Fourth official" uID="o46096" />
+      </MatchOfficials>
+      <Stat Type="Venue">Allianz Arena</Stat>
+      <Stat Type="City">München</Stat>
+      <TeamData HalfScore="2" Score="3" Side="Home" TeamRef="t156">
+        <Goal Period="FirstHalf" PlayerRef="p168568" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p56764" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p168568" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t149">
+        <Goal Period="SecondHalf" PlayerRef="p220160" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-12-06T13:22:15+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952355">
+      <MatchInfo GroupName="A" MatchDay="6" MatchType="Regular" MatchWinner="t1" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="28">
+        <Date>2017-12-05 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Gianluca" LastName="Rocchi" Type="Referee" uID="o18022" />
+        <MatchOfficial FirstName="Elenito" LastName="Di Liberatore" Type="Lineman#1" uID="o40752" />
+        <MatchOfficial FirstName="Mauro" LastName="Tonolini" Type="Lineman#2" uID="o40770" />
+        <MatchOfficial FirstName="Fabiano" LastName="Preti" Type="Fourth official" uID="o41259" />
+      </MatchOfficials>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData HalfScore="0" Score="2" Side="Home" TeamRef="t1">
+        <Goal Period="SecondHalf" PlayerRef="p66749" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p176297" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="1" Side="Away" TeamRef="t1340">
+        <Goal Period="FirstHalf" PlayerRef="p116387" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-12-06T16:46:50+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952361">
+      <MatchInfo GroupName="D" MatchDay="6" MatchType="Regular" MatchWinner="t128" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="3063">
+        <Date>2017-12-05 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="David José" LastName="Fernández Borbalán" Type="Referee" uID="o18746" />
+        <MatchOfficial FirstName="Raúl" LastName="Cabañero Martínez" Type="Lineman#1" uID="o44373" />
+        <MatchOfficial FirstName="Diego" LastName="Barbero Sevilla" Type="Lineman#2" uID="o44896" />
+        <MatchOfficial FirstName="Miguel" LastName="Martínez Munuera" Type="Fourth official" uID="o44363" />
+      </MatchOfficials>
+      <Stat Type="Venue">Georgios Karaiskakis Stadium</Stat>
+      <Stat Type="City">Piraeus</Stat>
+      <TeamData HalfScore="0" Score="0" Side="Home" TeamRef="t202" />
+      <TeamData HalfScore="1" Score="2" Side="Away" TeamRef="t128">
+        <Goal Period="FirstHalf" PlayerRef="p66733" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p147297" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-12-06T15:50:10+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952397">
+      <MatchInfo GroupName="C" MatchDay="6" MatchType="Regular" MatchWinner="t121" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1336">
+        <Date>2017-12-05 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Tobias" LastName="Stieler" Type="Referee" uID="o41096" />
+        <MatchOfficial FirstName="Mike" LastName="Pickel" Type="Lineman#1" uID="o37234" />
+        <MatchOfficial FirstName="Jan" LastName="Seidel" Type="Lineman#2" uID="o41183" />
+        <MatchOfficial FirstName="Christian" LastName="Gittelmann" Type="Fourth official" uID="o41928" />
+      </MatchOfficials>
+      <Stat Type="Venue">Olimpico</Stat>
+      <Stat Type="City">Roma</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t121">
+        <Goal Period="SecondHalf" PlayerRef="p55340" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t3107" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-12-07T14:30:39+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952433">
+      <MatchInfo GroupName="G" MatchDay="6" MatchType="Regular" MatchWinner="t201" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="2710">
+        <Date>2017-12-06 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Jonas" LastName="Eriksson" Type="Referee" uID="o39541" />
+        <MatchOfficial FirstName="Mathias" LastName="Klasenius" Type="Lineman#1" uID="o44229" />
+        <MatchOfficial FirstName="Daniel" LastName="Warnmark" Type="Lineman#2" uID="o44231" />
+        <MatchOfficial FirstName="Mehmet" LastName="Culum" Type="Fourth official" uID="o45472" />
+      </MatchOfficials>
+      <Stat Type="Venue">Estádio do Dragão</Stat>
+      <Stat Type="City">Porto</Stat>
+      <TeamData HalfScore="3" Score="5" Side="Home" TeamRef="t201">
+        <Goal Period="FirstHalf" PlayerRef="p51310" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p83465" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p83465" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p152590" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p176966" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="2" Side="Away" TeamRef="t146">
+        <Goal Period="SecondHalf" PlayerRef="p71403" Type="Penalty" />
+        <Goal Period="SecondHalf" PlayerRef="p48847" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-12-08T15:33:17+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952378">
+      <MatchInfo GroupName="F" MatchDay="6" MatchType="Regular" MatchWinner="t198" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="114">
+        <Date>2017-12-06 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Michael" LastName="Oliver" Type="Referee" uID="o40962" />
+        <MatchOfficial FirstName="Stuart" LastName="Burt" Type="Lineman#1" uID="o43257" />
+        <MatchOfficial FirstName="Simon" LastName="Bennett" Type="Lineman#2" uID="o43280" />
+        <MatchOfficial FirstName="Harry" LastName="Lennard" Type="Fourth official" uID="o43273" />
+      </MatchOfficials>
+      <Stat Type="Venue">De Kuip</Stat>
+      <Stat Type="City">Rotterdam</Stat>
+      <TeamData HalfScore="1" Score="2" Side="Home" TeamRef="t198">
+        <Goal Period="FirstHalf" PlayerRef="p80521" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p202911" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="1" Side="Away" TeamRef="t459">
+        <Goal Period="FirstHalf" PlayerRef="p126440" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-12-08T15:33:17+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952421">
+      <MatchInfo GroupName="E" MatchDay="6" MatchType="Regular" MatchWinner="t14" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="39">
+        <Date>2017-12-06 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Szymon" LastName="Marciniak" Type="Referee" uID="o42003" />
+        <MatchOfficial FirstName="Pawel" LastName="Sokolnicki" Type="Lineman#1" uID="o45007" />
+        <MatchOfficial FirstName="Tomasz" LastName="Listkiewicz" Type="Lineman#2" uID="o46343" />
+        <MatchOfficial FirstName="Radoslaw" LastName="Siejka" Type="Fourth official" uID="o46344" />
+      </MatchOfficials>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData HalfScore="3" Score="7" Side="Home" TeamRef="t14">
+        <Goal Period="FirstHalf" PlayerRef="p92217" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p84583" Type="Penalty" />
+        <Goal Period="FirstHalf" PlayerRef="p84583" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p110979" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p118748" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p84583" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p110979" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t205" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-12-08T15:33:17+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952420">
+      <MatchInfo GroupName="E" MatchDay="6" MatchType="Regular" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="3328">
+        <Date>2017-12-06 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Ovidiu" LastName="Hategan" Type="Referee" uID="o41605" />
+        <MatchOfficial FirstName="Octavian" LastName="Sovre" Type="Lineman#1" uID="o45602" />
+        <MatchOfficial FirstName="Sebastian" LastName="Gheorghe" Type="Lineman#2" uID="o45585" />
+        <MatchOfficial FirstName="Adrian" LastName="Ghinguleac" Type="Fourth official" uID="o45586" />
+      </MatchOfficials>
+      <Stat Type="Venue">Ljudski vrt</Stat>
+      <Stat Type="City">Maribor</Stat>
+      <TeamData HalfScore="1" Score="1" Side="Home" TeamRef="t3033">
+        <Goal Period="FirstHalf" PlayerRef="p67455" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t179">
+        <Goal Period="SecondHalf" PlayerRef="p61272" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-12-07T19:54:16+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952432">
+      <MatchInfo GroupName="G" MatchDay="6" MatchType="Regular" MatchWinner="t378" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="6865">
+        <Date>2017-12-06 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Viktor" LastName="Kassai" Type="Referee" uID="o40732" />
+        <MatchOfficial FirstName="György" LastName="Ring" Type="Lineman#1" uID="o46236" />
+        <MatchOfficial FirstName="Vencel" LastName="Toth" Type="Lineman#2" uID="o46237" />
+        <MatchOfficial FirstName="Balázs" LastName="Buzás" Type="Fourth official" uID="o46551" />
+      </MatchOfficials>
+      <Stat Type="Venue">Red Bull Arena</Stat>
+      <Stat Type="City">Leipzig</Stat>
+      <TeamData HalfScore="0" Score="1" Side="Home" TeamRef="t6339">
+        <Goal Period="SecondHalf" PlayerRef="p175592" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="2" Side="Away" TeamRef="t378">
+        <Goal Period="FirstHalf" PlayerRef="p42892" Type="Penalty" />
+        <Goal Period="SecondHalf" PlayerRef="p159422" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-12-07T22:00:03+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952444">
+      <MatchInfo GroupName="H" MatchDay="6" MatchType="Regular" MatchWinner="t186" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="1360">
+        <Date>2017-12-06 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Pavel" LastName="Kralovec" Type="Referee" uID="o40786" />
+        <MatchOfficial FirstName="Roman" LastName="Slysko" Type="Lineman#1" uID="o40993" />
+        <MatchOfficial FirstName="Ivo" LastName="Nadvornik" Type="Lineman#2" uID="o46496" />
+        <MatchOfficial FirstName="Martin" LastName="Wilczek" Type="Fourth official" uID="o46357" />
+      </MatchOfficials>
+      <Stat Type="Venue">Santiago Bernabéu</Stat>
+      <Stat Type="City">Madrid</Stat>
+      <TeamData HalfScore="2" Score="3" Side="Home" TeamRef="t186">
+        <Goal Period="FirstHalf" PlayerRef="p14937" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p199248" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p107593" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="1" Score="2" Side="Away" TeamRef="t157">
+        <Goal Period="FirstHalf" PlayerRef="p54694" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p54694" Type="Goal" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-12-08T15:33:17+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952383">
+      <MatchInfo GroupName="F" MatchDay="6" MatchType="Regular" MatchWinner="t455" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="3570">
+        <Date>2017-12-06 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Benoit" LastName="Bastien" Type="Referee" uID="o42022" />
+        <MatchOfficial FirstName="Hicham" LastName="Zakrani" Type="Lineman#1" uID="o46082" />
+        <MatchOfficial FirstName="Frederic" LastName="Haquette" Type="Lineman#2" uID="o46081" />
+        <MatchOfficial FirstName="Julien" LastName="Pacelli" Type="Fourth official" uID="o46094" />
+      </MatchOfficials>
+      <Stat Type="Venue">Metalist Stadium</Stat>
+      <Stat Type="City">Kharkiv</Stat>
+      <TeamData HalfScore="2" Score="2" Side="Home" TeamRef="t455">
+        <Goal Period="FirstHalf" PlayerRef="p87497" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p100649" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="1" Side="Away" TeamRef="t43">
+        <Goal Period="SecondHalf" PlayerRef="p37572" Type="Penalty" />
+      </TeamData>
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2017-12-07T11:08:59+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g952445">
+      <MatchInfo GroupName="H" MatchDay="6" MatchType="Regular" MatchWinner="t6" Period="FullTime" RoundNumber="1" RoundType="Round" Venue_id="5">
+        <Date>2017-12-06 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <MatchOfficials>
+        <MatchOfficial FirstName="Slavko" LastName="Vincic" Type="Referee" uID="o42727" />
+        <MatchOfficial FirstName="Tomaz" LastName="Klancnik" Type="Lineman#1" uID="o46569" />
+        <MatchOfficial FirstName="Andraž" LastName="Kovacic" Type="Lineman#2" uID="o46509" />
+        <MatchOfficial FirstName="Grega" LastName="Kordez" Type="Fourth official" uID="o49594" />
+      </MatchOfficials>
+      <Stat Type="Venue">Wembley Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData HalfScore="2" Score="3" Side="Home" TeamRef="t6">
+        <Goal Period="FirstHalf" PlayerRef="p19760" Type="Goal" />
+        <Goal Period="FirstHalf" PlayerRef="p85971" Type="Goal" />
+        <Goal Period="SecondHalf" PlayerRef="p168566" Type="Goal" />
+      </TeamData>
+      <TeamData HalfScore="0" Score="0" Side="Away" TeamRef="t479" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-29T10:49:56+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g964750">
+      <MatchInfo Leg="1st Leg" MatchDay="7" MatchType="1st Leg" Period="PreMatch" RoundNumber="2" RoundType="Round of 16" Venue_id="2208">
+        <Date>2018-02-13 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">St Jakob-Park</Stat>
+      <Stat Type="City">Basel</Stat>
+      <TeamData Side="Home" TeamRef="t481" />
+      <TeamData Side="Away" TeamRef="t43" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-29T10:50:11+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g964749">
+      <MatchInfo Leg="1st Leg" MatchDay="7" MatchType="1st Leg" Period="PreMatch" RoundNumber="2" RoundType="Round of 16" Venue_id="7598">
+        <Date>2018-02-13 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Allianz Stadium</Stat>
+      <Stat Type="City">Torino</Stat>
+      <TeamData Side="Home" TeamRef="t128" />
+      <TeamData Side="Away" TeamRef="t6" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-29T10:51:06+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g964751">
+      <MatchInfo Leg="1st Leg" MatchDay="7" MatchType="1st Leg" Period="PreMatch" RoundNumber="2" RoundType="Round of 16" Venue_id="2710">
+        <Date>2018-02-14 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Estádio do Dragão</Stat>
+      <Stat Type="City">Porto</Stat>
+      <TeamData Side="Home" TeamRef="t201" />
+      <TeamData Side="Away" TeamRef="t14" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-29T10:51:26+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g964753">
+      <MatchInfo Leg="1st Leg" MatchDay="7" MatchType="1st Leg" Period="PreMatch" RoundNumber="2" RoundType="Round of 16" Venue_id="1360">
+        <Date>2018-02-14 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Santiago Bernabéu</Stat>
+      <Stat Type="City">Madrid</Stat>
+      <TeamData Side="Home" TeamRef="t186" />
+      <TeamData Side="Away" TeamRef="t149" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-29T12:47:19+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g964755">
+      <MatchInfo Leg="1st Leg" MatchDay="7" MatchType="1st Leg" Period="PreMatch" RoundNumber="2" RoundType="Round of 16" Venue_id="35">
+        <Date>2018-02-20 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Stamford Bridge</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t8" />
+      <TeamData Side="Away" TeamRef="t178" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-29T12:47:34+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g964756">
+      <MatchInfo Leg="1st Leg" MatchDay="7" MatchType="1st Leg" Period="PreMatch" RoundNumber="2" RoundType="Round of 16" Venue_id="2775">
+        <Date>2018-02-20 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Allianz Arena</Stat>
+      <Stat Type="City">München</Stat>
+      <TeamData Side="Home" TeamRef="t156" />
+      <TeamData Side="Away" TeamRef="t378" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-29T12:48:28+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g964752">
+      <MatchInfo Leg="1st Leg" MatchDay="7" MatchType="1st Leg" Period="PreMatch" RoundNumber="2" RoundType="Round of 16" Venue_id="2474">
+        <Date>2018-02-21 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Ramón Sánchez-Pizjuán</Stat>
+      <Stat Type="City">Sevilla</Stat>
+      <TeamData Side="Home" TeamRef="t179" />
+      <TeamData Side="Away" TeamRef="t1" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-29T12:48:42+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g964754">
+      <MatchInfo Leg="1st Leg" MatchDay="7" MatchType="1st Leg" Period="PreMatch" RoundNumber="2" RoundType="Round of 16" Venue_id="3570">
+        <Date>2018-02-21 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Metalist Stadium</Stat>
+      <Stat Type="City">Kharkiv</Stat>
+      <TeamData Side="Home" TeamRef="t455" />
+      <TeamData Side="Away" TeamRef="t121" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-29T12:49:50+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g964760">
+      <MatchInfo FirstLegId="g964751" Leg="2nd Leg" MatchDay="8" MatchType="2nd Leg Away Goal" Period="PreMatch" RoundNumber="2" RoundType="Round of 16" Venue_id="39">
+        <Date>2018-03-06 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Anfield</Stat>
+      <Stat Type="City">Liverpool</Stat>
+      <TeamData Side="Home" TeamRef="t14" />
+      <TeamData Side="Away" TeamRef="t201" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-29T12:50:02+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g964762">
+      <MatchInfo FirstLegId="g964753" Leg="2nd Leg" MatchDay="8" MatchType="2nd Leg Away Goal" Period="PreMatch" RoundNumber="2" RoundType="Round of 16" Venue_id="1311">
+        <Date>2018-03-06 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Parc des Princes</Stat>
+      <Stat Type="City">Paris</Stat>
+      <TeamData Side="Home" TeamRef="t149" />
+      <TeamData Side="Away" TeamRef="t186" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-29T12:50:19+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g964757">
+      <MatchInfo FirstLegId="g964750" Leg="2nd Leg" MatchDay="8" MatchType="2nd Leg Away Goal" Period="PreMatch" RoundNumber="2" RoundType="Round of 16" Venue_id="2691">
+        <Date>2018-03-07 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Etihad Stadium</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t43" />
+      <TeamData Side="Away" TeamRef="t481" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-29T12:50:34+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g964759">
+      <MatchInfo FirstLegId="g964749" Leg="2nd Leg" MatchDay="8" MatchType="2nd Leg Away Goal" Period="PreMatch" RoundNumber="2" RoundType="Round of 16" Venue_id="5">
+        <Date>2018-03-07 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Wembley Stadium</Stat>
+      <Stat Type="City">London</Stat>
+      <TeamData Side="Home" TeamRef="t6" />
+      <TeamData Side="Away" TeamRef="t128" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-29T12:52:32+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g964761">
+      <MatchInfo FirstLegId="g964752" Leg="2nd Leg" MatchDay="8" MatchType="2nd Leg Away Goal" Period="PreMatch" RoundNumber="2" RoundType="Round of 16" Venue_id="28">
+        <Date>2018-03-13 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Old Trafford</Stat>
+      <Stat Type="City">Manchester</Stat>
+      <TeamData Side="Home" TeamRef="t1" />
+      <TeamData Side="Away" TeamRef="t179" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-29T12:52:44+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g964764">
+      <MatchInfo FirstLegId="g964754" Leg="2nd Leg" MatchDay="8" MatchType="2nd Leg Away Goal" Period="PreMatch" RoundNumber="2" RoundType="Round of 16" Venue_id="1336">
+        <Date>2018-03-13 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Olimpico</Stat>
+      <Stat Type="City">Roma</Stat>
+      <TeamData Side="Home" TeamRef="t121" />
+      <TeamData Side="Away" TeamRef="t455" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-29T12:54:01+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g964763">
+      <MatchInfo FirstLegId="g964755" Leg="2nd Leg" MatchDay="8" MatchType="2nd Leg Away Goal" Period="PreMatch" RoundNumber="2" RoundType="Round of 16" Venue_id="1349">
+        <Date>2018-03-14 19:45:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Camp Nou</Stat>
+      <Stat Type="City">Barcelona</Stat>
+      <TeamData Side="Home" TeamRef="t178" />
+      <TeamData Side="Away" TeamRef="t8" />
+    </MatchData>
+    <MatchData detail_id="1" last_modified="2018-01-29T12:53:48+00:00" timestamp_accuracy_id="1" timing_id="1" uID="g964758">
+      <MatchInfo FirstLegId="g964756" Leg="2nd Leg" MatchDay="8" MatchType="2nd Leg Away Goal" Period="PreMatch" RoundNumber="2" RoundType="Round of 16" Venue_id="11180">
+        <Date>2018-03-14 17:00:00</Date>
+        <TZ>GMT</TZ>
+      </MatchInfo>
+      <Stat Type="Venue">Vodafone Arena</Stat>
+      <Stat Type="City">Istanbul</Stat>
+      <TeamData Side="Home" TeamRef="t378" />
+      <TeamData Side="Away" TeamRef="t156" />
+    </MatchData>
+    <TimingTypes>
+      <DetailTypes>
+        <DetailType detail_id="0" name="Unknown" />
+        <DetailType detail_id="1" name="All Events (with positions)" />
+        <DetailType detail_id="2" name="All Events" />
+        <DetailType detail_id="3" name="Key Events" />
+        <DetailType detail_id="4" name="Lineups, Goals &amp; Cards" />
+        <DetailType detail_id="5" name="Goals" />
+        <DetailType detail_id="6" name="Scores" />
+      </DetailTypes>
+      <TimestampAccuracyTypes>
+        <TimestampAccuracyType name="Unknown" timestamp_accuracy_id="0" />
+        <TimestampAccuracyType name="Fully Accurate Timestamps (24hr + Match Times)" timestamp_accuracy_id="1" />
+        <TimestampAccuracyType name="Accurate Match Times only" timestamp_accuracy_id="2" />
+        <TimestampAccuracyType name="To The Minute Accurate" timestamp_accuracy_id="3" />
+        <TimestampAccuracyType name="Low Level Accurate Match Times" timestamp_accuracy_id="4" />
+        <TimestampAccuracyType name="No Match Time Accuracy" timestamp_accuracy_id="5" />
+      </TimestampAccuracyTypes>
+      <TimingType>
+        <TimingType name="Unknown" timing_id="0" />
+        <TimingType name="Live" timing_id="1" />
+        <TimingType name="Live Delayed" timing_id="2" />
+        <TimingType name="Post Match (less than 24 hours)" timing_id="3" />
+        <TimingType name="Post Match (24 hours+)" timing_id="4" />
+      </TimingType>
+    </TimingTypes>
+    <Team uID="t241">
+      <Name>RSC Anderlecht</Name>
+    </Team>
+    <Team uID="t198">
+      <Name>Feyenoord</Name>
+    </Team>
+    <Team uID="t455">
+      <Name>Shakhtar Donetsk</Name>
+    </Team>
+    <Team uID="t1">
+      <Name>Manchester United</Name>
+    </Team>
+    <Team uID="t179">
+      <Name>Sevilla</Name>
+    </Team>
+    <Team uID="t186">
+      <Name>Real Madrid</Name>
+    </Team>
+    <Team uID="t255">
+      <Name>Sporting Lisbon</Name>
+    </Team>
+    <Team uID="t128">
+      <Name>Juventus</Name>
+    </Team>
+    <Team uID="t156">
+      <Name>FC Bayern München</Name>
+    </Team>
+    <Team uID="t61">
+      <Name>Celtic</Name>
+    </Team>
+    <Team uID="t202">
+      <Name>Olympiakos</Name>
+    </Team>
+    <Team uID="t14">
+      <Name>Liverpool</Name>
+    </Team>
+    <Team uID="t3107">
+      <Name>FK Qarabag</Name>
+    </Team>
+    <Team uID="t201">
+      <Name>FC Porto</Name>
+    </Team>
+    <Team uID="t178">
+      <Name>Barcelona</Name>
+    </Team>
+    <Team uID="t175">
+      <Name>Atlético de Madrid</Name>
+    </Team>
+    <Team uID="t121">
+      <Name>Roma</Name>
+    </Team>
+    <Team uID="t205">
+      <Name>Spartak Moscow</Name>
+    </Team>
+    <Team uID="t481">
+      <Name>Basel</Name>
+    </Team>
+    <Team uID="t157">
+      <Name>Borussia Dortmund</Name>
+    </Team>
+    <Team uID="t378">
+      <Name>Besiktas</Name>
+    </Team>
+    <Team uID="t149">
+      <Name>Paris Saint-Germain</Name>
+    </Team>
+    <Team uID="t6">
+      <Name>Tottenham Hotspur</Name>
+    </Team>
+    <Team uID="t479">
+      <Name>APOEL Nicosia</Name>
+    </Team>
+    <Team uID="t251">
+      <Name>Benfica</Name>
+    </Team>
+    <Team uID="t3033">
+      <Name>Maribor</Name>
+    </Team>
+    <Team uID="t146">
+      <Name>Monaco</Name>
+    </Team>
+    <Team uID="t6339">
+      <Name>RB Leipzig</Name>
+    </Team>
+    <Team uID="t8">
+      <Name>Chelsea</Name>
+    </Team>
+    <Team uID="t459">
+      <Name>Napoli</Name>
+    </Team>
+    <Team uID="t43">
+      <Name>Manchester City</Name>
+    </Team>
+    <Team uID="t1340">
+      <Name>CSKA Moscow</Name>
+    </Team>
+  </SoccerDocument>
+</SoccerFeed>
