@@ -16,3 +16,17 @@ func + <K, V> (left: [K: V], right: [K: V]) -> [K: V] {
   mut += right
   return mut
 }
+
+public class DateUtils {
+  public static let defaultTimeZoneAbbreviation = "BST"
+  public static func dateFormaterWith(dateFormat: String,
+                                      locale: Locale = Locale.current,
+                                      timeZoneAbbreviation: String = DateUtils.defaultTimeZoneAbbreviation)
+    -> DateFormatter {
+    let dateFormatter = DateFormatter()
+    dateFormatter.dateFormat = dateFormat
+    dateFormatter.locale = locale
+    dateFormatter.timeZone = TimeZone(abbreviation: timeZoneAbbreviation)
+    return dateFormatter
+  }
+}

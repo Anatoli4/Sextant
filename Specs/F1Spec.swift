@@ -1,8 +1,5 @@
 //
-//  OptaPerfomanceSpec.swift
-//  iOSTests
-//
-//  Created by Sergei Mikhan on 1/19/18.
+//  Created by Eugen Filipkov on 2/2/18.
 //
 
 import XCTest
@@ -12,11 +9,11 @@ import Nimble
 import RxBlocking
 import SignatureInterceptor
 
-class F15Spec: BaseSpec {
+class F1Spec: BaseSpec {
 
   func testRequest() {
     do {
-      let requestObject = try OptaAPIManager.f15Request(for: "24", season: "2017")
+      let requestObject = try OptaAPIManager.f1Request(competition: OptaAPIManager.Competition(id: "24", season: "2017"))
       let model = try Gnomon.models(for: requestObject).toBlocking().first()
       XCTAssertNotNil(model?.result.model)
     } catch {
@@ -27,11 +24,12 @@ class F15Spec: BaseSpec {
 
   func testParsingModel() {
     do {
-      let _: F15Model = try parsedModel(with: "f15",
-                                        from: "xml")
+      let _: F1Model = try parsedModel(with: "f1",
+                                       from: "xml")
     } catch {
       fail("\(error)")
       return
     }
   }
+  
 }
