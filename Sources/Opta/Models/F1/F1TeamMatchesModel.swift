@@ -7,8 +7,8 @@ import Foundation
 
 // swiftlint:disable variable_name
 public struct F1TeamMatchesModel: Hashable {
-  public var id: String
-  public var name: String
+  public let id: String
+  public let name: String
   public var matches: [F1MatchModel]
 
   public init(matchTeam: F1TeamModel) {
