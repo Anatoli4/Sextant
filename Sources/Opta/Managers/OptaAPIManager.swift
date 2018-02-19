@@ -48,6 +48,18 @@ extension OptaAPIManager {
   }
 }
 
+// MARK: - F9
+extension OptaAPIManager {
+  public typealias F9Result = SingleOptionalResult<F9Model>
+  public typealias F9Request = Request<F9Result>
+
+  public static func f9Request(for matchId: String) throws -> F15Request {
+    return try buider(for: .f9(id: matchId))
+      .setXPath("SoccerFeed/SoccerDocument")
+      .build()
+  }
+}
+
 // MARK: - F15
 extension OptaAPIManager {
   public typealias F15Result = SingleOptionalResult<F15Model>
@@ -68,7 +80,7 @@ extension OptaAPIManager {
     case liveScores(competition: Competition)
     case liveMatch(id: String)
     case matchCommentary(id: String)
-    case matchStatistics(id: String)
+    case f9(id: String)
     case teamStatistics(competition: Competition, teamId: String)
     case f15(competition: Competition)
     case detailedPrematchStatistics(matchId: String)
@@ -86,7 +98,7 @@ extension OptaAPIManager {
         return "F9"
       case .matchCommentary:
         return "F13"
-      case .matchStatistics:
+      case .f9:
         return "F9"
       case .teamStatistics:
         return "F30"
@@ -105,7 +117,7 @@ extension OptaAPIManager {
         return "competition.php"
       case .teamStatistics:
         return "team_competition.php"
-      case .liveMatch, .matchCommentary, .detailedPrematchStatistics, .matchStatistics, .liveMatchStatistics:
+      case .liveMatch, .matchCommentary, .detailedPrematchStatistics, .f9, .liveMatchStatistics:
         return ""
       }
     }
@@ -138,7 +150,7 @@ extension OptaAPIManager {
     case .matchCommentary(let id):
       allParams += params(withMatchId: id)
       allParams += params(withLanguage: "en")
-    case .matchStatistics(let id):
+    case .f9(let id):
       allParams += params(withMatchId: id)
     case .teamStatistics(let competiton, let team):
       allParams += params(with: competiton)

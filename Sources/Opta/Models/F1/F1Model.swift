@@ -13,12 +13,12 @@ import Fuzi
  */
 
 public struct F1Model: XMLFuziModel {
-  public let competitionInfo: F1CompetitionInfo
+  public let competitionInfo: F1CompetitionInfoModel
   public let matches: [F1MatchModel]
   public var teams: [F1TeamMatchesModel]
 
   public init(_ xml: XMLElement) throws {
-    competitionInfo = try F1CompetitionInfo(xml)
+    competitionInfo = try F1CompetitionInfoModel(xml)
     let teamsInfo = xml.children(staticTag: "Team")
     matches = try xml.children(staticTag: "MatchData")
       .map { try F1MatchModel($0,
