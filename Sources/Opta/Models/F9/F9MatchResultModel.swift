@@ -4,7 +4,6 @@
 //
 
 import Fuzi
-import Sextant
 
 public struct F9MatchResultModel: XMLFuziModel {
   public enum Kind: String {

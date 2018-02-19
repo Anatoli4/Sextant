@@ -4,7 +4,7 @@
 //
 
 import Fuzi
-import Sextant
+
 /*
  This class represents F9 live match when include player stats. Sample request:
  "/feed_type=F9&game_id=920777"

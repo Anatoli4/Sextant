@@ -4,7 +4,6 @@
 //
 
 import Fuzi
-import Sextant
 
 /*
  This class represents F9 formation

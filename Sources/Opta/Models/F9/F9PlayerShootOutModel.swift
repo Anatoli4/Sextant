@@ -3,7 +3,6 @@
 //
 
 import Fuzi
-import Sextant
 
 // swiftlint:disable variable_name
 public struct F9PlayerShootOutModel: XMLFuziModel {

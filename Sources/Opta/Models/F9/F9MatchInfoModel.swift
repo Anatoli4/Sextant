@@ -4,7 +4,6 @@
 //
 
 import Fuzi
-import Sextant
 
 public struct F9MatchInfoModel: XMLFuziModel {
   public let type: MatchType

@@ -4,7 +4,6 @@
 //
 
 import Fuzi
-import Sextant
 
 // swiftlint:disable:next type_body_length
 public struct F9TeamStatModel: XMLFuziModel {
