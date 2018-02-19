@@ -18,8 +18,9 @@ func + <K, V> (left: [K: V], right: [K: V]) -> [K: V] {
 }
 
 public class DateUtils {
+  public static let defaultDateFormat = "yyyyMMdd'T'HHmmssZZZ"
   public static let defaultTimeZoneAbbreviation = "BST"
-  public static func dateFormaterWith(dateFormat: String,
+  public static func dateFormaterWith(_ dateFormat: String = DateUtils.defaultDateFormat,
                                       locale: Locale = Locale.current,
                                       timeZoneAbbreviation: String = DateUtils.defaultTimeZoneAbbreviation)
     -> DateFormatter {

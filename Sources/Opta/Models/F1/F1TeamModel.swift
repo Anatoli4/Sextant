@@ -6,7 +6,7 @@
 import Fuzi
 
 public struct F1TeamGoalModel: XMLFuziModel {
-  let period: MatchPeriodStatus
+  let period: MatchPeriod
   let playerId: String
   let type: GoalType
 
@@ -15,7 +15,7 @@ public struct F1TeamGoalModel: XMLFuziModel {
     guard let playerRef = attributes["PlayerRef"],
       playerRef.isEmpty == false else { throw "miss F1 team player goal id" }
     playerId = String(playerRef.dropFirst())
-    period = MatchPeriodStatus(rawValue: attributes["Period"]?.lowercased() ?? "") ?? .undefined
+    period = MatchPeriod(periodString: attributes["Period"]?.lowercased() ?? "")
     type = GoalType(rawValue: attributes["Type"]?.lowercased() ?? "") ?? .goal
   }
 }

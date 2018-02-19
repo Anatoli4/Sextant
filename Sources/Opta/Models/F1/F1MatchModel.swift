@@ -18,19 +18,6 @@ public struct F1MatchModel {
       city = xml.children(staticTag: "Stat").first { $0.attr("Type") == "City" }?.stringValue ?? ""
     }
   }
-  public enum Kind: String {
-    case undefined = ""
-    case regular = "regular"
-    case cup = "cup"
-    case cupGold = "cup gold"
-    case replay = "replay"
-    case cupEnglish = "cup english"
-    case cupShort = "cup short"
-    case firstLeg = "1st leg"
-    case secondLeg = "2nd leg"
-    case secondLegAwayGoal = "2nd leg away goal"
-    case secondLegCupShort = "2nd leg cup short"
-  }
   public enum PostponedOrAbandonedReason: String {
     case undefined = ""
     case unknown = "unknown"
@@ -58,7 +45,7 @@ public struct F1MatchModel {
   public let id: String
   public let stadiumInfo: StadiumInfo
   public let day: String
-  public let kind: Kind
+  public let type: MatchType
   public let winnerId: String
   public let status: MatchStatus
   private(set) var postponedOrAbandonedReason: PostponedOrAbandonedReason?
@@ -89,7 +76,7 @@ public struct F1MatchModel {
     let matchInfo = xml.firstChild(staticTag: "MatchInfo")
     let matchInfoAttributes = matchInfo?.attributes
     day = matchInfoAttributes?["MatchDay"] ?? ""
-    kind = Kind(rawValue: (matchInfoAttributes?["MatchType"] ?? "").lowercased()) ?? .undefined
+    type = MatchType(rawValue: (matchInfoAttributes?["MatchType"] ?? "").lowercased()) ?? .undefined
     let winner = matchInfoAttributes?["MatchWinner"] ?? ""
     let gameWinner = matchInfoAttributes?["GameWinner"] ?? ""
     winnerId = String(winner.isEmpty ? (gameWinner.isEmpty ? "" : gameWinner.dropFirst()) : winner.dropFirst())
@@ -126,11 +113,11 @@ public struct F1MatchModel {
     let dateString = matchInfo?.firstChild(staticTag: "Date")?.stringValue ?? ""
     let timeZoneAbbreviation = matchInfo?.firstChild(staticTag: "TZ")?.stringValue ??
       DateUtils.defaultTimeZoneAbbreviation
-    let formatter = DateUtils.dateFormaterWith(dateFormat: "yyyy-MM-dd HH:mm:ss",
+    let formatter = DateUtils.dateFormaterWith("yyyy-MM-dd HH:mm:ss",
                                                timeZoneAbbreviation: timeZoneAbbreviation)
-    let dateFormatter = DateUtils.dateFormaterWith(dateFormat: "yyyy-MM-dd",
+    let dateFormatter = DateUtils.dateFormaterWith("yyyy-MM-dd",
                                                    timeZoneAbbreviation: timeZoneAbbreviation)
-    let timeFormatter = DateUtils.dateFormaterWith(dateFormat: "HH:mm:ss",
+    let timeFormatter = DateUtils.dateFormaterWith("HH:mm:ss",
                                                    timeZoneAbbreviation: timeZoneAbbreviation)
     if let date = formatter.date(from: dateString) {
       self.date = date

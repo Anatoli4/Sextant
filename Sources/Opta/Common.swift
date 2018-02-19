@@ -9,14 +9,58 @@ public enum GoalType: String {
   case penalty
 }
 
-public enum MatchPeriodStatus: String {
+public enum MatchPeriod {
   case undefined
-  case firstHalf = "firsthalf"
-  case secondHalf = "secondhalf"
-  case extraFirstHalf = "extrafirsthalf"
-  case extraSecondHalf = "extrasecondhalf"
-  case extraHalfTime = "extrahalftime"
-  case shootOut = "shootout"
+  case preMatch
+  case firstHalf
+  case halftime
+  case secondHalf
+  case extraFirstHalf
+  case extraSecondHalf
+  case extraHalfTime
+  case shootOut
+  case fullTime
+  case fullTime90
+  case fullTimePens
+
+  private static let mapping: [MatchPeriod: [String]] = [
+    .preMatch: ["prematch"],
+    .firstHalf: ["firsthalf", "1"],
+    .halftime: ["halftime"],
+    .secondHalf: ["secondhalf", "2"],
+    .extraFirstHalf: ["extrafirsthalf", "3"],
+    .extraSecondHalf: ["extrasecondhalf", "4"],
+    .extraHalfTime: ["extrahalftime"],
+    .shootOut: ["shootout"],
+    .fullTime: ["fulltime"],
+    .fullTime90: ["fulltime90"],
+    .fullTimePens: ["fulltimepens"]
+    ]
+  private static func periodForString(periodString: String) -> MatchPeriod {
+    let periodString = periodString.lowercased()
+    if let value = mapping.filter({ $0.value.contains(periodString) }).first {
+      return value.key
+    }
+    return .undefined
+  }
+
+  public init(periodString: String) {
+    self = MatchPeriod.periodForString(periodString: periodString)
+  }
+}
+
+public enum MatchType: String {
+  case undefined = ""
+  case regular = "regular"
+  case cup = "cup"
+  case cupGold = "cup gold"
+  case replay = "replay"
+  case cupEnglish = "cup english"
+  case cupShort = "cup short"
+  case firstLeg = "1st leg"
+  case secondLeg = "2nd leg"
+  case secondLegAwayGoal = "2nd leg away goal"
+  case secondLegCupShort = "2nd leg cup short"
 }
 
 public enum MatchStatus {
@@ -75,4 +119,32 @@ public enum TeamSide: String {
   case undefined
   case home
   case away
+}
+
+public enum PlayerPosition {
+  case undefined
+  case goalkeeper
+  case defender
+  case midfielder
+  case striker
+  case substitute
+
+  private static let mapping: [PlayerPosition: [String]] = [
+    .goalkeeper: ["goalkeeper", "1"],
+    .defender: ["defender", "2"],
+    .midfielder: ["midfielder", "3"],
+    .striker: ["striker", "4"],
+    .substitute: ["substitute"]
+  ]
+  private static func positionForString(positionString: String) -> PlayerPosition {
+    let positionString = positionString.lowercased()
+    if let value = mapping.filter({ $0.value.contains(positionString) }).first {
+      return value.key
+    }
+    return .undefined
+  }
+
+  public init(positionString: String) {
+    self = PlayerPosition.positionForString(positionString: positionString)
+  }
 }

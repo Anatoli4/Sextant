@@ -6,7 +6,7 @@
 import Fuzi
 
 // swiftlint:disable variable_name
-public struct F1CompetitionInfo: XMLFuziModel {
+public struct F1CompetitionInfoModel: XMLFuziModel {
   public let id: String
   public let name: String
   public let code: String
