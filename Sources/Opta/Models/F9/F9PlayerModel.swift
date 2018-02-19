@@ -5,6 +5,7 @@
 
 import Fuzi
 
+// swiftlint:disable variable_name
 public struct F9OfficialModel: XMLFuziModel {
   public enum Kind: String {
     case undefined
