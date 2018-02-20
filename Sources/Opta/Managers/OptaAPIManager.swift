@@ -35,20 +35,22 @@ extension OptaAPIManager {
   public typealias F1Request = Request<F1Result>
 
   public static func f1Request(competition: OptaAPIManager.Competition,
-                               builder: ((RequestBuilder<F1Result>) -> RequestBuilder<F1Result>)? = nil)
+                               builderSetup: ((RequestBuilder<F1Result>) -> Void)? = nil)
     throws -> F1Request {
     let request: RequestBuilder<F1Result> = buider(for: .f1(competition: competition))
       .setXPath("SoccerFeed/SoccerDocument")
-    guard let builder = builder else { return try request.build() }
-    return try builder(request).build()
+    if let builderSetup = builderSetup {
+      builderSetup(request)
+    }
+    return try request.build()
   }
 
   public static  func f1Requests(competitions: [OptaAPIManager.Competition],
-                                 builder: ((RequestBuilder<F1Result>) -> RequestBuilder<F1Result>)? = nil)
+                                 builderSetup: ((RequestBuilder<F1Result>) -> Void)? = nil)
     throws -> [F1Request] {
       let requests = try competitions.map {
         return try f1Request(competition: $0,
-                             builder: builder)
+                             builderSetup: builderSetup)
       }
       return requests
   }
@@ -60,11 +62,13 @@ extension OptaAPIManager {
   public typealias F9Request = Request<F9Result>
 
   public static func f9Request(for matchId: String,
-                               builder: ((RequestBuilder<F9Result>) -> RequestBuilder<F9Result>)? = nil)
+                               builderSetup: ((RequestBuilder<F9Result>) -> Void)? = nil)
     throws -> F9Request {
     let request: RequestBuilder<F9Result> = buider(for: .f9(id: matchId)).setXPath("SoccerFeed/SoccerDocument")
-    guard let builder = builder else { return try request.build() }
-    return try builder(request).build()
+    if let builderSetup = builderSetup {
+      builderSetup(request)
+    }
+    return try request.build()
   }
 }
 
@@ -74,12 +78,14 @@ extension OptaAPIManager {
   public typealias F15Request = Request<F15Result>
 
   public static func f15Request(competition: OptaAPIManager.Competition,
-                                builder: ((RequestBuilder<F15Result>) -> RequestBuilder<F15Result>)? = nil)
+                                builderSetup: ((RequestBuilder<F15Result>) -> Void)? = nil)
     throws -> F15Request {
     let request: RequestBuilder<F15Result> = buider(for: .f15(competition: competition))
       .setXPath("SoccerFeed/SoccerDocument")
-    guard let builder = builder else { return try request.build() }
-    return try builder(request).build()
+    if let builderSetup = builderSetup {
+      builderSetup(request)
+    }
+    return try request.build()
   }
 }
 
@@ -89,11 +95,13 @@ extension OptaAPIManager {
   public typealias F26Request = Request<F26Result>
 
   public static func f26Request(competition: OptaAPIManager.Competition,
-                                builder: ((RequestBuilder<F26Result>) -> RequestBuilder<F26Result>)? = nil)
+                                builderSetup: ((RequestBuilder<F26Result>) -> Void)? = nil)
     throws -> F26Request {
     let request: RequestBuilder<F26Result> = buider(for: .f26(competition: competition)).setXPath("feed")
-    guard let builder = builder else { return try request.build() }
-    return try builder(request).build()
+    if let builderSetup = builderSetup {
+      builderSetup(request)
+    }
+    return try request.build()
   }
 }
 
