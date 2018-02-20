@@ -15,8 +15,8 @@ import SignatureInterceptor
 class F15Spec: BaseSpec {
 
   func testRequest() {
-    do {
-      let requestObject = try OptaAPIManager.f15Request(for: "24", season: "2017")
+    do {      
+      let requestObject = try OptaAPIManager.f15Request(competition: OptaAPIManager.Competition(id: "24", season: "2017"))
       let model = try Gnomon.models(for: requestObject).toBlocking().first()
       XCTAssertNotNil(model?.result.model)
     } catch {

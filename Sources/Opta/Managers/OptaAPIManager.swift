@@ -34,15 +34,21 @@ extension OptaAPIManager {
   public typealias F1Result = SingleOptionalResult<F1Model>
   public typealias F1Request = Request<F1Result>
 
-  public static func f1Request(competition: OptaAPIManager.Competition) throws -> F1Request {
-    return try buider(for: .f1(competition: competition))
+  public static func f1Request(competition: OptaAPIManager.Competition,
+                               builder: ((RequestBuilder<F1Result>) -> RequestBuilder<F1Result>)? = nil)
+    throws -> F1Request {
+    let request: RequestBuilder<F1Result> = buider(for: .f1(competition: competition))
       .setXPath("SoccerFeed/SoccerDocument")
-      .build()
+    guard let builder = builder else { return try request.build() }
+    return try builder(request).build()
   }
 
-  public static  func f1Requests(competitions: [OptaAPIManager.Competition]) throws -> [F1Request] {
+  public static  func f1Requests(competitions: [OptaAPIManager.Competition],
+                                 builder: ((RequestBuilder<F1Result>) -> RequestBuilder<F1Result>)? = nil)
+    throws -> [F1Request] {
       let requests = try competitions.map {
-        return try f1Request(competition: $0)
+        return try f1Request(competition: $0,
+                             builder: builder)
       }
       return requests
   }
@@ -53,10 +59,12 @@ extension OptaAPIManager {
   public typealias F9Result = SingleOptionalResult<F9Model>
   public typealias F9Request = Request<F9Result>
 
-  public static func f9Request(for matchId: String) throws -> F15Request {
-    return try buider(for: .f9(id: matchId))
-      .setXPath("SoccerFeed/SoccerDocument")
-      .build()
+  public static func f9Request(for matchId: String,
+                               builder: ((RequestBuilder<F9Result>) -> RequestBuilder<F9Result>)? = nil)
+    throws -> F9Request {
+    let request: RequestBuilder<F9Result> = buider(for: .f9(id: matchId)).setXPath("SoccerFeed/SoccerDocument")
+    guard let builder = builder else { return try request.build() }
+    return try builder(request).build()
   }
 }
 
@@ -65,24 +73,41 @@ extension OptaAPIManager {
   public typealias F15Result = SingleOptionalResult<F15Model>
   public typealias F15Request = Request<F15Result>
 
-  public static func f15Request(for competitionId: String, season: String) throws -> F15Request {
-    return try buider(for: .f15(competition: Competition(id: competitionId, season: season)))
+  public static func f15Request(competition: OptaAPIManager.Competition,
+                                builder: ((RequestBuilder<F15Result>) -> RequestBuilder<F15Result>)? = nil)
+    throws -> F15Request {
+    let request: RequestBuilder<F15Result> = buider(for: .f26(competition: competition))
       .setXPath("SoccerFeed/SoccerDocument")
-      .build()
+    guard let builder = builder else { return try request.build() }
+    return try builder(request).build()
+  }
+}
+
+// MARK: - F26
+extension OptaAPIManager {
+  public typealias F26Result = SingleOptionalResult<F26Model>
+  public typealias F26Request = Request<F26Result>
+
+  public static func f26Request(competition: OptaAPIManager.Competition,
+                                builder: ((RequestBuilder<F26Result>) -> RequestBuilder<F26Result>)? = nil)
+    throws -> F26Request {
+    let request: RequestBuilder<F26Result> = buider(for: .f26(competition: competition)).setXPath("feed")
+    guard let builder = builder else { return try request.build() }
+    return try builder(request).build()
   }
 }
 
 extension OptaAPIManager {
 
-  enum FeedType {
+  public enum FeedType {
     case f1(competition: Competition)
     case standings(competition: Competition)
-    case liveScores(competition: Competition)
     case liveMatch(id: String)
     case matchCommentary(id: String)
     case f9(id: String)
     case teamStatistics(competition: Competition, teamId: String)
     case f15(competition: Competition)
+    case f26(competition: Competition)
     case detailedPrematchStatistics(matchId: String)
     case liveMatchStatistics(id: String)
 
@@ -92,8 +117,6 @@ extension OptaAPIManager {
         return "F1"
       case .standings:
         return "F3"
-      case .liveScores:
-        return "F26"
       case .liveMatch:
         return "F9"
       case .matchCommentary:
@@ -104,6 +127,8 @@ extension OptaAPIManager {
         return "F30"
       case .f15:
         return "F15"
+      case .f26:
+        return "F26"
       case .detailedPrematchStatistics:
         return "F2"
       case .liveMatchStatistics:
@@ -113,7 +138,7 @@ extension OptaAPIManager {
 
     var URLPath: String {
       switch self {
-      case .f1, .standings, .liveScores, .f15:
+      case .f1, .standings, .f26, .f15:
         return "competition.php"
       case .teamStatistics:
         return "team_competition.php"
@@ -143,8 +168,6 @@ extension OptaAPIManager {
       allParams += params(with: competiton)
     case .standings(let competiton):
       allParams += params(with: competiton)
-    case .liveScores(let competiton):
-      allParams += params(with: competiton)
     case .liveMatch(let id):
       allParams += params(withMatchId: id)
     case .matchCommentary(let id):
@@ -156,6 +179,8 @@ extension OptaAPIManager {
       allParams += params(with: competiton)
       allParams += params(withTeamId: team)
     case .f15(let competiton):
+      allParams += params(with: competiton)
+    case .f26(let competiton):
       allParams += params(with: competiton)
     case .detailedPrematchStatistics(let match):
       allParams += params(withMatchId: match)

@@ -1,5 +1,6 @@
 //
 //  Created by Eugen Filipkov on 2/15/18.
+//  Copyright © 2018 NetcoSports. All rights reserved.
 //
 
 import Fuzi

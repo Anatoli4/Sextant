@@ -14,6 +14,12 @@ class F9Spec: BaseSpec {
   func testRequest() {
     do {
       let requestObject = try OptaAPIManager.f9Request(for: "974762")
+//      let requestObject = try OptaAPIManager.f9Request(for: "974762") {
+//        let builder = $0
+//        builder.setDisableHttpCache(true)
+//        builder.setDisableLocalCache(true)
+//        return builder
+//      }
       let model = try Gnomon.models(for: requestObject).toBlocking().first()
       XCTAssertNotNil(model?.result.model)
     } catch {
