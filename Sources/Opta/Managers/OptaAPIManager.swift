@@ -76,7 +76,7 @@ extension OptaAPIManager {
   public static func f15Request(competition: OptaAPIManager.Competition,
                                 builder: ((RequestBuilder<F15Result>) -> RequestBuilder<F15Result>)? = nil)
     throws -> F15Request {
-    let request: RequestBuilder<F15Result> = buider(for: .f26(competition: competition))
+    let request: RequestBuilder<F15Result> = buider(for: .f15(competition: competition))
       .setXPath("SoccerFeed/SoccerDocument")
     guard let builder = builder else { return try request.build() }
     return try builder(request).build()
