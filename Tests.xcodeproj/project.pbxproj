@@ -19,12 +19,15 @@
 		8B367CD12024B3A800D4CE9D /* f15.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B367CCD2024B3A800D4CE9D /* f15.json */; };
 		8B64F14720286B6F00E087D8 /* f1_cup.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8B64F14320286B6E00E087D8 /* f1_cup.xml */; };
 		8B64F14820286B6F00E087D8 /* f1_cl.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8B64F14420286B6E00E087D8 /* f1_cl.xml */; };
+		8B6C6BED203DD56D0012CC04 /* f26_live_extratime.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8B6C6BEC203DD56C0012CC04 /* f26_live_extratime.xml */; };
 		8B6D5A8B202DCA4100CC80C3 /* F9Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6D5A8A202DCA4100CC80C3 /* F9Spec.swift */; };
 		8B6D5A98202DE06200CC80C3 /* f9_post.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8B6D5A97202DE06200CC80C3 /* f9_post.xml */; };
 		8B6D5AA52031B5F000CC80C3 /* f9_lineup.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8B6D5AA12031B5EF00CC80C3 /* f9_lineup.xml */; };
 		8B6D5AA62031B5F000CC80C3 /* f9_first_half.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8B6D5AA22031B5EF00CC80C3 /* f9_first_half.xml */; };
 		8B6D5AA72031B5F000CC80C3 /* f9_live.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8B6D5AA32031B5EF00CC80C3 /* f9_live.xml */; };
 		8B6D5AA82031B5F000CC80C3 /* f9_half_time.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8B6D5AA42031B5F000CC80C3 /* f9_half_time.xml */; };
+		8B6EE26E203C770D00295B75 /* F26Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6EE26D203C770D00295B75 /* F26Spec.swift */; };
+		8B6EE271203C77CC00295B75 /* f26.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8B6EE270203C77CC00295B75 /* f26.xml */; };
 		AAB2BD5D201235DF00C82869 /* F15Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB2BD5C201235DF00C82869 /* F15Spec.swift */; };
 		AADF73E72021C98F003985AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADF73E62021C98F003985AE /* AppDelegate.swift */; };
 		AADF73EE2021C98F003985AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADF73ED2021C98F003985AE /* Assets.xcassets */; };
@@ -55,12 +58,15 @@
 		8B367CCD2024B3A800D4CE9D /* f15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = f15.json; sourceTree = "<group>"; };
 		8B64F14320286B6E00E087D8 /* f1_cup.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = f1_cup.xml; sourceTree = "<group>"; };
 		8B64F14420286B6E00E087D8 /* f1_cl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = f1_cl.xml; sourceTree = "<group>"; };
+		8B6C6BEC203DD56C0012CC04 /* f26_live_extratime.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = f26_live_extratime.xml; sourceTree = "<group>"; };
 		8B6D5A8A202DCA4100CC80C3 /* F9Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F9Spec.swift; sourceTree = "<group>"; };
 		8B6D5A97202DE06200CC80C3 /* f9_post.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = f9_post.xml; sourceTree = "<group>"; };
 		8B6D5AA12031B5EF00CC80C3 /* f9_lineup.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = f9_lineup.xml; sourceTree = "<group>"; };
 		8B6D5AA22031B5EF00CC80C3 /* f9_first_half.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = f9_first_half.xml; sourceTree = "<group>"; };
 		8B6D5AA32031B5EF00CC80C3 /* f9_live.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = f9_live.xml; sourceTree = "<group>"; };
 		8B6D5AA42031B5F000CC80C3 /* f9_half_time.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = f9_half_time.xml; sourceTree = "<group>"; };
+		8B6EE26D203C770D00295B75 /* F26Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F26Spec.swift; sourceTree = "<group>"; };
+		8B6EE270203C77CC00295B75 /* f26.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = f26.xml; sourceTree = "<group>"; };
 		8FB7BAD075C9AF5EB215D3BC /* Pods-Tests-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-tvOSTests/Pods-Tests-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9632BBA3EEFC5F2F3D3ECF19 /* Pods_Tests_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB2BD5C201235DF00C82869 /* F15Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F15Spec.swift; sourceTree = "<group>"; };
@@ -110,6 +116,7 @@
 				8B367CC52024B37A00D4CE9D /* F1 */,
 				8B6D5A96202DE06200CC80C3 /* F9 */,
 				8B367CC42024B37A00D4CE9D /* F15 */,
+				8B6EE26F203C77A800295B75 /* F26 */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -143,6 +150,15 @@
 				8B6D5A97202DE06200CC80C3 /* f9_post.xml */,
 			);
 			path = F9;
+			sourceTree = "<group>";
+		};
+		8B6EE26F203C77A800295B75 /* F26 */ = {
+			isa = PBXGroup;
+			children = (
+				8B6C6BEC203DD56C0012CC04 /* f26_live_extratime.xml */,
+				8B6EE270203C77CC00295B75 /* f26.xml */,
+			);
+			path = F26;
 			sourceTree = "<group>";
 		};
 		900B1227D5B909619DD28006 /* Pods */ = {
@@ -235,6 +251,7 @@
 				8B367CBD2024AF0E00D4CE9D /* F1Spec.swift */,
 				8B6D5A8A202DCA4100CC80C3 /* F9Spec.swift */,
 				AAB2BD5C201235DF00C82869 /* F15Spec.swift */,
+				8B6EE26D203C770D00295B75 /* F26Spec.swift */,
 			);
 			path = Specs;
 			sourceTree = "<group>";
@@ -375,7 +392,9 @@
 			files = (
 				8B6D5AA72031B5F000CC80C3 /* f9_live.xml in Resources */,
 				8B6D5AA62031B5F000CC80C3 /* f9_first_half.xml in Resources */,
+				8B6EE271203C77CC00295B75 /* f26.xml in Resources */,
 				8B6D5A98202DE06200CC80C3 /* f9_post.xml in Resources */,
+				8B6C6BED203DD56D0012CC04 /* f26_live_extratime.xml in Resources */,
 				8B367CD12024B3A800D4CE9D /* f15.json in Resources */,
 				8B6D5AA82031B5F000CC80C3 /* f9_half_time.xml in Resources */,
 				8B367CCF2024B3A800D4CE9D /* f15.xml in Resources */,
@@ -573,6 +592,7 @@
 				8B6D5A8B202DCA4100CC80C3 /* F9Spec.swift in Sources */,
 				8B367CC22024B08100D4CE9D /* BaseSpec.swift in Sources */,
 				8B367CBF2024AF1100D4CE9D /* F1Spec.swift in Sources */,
+				8B6EE26E203C770D00295B75 /* F26Spec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2001-2018 Opta Sportsdata Ltd. All rights reserved. -->
+
+<!-- PRODUCTION HEADER
+     produced on:        valde-jobq-a03.nexus.opta.net
+     production time:    20180219T113656,195Z
+     production module:  Opta::Feed::XML::Soccer::F26
+-->
+<feed status="NORMAL" id="OPTA_sports_football_results" vendorName="OPTA">
+  <feed-info feed-type="RESULTS" gen-date="" comp-id="24" />
+  <content.item id="OPTA_football_results_20180219">
+    <content.head>
+      <dateline>19/02/2018 11:36 +0100</dateline>
+      <title>OPTA Football Results</title>
+    </content.head>
+    <content.meta>
+      <copyright>OPTA</copyright>
+      <category>Sports</category>
+      <author>OPTA</author>
+      <vendor>OPTA</vendor>
+    </content.meta>
+    <content.body>
+      <results latest="FALSE" ko-time="20:00" comp-name="French Ligue 1" date="20170806" last-match="TRUE" comp-id="24">
+        <result game-id="920531" timestamp="2017-08-06 21:55:08" period="Full Time" match-status="FULL">
+          <home-team>
+            <scorers>
+              <scorer goal-timestamp="2017-08-06 21:11:34" period="SecondHalf" sec="23" event_id="1266563951" min="50" time="51" goal-type="GOAL">
+                <player-name>N'Jie</player-name>
+                <player-code>145212</player-code>
+                <player-firstname>Clinton</player-firstname>
+              </scorer>
+              <scorer goal-timestamp="2017-08-06 21:14:31" period="SecondHalf" sec="20" event_id="1389942992" min="53" time="54" goal-type="GOAL">
+                <player-name>Thauvin</player-name>
+                <player-code>95434</player-code>
+                <player-firstname>Florian</player-firstname>
+              </scorer>
+              <scorer goal-timestamp="2017-08-06 21:33:01" period="SecondHalf" sec="50" event_id="1867533119" min="71" time="72" goal-type="GOAL">
+                <player-name>N'Jie</player-name>
+                <player-code>145212</player-code>
+                <player-firstname>Clinton</player-firstname>
+              </scorer>
+            </scorers>
+            <substitutions>
+              <substitution period="SecondHalf" event_id="1877273595" min="45" time="46" reason="Tactical" sec="0" sub-timestamp="2017-08-06 21:05:46">
+                <sub-off>
+                  <player-name>Payet</player-name>
+                  <player-code>37901</player-code>
+                  <player-firstname>Dimitri</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>N'Jie</player-name>
+                  <player-code>145212</player-code>
+                  <player-firstname>Clinton</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1666494457" min="59" time="60" reason="Tactical" sec="18" sub-timestamp="2017-08-06 21:20:29">
+                <sub-off>
+                  <player-name>Sanson</player-name>
+                  <player-code>122775</player-code>
+                  <player-firstname>Morgan</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Zambo Anguissa</player-name>
+                  <player-code>203325</player-code>
+                  <player-firstname>André-Frank</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1579752685" min="86" time="87" reason="Tactical" sec="47" sub-timestamp="2017-08-06 21:47:58">
+                <sub-off>
+                  <player-name>Dias</player-name>
+                  <player-code>47654</player-code>
+                  <player-firstname>Luiz Gustavo</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Sertic</player-name>
+                  <player-code>56995</player-code>
+                  <player-firstname>Grégory</player-firstname>
+                </sub-on>
+              </substitution>
+            </substitutions>
+            <team-code>MAR</team-code>
+            <team-name>Marseille</team-name>
+            <score>3</score>
+            <team-id>144</team-id>
+            <bookings>
+              <yellow-card first="Luiz Gustavo" period="FirstHalf" event_id="1818718760" min="35" time="36" last="Dias" sec="20" timestamp="2017-08-06 20:37:36" id="47654" known="Luiz Gustavo" />
+            </bookings>
+          </home-team>
+          <away-team>
+            <substitutions>
+              <substitution period="FirstHalf" event_id="1853891974" min="9" time="10" reason="Injury" sec="24" sub-timestamp="2017-08-06 20:11:40">
+                <sub-off>
+                  <player-name>Lautoa</player-name>
+                  <player-code>85565</player-code>
+                  <player-firstname>Wesley</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Varrault</player-name>
+                  <player-code>13939</player-code>
+                  <player-firstname>Cedric</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1313732116" min="58" time="59" reason="Tactical" sec="14" sub-timestamp="2017-08-06 21:19:25">
+                <sub-off>
+                  <player-name>Sliti</player-name>
+                  <player-code>98788</player-code>
+                  <player-firstname>Naim</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Sammaritano</player-name>
+                  <player-code>54413</player-code>
+                  <player-firstname>Frederic</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1934982809" min="65" time="66" reason="Tactical" sec="44" sub-timestamp="2017-08-06 21:26:55">
+                <sub-off>
+                  <player-name>Said</player-name>
+                  <player-code>161034</player-code>
+                  <player-firstname>Wesley</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Balmont</player-name>
+                  <player-code>8747</player-code>
+                  <player-firstname>Florent</player-firstname>
+                </sub-on>
+              </substitution>
+            </substitutions>
+            <team-code>DIJ</team-code>
+            <team-name>Dijon</team-name>
+            <score>0</score>
+            <team-id>2130</team-id>
+          </away-team>
+        </result>
+      </results>
+      <results latest="FALSE" ko-time="16:00" comp-name="French Ligue 1" date="20170806" last-match="TRUE" comp-id="24">
+        <result game-id="920528" timestamp="2017-08-06 17:54:42" period="Full Time" match-status="FULL">
+          <home-team>
+            <substitutions>
+              <substitution period="SecondHalf" event_id="1273373914" min="57" time="58" reason="Tactical" sec="13" sub-timestamp="2017-08-06 17:17:15">
+                <sub-off>
+                  <player-name>Sunu</player-name>
+                  <player-code>66589</player-code>
+                  <player-firstname>Gilles</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Toko Ekambi</player-name>
+                  <player-code>193454</player-code>
+                  <player-firstname>Karl</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1417771552" min="66" time="67" reason="Tactical" sec="58" sub-timestamp="2017-08-06 17:27:00">
+                <sub-off>
+                  <player-name>Coulibaly</player-name>
+                  <player-code>215047</player-code>
+                  <player-firstname>Lassana</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Tait</player-name>
+                  <player-code>154011</player-code>
+                  <player-firstname>Flavien</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1920140861" min="74" time="75" reason="Tactical" sec="30" sub-timestamp="2017-08-06 17:34:32">
+                <sub-off>
+                  <player-name>Traoré</player-name>
+                  <player-code>42416</player-code>
+                  <player-firstname>Ismael</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Pavlovic</player-name>
+                  <player-code>68545</player-code>
+                  <player-firstname>Mateo</player-firstname>
+                </sub-on>
+              </substitution>
+            </substitutions>
+            <scorers>
+              <scorer goal-timestamp="2017-08-06 16:11:20" period="FirstHalf" sec="5" event_id="1686566812" min="10" time="11" goal-type="GOAL">
+                <player-name>Fulgini</player-name>
+                <player-code>202857</player-code>
+                <player-firstname>Angelo</player-firstname>
+              </scorer>
+              <scorer goal-timestamp="2017-08-06 17:47:42" period="SecondHalf" sec="40" event_id="1669491897" min="87" time="88" goal-type="GOAL">
+                <player-name>Guillaume</player-name>
+                <player-code>157728</player-code>
+                <player-firstname>Baptiste</player-firstname>
+              </scorer>
+            </scorers>
+            <team-code>ANR</team-code>
+            <team-name>Angers</team-name>
+            <score>2</score>
+            <team-id>2128</team-id>
+            <bookings>
+              <yellow-card first="Pierrick" period="SecondHalf" event_id="1521380190" min="62" time="63" last="Capelle" sec="7" timestamp="2017-08-06 17:22:09" id="112580" />
+              <yellow-card first="Flavien" period="SecondHalf" event_id="1305785343" min="72" time="73" last="Tait" sec="42" timestamp="2017-08-06 17:32:44" id="154011" />
+              <yellow-card first="Karl" period="SecondHalf" event_id="1940597088" min="90" time="91" last="Toko Ekambi" sec="33" timestamp="2017-08-06 17:50:35" id="193454" />
+            </bookings>
+          </home-team>
+          <away-team>
+            <substitutions>
+              <substitution period="SecondHalf" event_id="1385363083" min="69" time="70" reason="Tactical" sec="53" sub-timestamp="2017-08-06 17:29:55">
+                <sub-off>
+                  <player-name>Vada</player-name>
+                  <player-code>195982</player-code>
+                  <player-firstname>Valentin</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Plasil</player-name>
+                  <player-code>12057</player-code>
+                  <player-firstname>Jaroslav</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1855848461" min="75" time="76" reason="Tactical" sec="33" sub-timestamp="2017-08-06 17:35:35">
+                <sub-off>
+                  <player-name>Mendy</player-name>
+                  <player-code>189542</player-code>
+                  <player-firstname>Alexandre</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Laborde</player-name>
+                  <player-code>167443</player-code>
+                  <player-firstname>Gaetan</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1136934230" min="82" time="83" reason="Tactical" sec="49" sub-timestamp="2017-08-06 17:42:51">
+                <sub-off>
+                  <player-name>Silva de Oliveira</player-name>
+                  <player-code>181092</player-code>
+                  <player-firstname>Malcom Filipe</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Touré</player-name>
+                  <player-code>176441</player-code>
+                  <player-firstname>Thomas</player-firstname>
+                </sub-on>
+              </substitution>
+            </substitutions>
+            <scorers>
+              <scorer goal-timestamp="2017-08-06 16:27:20" period="FirstHalf" sec="5" event_id="2136285314" min="26" time="27" goal-type="GOAL">
+                <player-name>Sankhare</player-name>
+                <player-code>48768</player-code>
+                <player-firstname>Younousse</player-firstname>
+              </scorer>
+              <scorer goal-timestamp="2017-08-06 17:11:51" period="SecondHalf" sec="49" event_id="1574301693" min="51" time="52" goal-type="GOAL">
+                <player-name>Mendy</player-name>
+                <player-code>189542</player-code>
+                <player-firstname>Alexandre</player-firstname>
+              </scorer>
+            </scorers>
+            <team-code>BOR</team-code>
+            <team-name>Bordeaux</team-name>
+            <score>2</score>
+            <team-id>140</team-id>
+            <bookings>
+              <yellow-card first="Francois" period="SecondHalf" event_id="2084777437" min="85" time="86" last="Kamano" sec="45" timestamp="2017-08-06 17:45:47" id="193512" />
+              <yellow-card first="Younousse" period="SecondHalf" event_id="1884605337" min="89" time="90" last="Sankhare" sec="22" timestamp="2017-08-06 17:49:24" id="48768" />
+            </bookings>
+          </away-team>
+        </result>
+      </results>
+      <results latest="FALSE" ko-time="14:00" comp-name="French Ligue 1" date="20170806" last-match="TRUE" comp-id="24">
+        <result game-id="920529" timestamp="2017-08-06 15:47:56" period="Full Time" match-status="FULL">
+          <home-team>
+            <scorers>
+              <scorer goal-timestamp="2017-08-06 15:02:24" period="SecondHalf" sec="13" event_id="1490053200" min="47" time="48" goal-type="GOAL">
+                <player-name>Alonso</player-name>
+                <player-code>168097</player-code>
+                <player-firstname>Junior</player-firstname>
+              </scorer>
+              <scorer goal-timestamp="2017-08-06 15:22:07" period="SecondHalf" sec="56" event_id="1531123792" min="66" time="67" goal-type="PENG">
+                <player-name>de Preville</player-name>
+                <player-code>73879</player-code>
+                <player-firstname>Nicolas</player-firstname>
+              </scorer>
+              <scorer goal-timestamp="2017-08-06 15:24:32" period="SecondHalf" sec="21" event_id="2031179988" min="69" time="70" goal-type="GOAL">
+                <player-name>El Ghazi</player-name>
+                <player-code>193488</player-code>
+                <player-firstname>Anwar</player-firstname>
+              </scorer>
+            </scorers>
+            <substitutions>
+              <substitution period="SecondHalf" event_id="1853639000" min="45" time="46" reason="Tactical" sec="0" sub-timestamp="2017-08-06 15:00:00">
+                <sub-off>
+                  <player-name>Ballo-Toure</player-name>
+                  <player-code>225897</player-code>
+                  <player-firstname>Fode</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Kouame</player-name>
+                  <player-code>232175</player-code>
+                  <player-firstname>Rominigue</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1230831274" min="75" time="76" reason="Tactical" sec="43" sub-timestamp="2017-08-06 15:30:55">
+                <sub-off>
+                  <player-name>de Preville</player-name>
+                  <player-code>73879</player-code>
+                  <player-firstname>Nicolas</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Ponce</player-name>
+                  <player-code>172845</player-code>
+                  <player-firstname>Ezequiel</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1404825975" min="84" time="85" reason="Tactical" sec="5" sub-timestamp="2017-08-06 15:39:17">
+                <sub-off>
+                  <player-name>Mendes Ribeiro</player-name>
+                  <player-code>158047</player-code>
+                  <player-firstname>Thiago Henrique</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Maia Alencar</player-name>
+                  <player-code>199409</player-code>
+                  <player-firstname>Thiago</player-firstname>
+                </sub-on>
+              </substitution>
+            </substitutions>
+            <team-code>LIL</team-code>
+            <team-name>Lille</team-name>
+            <score>3</score>
+            <team-id>429</team-id>
+            <bookings>
+              <yellow-card first="Yassine" period="SecondHalf" event_id="1088198846" min="60" time="61" last="Benzia" sec="33" timestamp="2017-08-06 15:15:44" id="116628" />
+              <yellow-card first="Anwar" period="SecondHalf" event_id="1128602807" min="70" time="71" last="El Ghazi" sec="12" timestamp="2017-08-06 15:25:23" id="193488" />
+            </bookings>
+          </home-team>
+          <away-team>
+            <substitutions>
+              <substitution period="SecondHalf" event_id="2077127060" min="62" time="63" reason="Tactical" sec="54" sub-timestamp="2017-08-06 15:18:06">
+                <sub-off>
+                  <player-name>Iloki</player-name>
+                  <player-code>119735</player-code>
+                  <player-firstname>Jules</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Thomasson</player-name>
+                  <player-code>115961</player-code>
+                  <player-firstname>Adrien</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1906561691" min="74" time="75" reason="Tactical" sec="1" sub-timestamp="2017-08-06 15:29:12">
+                <sub-off>
+                  <player-name>Touré</player-name>
+                  <player-code>158496</player-code>
+                  <player-firstname>Abdoulaye</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Gillet</player-name>
+                  <player-code>42586</player-code>
+                  <player-firstname>Guillaume</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1676723828" min="74" time="75" reason="Tactical" sec="11" sub-timestamp="2017-08-06 15:29:23">
+                <sub-off>
+                  <player-name>Djidji</player-name>
+                  <player-code>102766</player-code>
+                  <player-firstname>Koffi</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Awaziem</player-name>
+                  <player-code>222874</player-code>
+                  <player-firstname>Chidozie</player-firstname>
+                </sub-on>
+              </substitution>
+            </substitutions>
+            <team-code>NAN</team-code>
+            <team-name>Nantes</team-name>
+            <score>0</score>
+            <team-id>430</team-id>
+            <bookings>
+              <yellow-card first="Nicolas" period="FirstHalf" event_id="1075421401" min="39" time="40" last="Pallois" sec="18" timestamp="2017-08-06 14:39:27" id="82313" />
+              <yellow-card first="Prejuce" period="SecondHalf" event_id="1267951837" min="57" time="58" last="Nakoulma" sec="20" timestamp="2017-08-06 15:12:31" id="85416" />
+              <yellow-card first="Guillaume" period="SecondHalf" event_id="2048547985" min="74" time="75" last="Gillet" sec="28" timestamp="2017-08-06 15:29:40" id="42586" />
+            </bookings>
+          </away-team>
+        </result>
+      </results>
+    </content.body>
+  </content.item>
+</feed>

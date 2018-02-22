@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2001-2018 Opta Sportsdata Ltd. All rights reserved. -->
+
+<!-- PRODUCTION HEADER
+     produced on:        valde-jobq-a02.nexus.opta.net
+     production time:    20180123T194650,22Z
+     production module:  Opta::Feed::XML::Soccer::F26
+-->
+<feed status="NORMAL" id="OPTA_sports_football_results" vendorName="OPTA">
+  <feed-info feed-type="RESULTS" gen-date="" comp-id="361" />
+  <content.item id="OPTA_football_results_20180123">
+    <content.head>
+      <dateline>23/01/2018 19:46 +0100</dateline>
+      <title>OPTA Football Results</title>
+    </content.head>
+    <content.meta>
+      <copyright>OPTA</copyright>
+      <category>Sports</category>
+      <author>OPTA</author>
+      <vendor>OPTA</vendor>
+    </content.meta>
+    <content.body>
+      <results latest="TRUE" ko-time="20:00" comp-name="Coupe de France" date="20180123" last-match="FALSE" comp-id="361">
+        <result game-id="969082" period="PreMatch" match-status="PRE-MATCH">
+          <home-team>
+            <team-code>SAS</team-code>
+            <team-name>Epinal</team-name>
+            <score>0</score>
+            <team-id>2540</team-id>
+          </home-team>
+          <away-team>
+            <team-code>MAR</team-code>
+            <team-name>Marseille</team-name>
+            <score>0</score>
+            <team-id>144</team-id>
+          </away-team>
+        </result>
+      </results>
+      <results latest="TRUE" ko-time="17:30" comp-name="Coupe de France" date="20180123" last-match="FALSE" comp-id="361">
+        <result game-id="969081" timestamp="2018-01-23 19:20:09" period="Full Time" match-status="FULL">
+          <home-team>
+            <scorers>
+              <scorer goal-timestamp="2018-01-23 19:15:36" period="SecondHalf" sec="44" event_id="1611236972" min="88" time="89" goal-type="GOAL">
+                <player-name>Coffi</player-name>
+                <player-code>444390</player-code>
+                <player-firstname>Jacques</player-firstname>
+              </scorer>
+            </scorers>
+            <substitutions>
+              <substitution period="SecondHalf" event_id="1761023926" min="64" time="65" reason="Tactical" sec="30" sub-timestamp="2018-01-23 18:50:52">
+                <sub-off>
+                  <player-name>Insou</player-name>
+                  <player-code>83231</player-code>
+                  <player-firstname>Guillaume</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Degbo</player-name>
+                  <player-code>444398</player-code>
+                  <player-firstname>Paul-Emile</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="700518851" min="71" time="72" reason="Tactical" sec="5" sub-timestamp="2018-01-23 18:57:27">
+                <sub-off>
+                  <player-name>Lacroix</player-name>
+                  <player-code>221712</player-code>
+                  <player-firstname>Remy</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Coffi</player-name>
+                  <player-code>444390</player-code>
+                  <player-firstname>Jacques</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="498421613" min="84" time="85" reason="Tactical" sec="29" sub-timestamp="2018-01-23 19:10:51">
+                <sub-off>
+                  <player-name>Fichten</player-name>
+                  <player-code>444391</player-code>
+                  <player-firstname>Leo</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Keita</player-name>
+                  <player-code>444394</player-code>
+                  <player-firstname>Tidiane</player-firstname>
+                </sub-on>
+              </substitution>
+            </substitutions>
+            <team-code></team-code>
+            <team-name>Colomiers</team-name>
+            <score>1</score>
+            <team-id>7423</team-id>
+            <bookings>
+              <yellow-card first="Remy" period="SecondHalf" event_id="2013273402" min="57" time="58" last="Lacroix" sec="30" timestamp="2018-01-23 18:43:52" id="221712" />
+              <yellow-card first="Brice" period="SecondHalf" event_id="383036829" min="81" time="82" last="Ventrice" sec="16" timestamp="2018-01-23 19:07:38" id="444389" />
+            </bookings>
+          </home-team>
+          <away-team>
+            <substitutions>
+              <substitution period="SecondHalf" event_id="175798226" min="62" time="63" reason="Tactical" sec="56" sub-timestamp="2018-01-23 18:49:18">
+                <sub-off>
+                  <player-name>Kalulu</player-name>
+                  <player-code>213401</player-code>
+                  <player-firstname>Aldo</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Martin</player-name>
+                  <player-code>84462</player-code>
+                  <player-firstname>Florian</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="467044769" min="64" time="65" reason="Tactical" sec="9" sub-timestamp="2018-01-23 18:50:31">
+                <sub-off>
+                  <player-name>Meite</player-name>
+                  <player-code>129491</player-code>
+                  <player-firstname>Yakou</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Berenguer</player-name>
+                  <player-code>73857</player-code>
+                  <player-firstname>Florin</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="601281760" min="86" time="87" reason="Tactical" sec="38" sub-timestamp="2018-01-23 19:13:00">
+                <sub-off>
+                  <player-name>Ba</player-name>
+                  <player-code>112467</player-code>
+                  <player-firstname>El-Hadji</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Bergdich</player-name>
+                  <player-code>91964</player-code>
+                  <player-firstname>Zakarya</player-firstname>
+                </sub-on>
+              </substitution>
+            </substitutions>
+            <scorers>
+              <scorer goal-timestamp="2018-01-23 17:43:38" period="FirstHalf" sec="27" event_id="1098725764" min="10" time="11" goal-type="GOAL">
+                <player-name>Pendant</player-name>
+                <player-code>243689</player-code>
+                <player-firstname>Jason</player-firstname>
+              </scorer>
+              <scorer goal-timestamp="2018-01-23 18:45:37" period="SecondHalf" sec="33" event_id="749064132" min="58" time="59" goal-type="GOAL">
+                <player-name>Meite</player-name>
+                <player-code>129491</player-code>
+                <player-firstname>Yakou</player-firstname>
+              </scorer>
+            </scorers>
+            <team-code>SOC</team-code>
+            <team-name>Sochaux</team-name>
+            <score>2</score>
+            <team-id>693</team-id>
+            <bookings>
+              <yellow-card first="Sofiane" period="FirstHalf" event_id="938023161" min="41" time="42" last="Daham" sec="22" timestamp="2018-01-23 18:11:59" id="208949" />
+              <yellow-card first="Thomas" period="SecondHalf" event_id="826296097" min="59" time="60" last="Robinet" sec="36" timestamp="2018-01-23 18:45:58" id="205292" />
+            </bookings>
+          </away-team>
+        </result>
+        <result game-id="969079" period="PreMatch" match-status="PRE-MATCH">
+          <home-team>
+            <team-code></team-code>
+            <team-name>US Granvillaise</team-name>
+            <score>0</score>
+            <team-id>11428</team-id>
+          </home-team>
+          <away-team>
+            <team-code></team-code>
+            <team-name>Concarneau</team-name>
+            <score>0</score>
+            <team-id>3272</team-id>
+          </away-team>
+        </result>
+        <result game-id="969075" timestamp="2018-01-23 19:20:44" period="Full Time" match-status="FULL">
+          <home-team>
+            <substitutions>
+              <substitution period="SecondHalf" event_id="1718202001" min="65" time="66" reason="Tactical" sec="12" sub-timestamp="2018-01-23 18:52:36">
+                <sub-off>
+                  <player-name>Koubemba</player-name>
+                  <player-code>112465</player-code>
+                  <player-firstname>Kevin</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Sarr</player-name>
+                  <player-code>202068</player-code>
+                  <player-firstname>Adama</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1185384499" min="79" time="80" reason="Tactical" sec="56" sub-timestamp="2018-01-23 19:07:20">
+                <sub-off>
+                  <player-name>Merdji</player-name>
+                  <player-code>245914</player-code>
+                  <player-firstname>Yanis</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Begue</player-name>
+                  <player-code>176094</player-code>
+                  <player-firstname>Julien</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1067791429" min="84" time="85" reason="Tactical" sec="13" sub-timestamp="2018-01-23 19:11:37">
+                <sub-off>
+                  <player-name>Martins Pereira</player-name>
+                  <player-code>156934</player-code>
+                  <player-firstname>Christopher</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Gamiette</player-name>
+                  <player-code>51528</player-code>
+                  <player-firstname>Thomas</player-firstname>
+                </sub-on>
+              </substitution>
+            </substitutions>
+            <scorers>
+              <scorer goal-timestamp="2018-01-23 18:51:00" period="SecondHalf" sec="18" event_id="655697507" min="62" time="63" goal-type="GOAL">
+                <player-name>Court</player-name>
+                <player-code>59964</player-code>
+                <player-firstname>Yoann</player-firstname>
+              </scorer>
+              <scorer goal-timestamp="2018-01-23 19:16:16" period="SecondHalf" sec="58" event_id="324183404" min="87" time="88" goal-type="GOAL">
+                <player-name>Begue</player-name>
+                <player-code>176094</player-code>
+                <player-firstname>Julien</player-firstname>
+              </scorer>
+            </scorers>
+            <team-code>BOP</team-code>
+            <team-name>Bourg-en-Bresse</team-name>
+            <score>2</score>
+            <team-id>3312</team-id>
+            <bookings>
+              <yellow-card first="Christopher" period="SecondHalf" event_id="464151517" min="46" time="47" last="Martins Pereira" sec="35" timestamp="2018-01-23 18:34:00" id="156934" />
+            </bookings>
+          </home-team>
+          <away-team>
+            <substitutions>
+              <substitution period="SecondHalf" event_id="938299161" min="55" time="56" reason="Tactical" sec="22" sub-timestamp="2018-01-23 18:42:46">
+                <sub-off>
+                  <player-name>Blin</player-name>
+                  <player-code>201392</player-code>
+                  <player-firstname>Alexis</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Bodiger</player-name>
+                  <player-code>194302</player-code>
+                  <player-firstname>Yann</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1741491320" min="63" time="64" reason="Tactical" sec="24" sub-timestamp="2018-01-23 18:50:48">
+                <sub-off>
+                  <player-name>Durmaz</player-name>
+                  <player-code>61704</player-code>
+                  <player-firstname>Jimmy</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Michelin</player-name>
+                  <player-code>229605</player-code>
+                  <player-firstname>Clement</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="756681337" min="71" time="72" reason="Tactical" sec="24" sub-timestamp="2018-01-23 18:58:48">
+                <sub-off>
+                  <player-name>Jean</player-name>
+                  <player-code>126177</player-code>
+                  <player-firstname>Corentin</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Sanogo</player-name>
+                  <player-code>80711</player-code>
+                  <player-firstname>Yaya</player-firstname>
+                </sub-on>
+              </substitution>
+            </substitutions>
+            <team-code>TOU</team-code>
+            <team-name>Toulouse</team-name>
+            <score>0</score>
+            <team-id>427</team-id>
+            <bookings>
+              <red-card period="SecondHalf" event_id="2086784999" min="60" time="61" sec="44" timestamp="2018-01-23 18:48:09" type="Straight Red">
+                <player-name>Jullien</player-name>
+                <player-code>114546</player-code>
+                <player-firstname>Christopher</player-firstname>
+              </red-card>
+              <yellow-card first="Jimmy" period="FirstHalf" event_id="962891359" min="44" time="45" last="Durmaz" sec="40" timestamp="2018-01-23 18:14:28" id="61704" />
+            </bookings>
+          </away-team>
+        </result>
+        <result game-id="969077" timestamp="2018-01-23 19:46:41" period="Extra Second Half" match-status="LIVE">
+          <home-team>
+            <substitutions>
+              <substitution period="SecondHalf" event_id="1930832818" min="57" time="58" reason="Tactical" sec="52" sub-timestamp="2018-01-23 18:45:24">
+                <sub-off>
+                  <player-name>Delclos</player-name>
+                  <player-code>110401</player-code>
+                  <player-firstname>Jordi</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Buxeda</player-name>
+                  <player-code>444376</player-code>
+                  <player-firstname>Damien</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1375784670" min="82" time="83" reason="Tactical" sec="32" sub-timestamp="2018-01-23 19:10:05">
+                <sub-off>
+                  <player-name>Boyer</player-name>
+                  <player-code>444369</player-code>
+                  <player-firstname>Julien</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Pylouster Castel</player-name>
+                  <player-code>444375</player-code>
+                  <player-firstname>Pierre</player-firstname>
+                </sub-on>
+              </substitution>
+            </substitutions>
+            <scorers>
+              <scorer goal-timestamp="2018-01-23 17:46:55" period="FirstHalf" sec="36" event_id="1033607651" min="13" time="14" goal-type="GOAL">
+                <player-name>Mahieu</player-name>
+                <player-code>443243</player-code>
+                <player-firstname>Pierre</player-firstname>
+              </scorer>
+            </scorers>
+            <team-code></team-code>
+            <team-name>Canet Roussillon FC</team-name>
+            <score>1</score>
+            <team-id>14032</team-id>
+            <bookings>
+              <yellow-card first="Maxime" period="ExtraFirstHalf" event_id="1867447049" min="99" time="100" last="Ferry" sec="17" timestamp="2018-01-23 19:37:42" id="444363" />
+            </bookings>
+          </home-team>
+          <away-team>
+            <substitutions>
+              <substitution period="SecondHalf" event_id="1214537831" min="45" time="46" reason="Tactical" sec="0" sub-timestamp="2018-01-23 18:33:32">
+                <sub-off>
+                  <player-name>Santini</player-name>
+                  <player-code>60319</player-code>
+                  <player-firstname>Ivan</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Rodelin</player-name>
+                  <player-code>50996</player-code>
+                  <player-firstname>Ronny</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="2086744733" min="65" time="66" reason="Tactical" sec="11" sub-timestamp="2018-01-23 18:52:43">
+                <sub-off>
+                  <player-name>Kouakou</player-name>
+                  <player-code>119768</player-code>
+                  <player-firstname>Christian</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>N'Kololo</player-name>
+                  <player-code>119628</player-code>
+                  <player-firstname>Jordan</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="2012236874" min="77" time="78" reason="Tactical" sec="56" sub-timestamp="2018-01-23 19:05:29">
+                <sub-off>
+                  <player-name>Bazile</player-name>
+                  <player-code>58616</player-code>
+                  <player-firstname>Herve</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Féret</player-name>
+                  <player-code>45082</player-code>
+                  <player-firstname>Julien</player-firstname>
+                </sub-on>
+              </substitution>
+            </substitutions>
+            <scorers>
+              <scorer goal-timestamp="2018-01-23 18:03:15" period="FirstHalf" sec="51" event_id="790082391" min="29" time="30" goal-type="GOAL">
+                <player-name>Genevois</player-name>
+                <player-code>44357</player-code>
+                <player-firstname>Romain</player-firstname>
+              </scorer>
+            </scorers>
+            <team-code>CAE</team-code>
+            <team-name>Caen</team-name>
+            <score>1</score>
+            <team-id>1028</team-id>
+            <bookings>
+              <yellow-card first="Stef" period="SecondHalf" event_id="1776824455" min="52" time="53" last="Peeters" sec="16" timestamp="2018-01-23 18:39:49" id="108994" />
+              <yellow-card first="Romain" period="SecondHalf" event_id="1828678163" min="77" time="78" last="Genevois" sec="6" timestamp="2018-01-23 19:04:39" id="44357" />
+            </bookings>
+          </away-team>
+        </result>
+        <result game-id="969069" timestamp="2018-01-23 19:22:01" period="Full Time" match-status="FULL">
+          <home-team>
+            <substitutions>
+              <substitution period="SecondHalf" event_id="107326729" min="69" time="70" reason="Tactical" sec="44" sub-timestamp="2018-01-23 18:58:05">
+                <sub-off>
+                  <player-name>Allee</player-name>
+                  <player-code>444400</player-code>
+                  <player-firstname>Ahmad</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Poussevin</player-name>
+                  <player-code>111109</player-code>
+                  <player-firstname>Thomas</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="723651577" min="75" time="76" reason="Tactical" sec="44" sub-timestamp="2018-01-23 19:04:05">
+                <sub-off>
+                  <player-name>Kerger</player-name>
+                  <player-code>444405</player-code>
+                  <player-firstname>Florian</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Joulain</player-name>
+                  <player-code>444408</player-code>
+                  <player-firstname>Aurelien</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1157506939" min="88" time="89" reason="Tactical" sec="39" sub-timestamp="2018-01-23 19:17:00">
+                <sub-off>
+                  <player-name>Bloudeau</player-name>
+                  <player-code>444403</player-code>
+                  <player-firstname>Theo</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Amourette</player-name>
+                  <player-code>444410</player-code>
+                  <player-firstname>Kevin</player-firstname>
+                </sub-on>
+              </substitution>
+            </substitutions>
+            <team-code></team-code>
+            <team-name>Stade Briochin</team-name>
+            <score>0</score>
+            <team-id>3271</team-id>
+            <bookings>
+              <yellow-card first="Florian" period="SecondHalf" event_id="297684669" min="54" time="55" last="Kerger" sec="52" timestamp="2018-01-23 18:43:13" id="444405" />
+            </bookings>
+          </home-team>
+          <away-team>
+            <substitutions>
+              <substitution period="SecondHalf" event_id="671651295" min="62" time="63" reason="Tactical" sec="42" sub-timestamp="2018-01-23 18:51:03">
+                <sub-off>
+                  <player-name>Chantôme</player-name>
+                  <player-code>38438</player-code>
+                  <player-firstname>Clément</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Diarra</player-name>
+                  <player-code>210205</player-code>
+                  <player-firstname>Souleymane</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1020862751" min="79" time="80" reason="Tactical" sec="32" sub-timestamp="2018-01-23 19:07:53">
+                <sub-off>
+                  <player-name>Dja Djédjé</player-name>
+                  <player-code>86431</player-code>
+                  <player-firstname>Brice</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Sagnan</player-name>
+                  <player-code>438022</player-code>
+                  <player-firstname>Modibo</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="699597442" min="82" time="83" reason="Tactical" sec="0" sub-timestamp="2018-01-23 19:10:21">
+                <sub-off>
+                  <player-name>Markovic</player-name>
+                  <player-code>123889</player-code>
+                  <player-firstname>Filip</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Fortune</player-name>
+                  <player-code>230718</player-code>
+                  <player-firstname>Kevin</player-firstname>
+                </sub-on>
+              </substitution>
+            </substitutions>
+            <scorers>
+              <scorer goal-timestamp="2018-01-23 17:46:20" period="FirstHalf" sec="55" event_id="188416401" min="14" time="15" goal-type="PENG">
+                <player-name>Cristian</player-name>
+                <player-code>62128</player-code>
+              </scorer>
+            </scorers>
+            <team-code>LEN</team-code>
+            <team-name>Lens</team-name>
+            <score>1</score>
+            <team-id>142</team-id>
+            <bookings>
+              <yellow-card first="Enzo" period="FirstHalf" event_id="197757734" min="9" time="10" last="Ebosse" sec="55" timestamp="2018-01-23 17:41:06" id="208554" />
+              <yellow-card first="Abdelrafik" period="SecondHalf" event_id="135974800" min="54" time="55" last="Gerard" sec="53" timestamp="2018-01-23 18:43:14" id="202854" />
+            </bookings>
+          </away-team>
+        </result>
+        <result game-id="969067" timestamp="2018-01-23 19:46:47" period="Extra Second Half" match-status="LIVE">
+          <home-team>
+            <scorers>
+              <scorer goal-timestamp="2018-01-23 18:47:05" period="SecondHalf" sec="49" event_id="1790811354" min="57" time="58" goal-type="GOAL">
+                <player-name>Mandanne</player-name>
+                <player-code>44314</player-code>
+                <player-firstname>Christophe</player-firstname>
+              </scorer>
+            </scorers>
+            <team-code>CHX</team-code>
+            <team-name>Châteauroux</team-name>
+            <score>1</score>
+            <team-id>921</team-id>
+            <bookings>
+              <yellow-card first="Nama" period="SecondHalf" event_id="712126245" min="86" time="87" last="Fofana" sec="59" timestamp="2018-01-23 19:14:00" id="202971" />
+            </bookings>
+          </home-team>
+          <away-team>
+            <scorers>
+              <scorer goal-timestamp="2018-01-23 18:59:52" period="SecondHalf" sec="12" event_id="756633869" min="72" time="73" goal-type="GOAL">
+                <player-name>Doucoure</player-name>
+                <player-code>110303</player-code>
+                <player-firstname>Lassana</player-firstname>
+              </scorer>
+            </scorers>
+            <substitutions>
+              <substitution period="SecondHalf" event_id="1007238005" min="64" time="65" reason="Tactical" sec="9" sub-timestamp="2018-01-23 18:51:09">
+                <sub-off>
+                  <player-name>Ntim</player-name>
+                  <player-code>115149</player-code>
+                  <player-firstname>Emmanuel</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Doucouré</player-name>
+                  <player-code>110301</player-code>
+                  <player-firstname>Gaharo</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="776390676" min="85" time="86" reason="Injury" sec="12" sub-timestamp="2018-01-23 19:12:13">
+                <sub-off>
+                  <player-name>Montiel</player-name>
+                  <player-code>217334</player-code>
+                  <player-firstname>Romain</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Popelard</player-name>
+                  <player-code>110307</player-code>
+                  <player-firstname>John</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="ExtraSecondHalf" event_id="250670804" min="105" time="106" reason="Tactical" sec="0" sub-timestamp="2018-01-23 19:46:31">
+                <sub-off>
+                  <player-name>Doucoure</player-name>
+                  <player-code>110303</player-code>
+                  <player-firstname>Lassana</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Lebon</player-name>
+                  <player-code>429523</player-code>
+                  <player-firstname>Keelan</player-firstname>
+                </sub-on>
+              </substitution>
+            </substitutions>
+            <team-code></team-code>
+            <team-name>Chambly</team-name>
+            <score>1</score>
+            <team-id>6783</team-id>
+            <bookings>
+              <yellow-card first="Max" period="FirstHalf" event_id="1459732267" min="32" time="33" last="Hilaire" sec="29" timestamp="2018-01-23 18:02:33" id="164031" />
+              <yellow-card first="Lassana" period="SecondHalf" event_id="560801053" min="56" time="57" last="Doucoure" sec="32" timestamp="2018-01-23 18:43:33" id="110303" />
+            </bookings>
+          </away-team>
+        </result>
+        <result game-id="969068" timestamp="2018-01-23 19:23:12" period="Full Time" match-status="FULL">
+          <home-team>
+            <substitutions>
+              <substitution period="SecondHalf" event_id="2018259735" min="80" time="81" reason="Tactical" sec="20" sub-timestamp="2018-01-23 19:07:35">
+                <sub-off>
+                  <player-name>Iloki</player-name>
+                  <player-code>119735</player-code>
+                  <player-firstname>Jules</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>El Ghanassy</player-name>
+                  <player-code>46345</player-code>
+                  <player-firstname>Yassine</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1810252662" min="84" time="85" reason="Tactical" sec="17" sub-timestamp="2018-01-23 19:11:33">
+                <sub-off>
+                  <player-name>Bammou</player-name>
+                  <player-code>193409</player-code>
+                  <player-firstname>Yacine</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Kacaniklic</player-name>
+                  <player-code>42518</player-code>
+                  <player-firstname>Alexander</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1619765986" min="91" time="92" reason="Tactical" sec="1" sub-timestamp="2018-01-23 19:18:17">
+                <sub-off>
+                  <player-name>Dubois</player-name>
+                  <player-code>183779</player-code>
+                  <player-firstname>Léo</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Ngom</player-name>
+                  <player-code>440114</player-code>
+                  <player-firstname>Santy</player-firstname>
+                </sub-on>
+              </substitution>
+            </substitutions>
+            <scorers>
+              <scorer goal-timestamp="2018-01-23 18:08:37" period="FirstHalf" sec="30" event_id="1941734397" min="37" time="38" goal-type="GOAL">
+                <player-name>Thomasson</player-name>
+                <player-code>115961</player-code>
+                <player-firstname>Adrien</player-firstname>
+              </scorer>
+              <scorer goal-timestamp="2018-01-23 18:37:26" period="SecondHalf" sec="11" event_id="2117635073" min="50" time="51" goal-type="GOAL">
+                <player-name>Dubois</player-name>
+                <player-code>183779</player-code>
+                <player-firstname>Léo</player-firstname>
+              </scorer>
+              <scorer goal-timestamp="2018-01-23 18:52:01" period="SecondHalf" sec="46" event_id="1465516544" min="64" time="65" goal-type="GOAL">
+                <player-name>Thomasson</player-name>
+                <player-code>115961</player-code>
+                <player-firstname>Adrien</player-firstname>
+              </scorer>
+            </scorers>
+            <team-code>NAN</team-code>
+            <team-name>Nantes</team-name>
+            <score>3</score>
+            <team-id>430</team-id>
+            <bookings>
+              <red-card period="SecondHalf" event_id="2025743208" min="70" time="71" sec="51" timestamp="2018-01-23 18:58:06" type="Straight Red">
+                <player-name>Lucas Lima</player-name>
+                <player-code>116536</player-code>
+              </red-card>
+            </bookings>
+          </home-team>
+          <away-team>
+            <substitutions>
+              <substitution period="SecondHalf" event_id="1252749079" min="62" time="63" reason="Tactical" sec="52" sub-timestamp="2018-01-23 18:50:07">
+                <sub-off>
+                  <player-name>Obraniak</player-name>
+                  <player-code>40676</player-code>
+                  <player-firstname>Ludovic</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Sissako</player-name>
+                  <player-code>232253</player-code>
+                  <player-firstname>Abdoulaye</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1318273190" min="83" time="84" reason="Tactical" sec="27" sub-timestamp="2018-01-23 19:10:42">
+                <sub-off>
+                  <player-name>Sangare</player-name>
+                  <player-code>245034</player-code>
+                  <player-firstname>Ibrahim</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Vincent</player-name>
+                  <player-code>195636</player-code>
+                  <player-firstname>Alexandre</player-firstname>
+                </sub-on>
+              </substitution>
+              <substitution period="SecondHalf" event_id="1271100446" min="91" time="92" reason="Tactical" sec="32" sub-timestamp="2018-01-23 19:18:47">
+                <sub-off>
+                  <player-name>Sane</player-name>
+                  <player-code>154481</player-code>
+                  <player-firstname>Pape</player-firstname>
+                </sub-off>
+                <sub-on>
+                  <player-name>Ndicka</player-name>
+                  <player-code>208553</player-code>
+                  <player-firstname>Obite</player-firstname>
+                </sub-on>
+              </substitution>
+            </substitutions>
+            <scorers>
+              <scorer goal-timestamp="2018-01-23 17:36:24" period="FirstHalf" sec="18" event_id="1340413751" min="5" time="6" goal-type="GOAL">
+                <player-name>Konate</player-name>
+                <player-code>216530</player-code>
+                <player-firstname>Brahim</player-firstname>
+              </scorer>
+              <scorer goal-timestamp="2018-01-23 18:02:59" period="FirstHalf" sec="52" event_id="1375753834" min="31" time="32" goal-type="OWNG">
+                <player-name>Pallois</player-name>
+                <player-code>82313</player-code>
+                <player-firstname>Nicolas</player-firstname>
+              </scorer>
+              <scorer goal-timestamp="2018-01-23 18:04:51" period="FirstHalf" sec="44" event_id="1934886194" min="33" time="34" goal-type="GOAL">
+                <player-name>Aye</player-name>
+                <player-code>214243</player-code>
+                <player-firstname>Florian</player-firstname>
+              </scorer>
+              <scorer goal-timestamp="2018-01-23 19:02:57" period="SecondHalf" sec="42" event_id="1972037626" min="75" time="76" goal-type="GOAL">
+                <player-name>Sangare</player-name>
+                <player-code>245034</player-code>
+                <player-firstname>Ibrahim</player-firstname>
+              </scorer>
+            </scorers>
+            <team-code>AUX</team-code>
+            <team-name>Auxerre</team-name>
+            <score>4</score>
+            <team-id>138</team-id>
+            <bookings>
+              <yellow-card first="Birama" period="FirstHalf" event_id="1985815767" min="2" time="3" last="Touré" sec="17" timestamp="2018-01-23 17:33:24" id="119738" known="Birama Touré" />
+              <yellow-card first="Quentin" period="FirstHalf" event_id="1777344580" min="31" time="32" last="Westberg" sec="24" timestamp="2018-01-23 18:02:31" id="37975" />
+            </bookings>
+          </away-team>
+        </result>
+      </results>
+    </content.body>
+  </content.item>
+</feed>

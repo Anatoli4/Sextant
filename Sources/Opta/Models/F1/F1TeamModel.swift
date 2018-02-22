@@ -16,7 +16,7 @@ public struct F1TeamGoalModel: XMLFuziModel {
       playerRef.isEmpty == false else { throw "miss F1 team player goal id" }
     playerId = String(playerRef.dropFirst())
     period = MatchPeriod(periodString: attributes["Period"]?.lowercased() ?? "")
-    type = GoalType(rawValue: attributes["Type"]?.lowercased() ?? "") ?? .goal
+    type = GoalType(goalString: attributes["Type"] ?? "")
   }
 }
 

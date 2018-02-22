@@ -29,7 +29,6 @@ public class OptaAPIManager {
 }
 
 // MARK: - F1
-// swiftlint:disable variable_name
 extension OptaAPIManager {
   public typealias F1Result = SingleOptionalResult<F1Model>
   public typealias F1Request = Request<F1Result>
@@ -97,7 +96,8 @@ extension OptaAPIManager {
   public static func f26Request(competition: OptaAPIManager.Competition,
                                 builderSetup: ((RequestBuilder<F26Result>) -> Void)? = nil)
     throws -> F26Request {
-    let request: RequestBuilder<F26Result> = buider(for: .f26(competition: competition)).setXPath("feed")
+    let request: RequestBuilder<F26Result> = buider(for: .f26(competition: competition))
+      .setXPath("feed/content.item/content.body")
     if let builderSetup = builderSetup {
       builderSetup(request)
     }
