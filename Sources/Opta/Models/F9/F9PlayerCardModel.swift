@@ -7,17 +7,6 @@ import Fuzi
 
 // swiftlint:disable variable_name
 public struct F9PlayerCardModel: XMLFuziModel {
-  public enum Name: String {
-    case undefined
-    case yellow
-    case red
-  }
-  public enum Kind: String {
-    case undefined
-    case yellow = "yellow"
-    case secondYellow = "secondyellow"
-    case red = "straightred"
-  }
   public enum Reason: String {
     case undefined
     case handball = "handball"
@@ -47,8 +36,8 @@ public struct F9PlayerCardModel: XMLFuziModel {
   }
 
   public let id: String
-  public let name: Name
-  public let kind: Kind
+  public let name: CardType
+  public let type: CardType
   public let period: MatchPeriod
   public let reason: Reason
   public let playerId: String
@@ -66,8 +55,8 @@ public struct F9PlayerCardModel: XMLFuziModel {
   public init(_ xml: XMLElement) throws {
     let attributes = xml.attributes
     id = String(attributes["uID"]?.dropFirst() ?? "")
-    name = Name(rawValue: attributes["Card"]?.lowercased() ?? "") ?? .undefined
-    kind = Kind(rawValue: attributes["CardType"]?.lowercased() ?? "") ?? .undefined
+    name = CardType(cardString: attributes["Card"] ?? "")
+    type = CardType(cardString: attributes["CardType"] ?? "")
     period = MatchPeriod(periodString: attributes["Period"]?.lowercased() ?? "")
     reason = Reason(rawValue: attributes["Reason"]?.lowercased() ?? "") ?? .undefined
     playerId = String(attributes["PlayerRef"]?.dropFirst() ?? "")

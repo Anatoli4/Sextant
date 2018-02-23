@@ -7,17 +7,11 @@ import Fuzi
 
 // swiftlint:disable variable_name
 public struct F9PlayerSubstitutionModel: XMLFuziModel {
-  public enum Reason: String {
-    case undefined
-    case injury
-    case tactical
-  }
-
   public let id: String
   public let onPlayerId: String
   public let offPlayerId: String
   public let minute: Int
-  public let reason: Reason
+  public let reason: SubstitutionReason
   public let period: MatchPeriod
   public let position: PlayerPosition
   private(set) var timeStamp: Date?
@@ -37,7 +31,7 @@ public struct F9PlayerSubstitutionModel: XMLFuziModel {
     onPlayerId = String(attributes["SubOn"]?.dropFirst() ?? "")
     offPlayerId = String(attributes["SubOff"]?.dropFirst() ?? "")
     minute = Int(attributes["Time"] ?? "0") ?? 0
-    reason = Reason(rawValue: attributes["Reason"]?.lowercased() ?? "") ?? .undefined
+    reason = SubstitutionReason(rawValue: attributes["Reason"]?.lowercased() ?? "") ?? .undefined
     period = MatchPeriod(periodString: attributes["Period"]?.lowercased() ?? "")
     position = PlayerPosition(positionString: attributes["SubstitutePosition"]?.lowercased() ?? "")
     if let timestamp = attributes["TimeStamp"] {

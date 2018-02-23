@@ -1,5 +1,6 @@
 //
 //  Created by Eugen Filipkov on 2/2/18.
+//  Copyright © 2018 NetcoSports. All rights reserved.
 //
 
 import XCTest
@@ -10,7 +11,6 @@ import RxBlocking
 import SignatureInterceptor
 
 class F1Spec: BaseSpec {
-
   func testRequest() {
     do {
       let requestObject = try OptaAPIManager.f1Request(competition: OptaAPIManager.Competition(id: "24", season: "2017"))

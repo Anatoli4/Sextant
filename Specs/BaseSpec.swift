@@ -1,5 +1,6 @@
 //
 //  Created by Eugen Filipkov on 2/2/18.
+//  Copyright © 2018 NetcoSports. All rights reserved.
 //
 
 import XCTest
@@ -10,7 +11,6 @@ import RxBlocking
 import SignatureInterceptor
 
 class BaseSpec: XCTestCase {
-  
   override func setUp() {
     super.setUp()
     
@@ -27,12 +27,13 @@ class BaseSpec: XCTestCase {
   }
 
   public func parsedModel<T: BaseModel>(with feedName: String,
-                                        from fileExtension: String) throws -> T {
+                                        from fileExtension: String,
+                                        from path: String = "SoccerFeed/SoccerDocument") throws -> T {
     guard let url = Bundle(for: type(of: self)).url(forResource: feedName,
                                                     withExtension: fileExtension) else {
       throw "No path"
     }
     let data = try Data(contentsOf: url)
-    return try T.model(with: data, atPath: "SoccerFeed/SoccerDocument")
+    return try T.model(with: data, atPath: path)
   }
 }
