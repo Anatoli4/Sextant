@@ -9,8 +9,8 @@ import Fuzi
 public struct F26MatchModel {
   public let id: String
   public let competitionInfo: F26CompetitionInfoModel
-  private(set) var date: Date?
-  private(set) var timestamp: Date?
+  public private(set) var date: Date?
+  public private(set) var timestamp: Date?
   public let status: MatchStatus
   public let period: MatchPeriod
   public let homeTeam: F26TeamModel

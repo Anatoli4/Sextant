@@ -27,9 +27,9 @@ public struct F1TeamModel {
   public let score: Int
   public let halfScore: Int
   public let side: TeamSide
-  private(set) var ninetyScore: Int?
-  private(set) var extraScore: Int?
-  private(set) var penaltyScore: Int?
+  public private(set) var ninetyScore: Int?
+  public private(set) var extraScore: Int?
+  public private(set) var penaltyScore: Int?
   public let goals: [F1TeamGoalModel]
 
   public init(_ xml: XMLElement,

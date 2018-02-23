@@ -9,9 +9,9 @@ import Fuzi
 public struct F3TeamModel {
   public let id: String
   public let name: String
-  private(set) var pointsDeduction: Int?
-  private(set) var points: Int?
-  private(set) var reason: String?
+  public private(set) var pointsDeduction: Int?
+  public private(set) var points: Int?
+  public private(set) var reason: String?
   public let statistics: F3TeamStatisticsModel
 
   public init(_ xml: XMLElement,

@@ -52,12 +52,12 @@ public struct F9PlayerModel {
   public let position: PlayerPosition
   public let subPosition: PlayerPosition
   public let shirtNumber: String
-  private(set) var formationPosition: Int = 0
+  public private(set) var formationPosition: Int = 0
   public let stats: [Stat]?
-  private(set) var goals: [F9PlayerGoalModel]?
-  private(set) var cards: [F9PlayerCardModel]?
-  private(set) var substitutions: [F9PlayerSubstitutionModel]?
-  private(set) var shootOuts: [F9PlayerShootOutModel]?
+  public private(set) var goals: [F9PlayerGoalModel]?
+  public private(set) var cards: [F9PlayerCardModel]?
+  public private(set) var substitutions: [F9PlayerSubstitutionModel]?
+  public private(set) var shootOuts: [F9PlayerShootOutModel]?
 
   public init(_ xml: XMLElement,
               team: XMLElement?,

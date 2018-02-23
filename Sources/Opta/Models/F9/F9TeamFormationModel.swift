@@ -37,9 +37,9 @@ public struct F9TeamFormationModel {
     return formation
   }
 
-  private(set) var formation: String
-  private(set) var rows: [Row]
-  private(set) var order: [Int]
+  public private(set) var formation: String
+  public private(set) var rows: [Row]
+  public private(set) var order: [Int]
 
   // swiftlint:disable function_body_length
   // swiftlint:disable:next cyclomatic_complexity

@@ -37,8 +37,8 @@ public struct F26CompetitionInfoModel: XMLFuziModel {
 
 public struct F26MatchesSetModel: XMLFuziModel {
   public let competitionInfo: F26CompetitionInfoModel
-  private(set) var date: Date?
-  private(set) var matches: [F26MatchModel]?
+  public private(set) var date: Date?
+  public private(set) var matches: [F26MatchModel]?
 
   public init(_ xml: XMLElement) throws {
     let attributes = xml.attributes

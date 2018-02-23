@@ -18,9 +18,9 @@ public struct F9PlayerGoalModel: XMLFuziModel {
   public let minute: Int
   public let kind: Kind
   public let period: MatchPeriod
-  private(set) var timeStamp: Date?
-  private(set) var assistPlayerId: String?
-  private(set) var secondAssistPlayerId: String?
+  public private(set) var timeStamp: Date?
+  public private(set) var assistPlayerId: String?
+  public private(set) var secondAssistPlayerId: String?
   /*
    Unique within the game. The first digit indicates the half/period.
    The middle digits indicate the event minute. the last indicates the event number

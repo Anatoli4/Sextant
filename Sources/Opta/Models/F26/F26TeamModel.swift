@@ -12,10 +12,10 @@ public struct F26TeamModel: XMLFuziModel {
   // 3 letter team name abbreviation
   public let code: String
   public let score: Int
-  private(set) var penaltyScore: Int?
+  public private(set) var penaltyScore: Int?
   public let substitutions: [F26SubstitutionModel]?
   public let goals: [F26GoalModel]?
-  private(set) var cards: [F26CardModel]?
+  public private(set) var cards: [F26CardModel]?
 
   public init(_ xml: XMLElement) throws {
     id = xml.firstChild(staticTag: "team-id")?.stringValue ?? ""
@@ -68,7 +68,7 @@ public struct F26SubstitutionModel: XMLFuziModel {
   public let minute: Int
   public let seconds: Int
   public let reason: SubstitutionReason
-  private(set) var timeStamp: Date?
+  public private(set) var timeStamp: Date?
   public let onPlayer: F26PlayerModel
   public let offPlayer: F26PlayerModel
 
@@ -99,7 +99,7 @@ public struct F26GoalModel: XMLFuziModel {
   public let minute: Int
   public let seconds: Int
   public let kind: GoalType
-  private(set) var timeStamp: Date?
+  public private(set) var timeStamp: Date?
   public let player: F26PlayerModel
 
   public init(_ xml: XMLElement) throws {
@@ -121,13 +121,13 @@ public struct F26GoalModel: XMLFuziModel {
 
 public struct F26CardModel {
   public let name: CardType
-  private(set) var type: CardType?
+  public private(set) var type: CardType?
   public let eventId: String
   public let period: MatchPeriod
   public let time: Int
   public let minute: Int
   public let seconds: Int
-  private(set) var timeStamp: Date?
+  public private(set) var timeStamp: Date?
   public let player: F26PlayerModel
 
   public init(_ xml: XMLElement, name: CardType) throws {

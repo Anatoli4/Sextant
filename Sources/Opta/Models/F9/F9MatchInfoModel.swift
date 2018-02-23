@@ -8,24 +8,24 @@ import Fuzi
 public struct F9MatchInfoModel: XMLFuziModel {
   public let type: MatchType
   public let periodStatus: MatchPeriod
-  private(set) var date: Date?
+  public private(set) var date: Date?
   public let official: F9MatchOfficialModel
   public let assistantOfficials: [F9MatchOfficialModel]
-  private(set) var result: F9MatchResultModel?
+  public private(set) var result: F9MatchResultModel?
   public let matchTime: Int
-  private(set) var calculatedMatchTime: Int = 0
-  private(set) var firstHalfTime: Int?
-  private(set) var firstHalfStartDate: Date?
-  private(set) var firstHalfStopDate: Date?
-  private(set) var secondHalfTime: Int?
-  private(set) var secondHalfStartDate: Date?
-  private(set) var secondHalfStopDate: Date?
-  private(set) var firstHalfExtraTime: Int?
-  private(set) var firstHalfExtraStartDate: Date?
-  private(set) var firstHalfExtraStopDate: Date?
-  private(set) var secondHalfExtraTime: Int?
-  private(set) var secondHalfExtraStartDate: Date?
-  private(set) var secondHalfExtraStopDate: Date?
+  public private(set) var calculatedMatchTime: Int = 0
+  public private(set) var firstHalfTime: Int?
+  public private(set) var firstHalfStartDate: Date?
+  public private(set) var firstHalfStopDate: Date?
+  public private(set) var secondHalfTime: Int?
+  public private(set) var secondHalfStartDate: Date?
+  public private(set) var secondHalfStopDate: Date?
+  public private(set) var firstHalfExtraTime: Int?
+  public private(set) var firstHalfExtraStartDate: Date?
+  public private(set) var firstHalfExtraStopDate: Date?
+  public private(set) var secondHalfExtraTime: Int?
+  public private(set) var secondHalfExtraStartDate: Date?
+  public private(set) var secondHalfExtraStopDate: Date?
 
   // swiftlint:disable:next cyclomatic_complexity
   public init(_ xml: XMLElement) throws {

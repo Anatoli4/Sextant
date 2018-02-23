@@ -14,7 +14,7 @@ public struct F9PlayerSubstitutionModel: XMLFuziModel {
   public let reason: SubstitutionReason
   public let period: MatchPeriod
   public let position: PlayerPosition
-  private(set) var timeStamp: Date?
+  public private(set) var timeStamp: Date?
   /*
    Unique within the game. The first digit indicates the half/period.
    The middle digits indicate the event minute. the last indicates the event number

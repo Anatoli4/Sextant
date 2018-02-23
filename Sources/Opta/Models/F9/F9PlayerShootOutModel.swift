@@ -17,7 +17,7 @@ public struct F9PlayerShootOutModel: XMLFuziModel {
   public let id: String
   public let playerId: String
   public let outcome: Outcome
-  private(set) var timeStamp: Date?
+  public private(set) var timeStamp: Date?
   /*
    Unique within the game. The first digit indicates the half/period.
    The middle digits indicate the event minute. the last indicates the event number
