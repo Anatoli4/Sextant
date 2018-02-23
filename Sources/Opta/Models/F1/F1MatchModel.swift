@@ -43,6 +43,7 @@ public struct F1MatchModel {
   }
 
   public let id: String
+  public let competitionInfo: F1CompetitionInfoModel
   public let stadiumInfo: StadiumInfo
   public let day: String
   public let type: MatchType
@@ -64,7 +65,8 @@ public struct F1MatchModel {
 
   // swiftlint:disable:next function_body_length cyclomatic_complexity
   public init(_ xml: XMLElement,
-              teamsInfo: [XMLElement]) throws {
+              teamsInfo: [XMLElement],
+              competitionInfo: F1CompetitionInfoModel) throws {
     let attributes = xml.attributes
     guard let uId = attributes["uID"], uId.isEmpty == false else { throw "miss F1 match id" }
     let teams = xml.children(staticTag: "TeamData")
@@ -72,6 +74,7 @@ public struct F1MatchModel {
     guard let away = teams.first(where: { $0.attr("Side") == "Away" }) else { throw "miss F1 away team" }
 
     id = String(uId.dropFirst())
+    self.competitionInfo = competitionInfo
     stadiumInfo = try StadiumInfo(xml)
     let matchInfo = xml.firstChild(staticTag: "MatchInfo")
     let matchInfoAttributes = matchInfo?.attributes

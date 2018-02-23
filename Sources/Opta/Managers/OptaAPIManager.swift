@@ -55,6 +55,23 @@ extension OptaAPIManager {
   }
 }
 
+// MARK: - F3
+extension OptaAPIManager {
+  public typealias F3Result = SingleOptionalResult<F3Model>
+  public typealias F3Request = Request<F3Result>
+
+  public static func f3Request(competition: OptaAPIManager.Competition,
+                               builderSetup: ((RequestBuilder<F3Result>) -> Void)? = nil)
+    throws -> F3Request {
+      let request: RequestBuilder<F3Result> = buider(for: .f3(competition: competition))
+        .setXPath("SoccerFeed/SoccerDocument")
+      if let builderSetup = builderSetup {
+        builderSetup(request)
+      }
+      return try request.build()
+  }
+}
+
 // MARK: - F9
 extension OptaAPIManager {
   public typealias F9Result = SingleOptionalResult<F9Model>
@@ -109,8 +126,7 @@ extension OptaAPIManager {
 
   public enum FeedType {
     case f1(competition: Competition)
-    case standings(competition: Competition)
-    case liveMatch(id: String)
+    case f3(competition: Competition)
     case matchCommentary(id: String)
     case f9(id: String)
     case teamStatistics(competition: Competition, teamId: String)
@@ -123,10 +139,8 @@ extension OptaAPIManager {
       switch self {
       case .f1:
         return "F1"
-      case .standings:
+      case .f3:
         return "F3"
-      case .liveMatch:
-        return "F9"
       case .matchCommentary:
         return "F13"
       case .f9:
@@ -146,11 +160,11 @@ extension OptaAPIManager {
 
     var URLPath: String {
       switch self {
-      case .f1, .standings, .f26, .f15:
+      case .f1, .f3, .f26, .f15:
         return "competition.php"
       case .teamStatistics:
         return "team_competition.php"
-      case .liveMatch, .matchCommentary, .detailedPrematchStatistics, .f9, .liveMatchStatistics:
+      case .matchCommentary, .detailedPrematchStatistics, .f9, .liveMatchStatistics:
         return ""
       }
     }
@@ -174,10 +188,8 @@ extension OptaAPIManager {
     switch forFeedType {
     case .f1(let competiton):
       allParams += params(with: competiton)
-    case .standings(let competiton):
+    case .f3(let competiton):
       allParams += params(with: competiton)
-    case .liveMatch(let id):
-      allParams += params(withMatchId: id)
     case .matchCommentary(let id):
       allParams += params(withMatchId: id)
       allParams += params(withLanguage: "en")

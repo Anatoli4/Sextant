@@ -9,7 +9,7 @@ import Fuzi
  This class represents F9 live match when include player stats. Sample request:
  "/feed_type=F9&game_id=920777"
  Specification:
- http://optasports.com/en/praxis/documentation/football-feed-specifications
+ http://praxis.optasports.com/documentation/football-feed-specifications
  /f09-live-match-feed-plus-team-player-stats.aspx
  */
 
