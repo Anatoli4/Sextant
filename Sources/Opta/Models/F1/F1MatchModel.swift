@@ -45,7 +45,7 @@ public struct F1MatchModel {
   public let id: String
   public let competitionInfo: F1CompetitionInfoModel
   public let stadiumInfo: StadiumInfo
-  public let day: String
+  public let day: Int
   public let type: MatchType
   public let winnerId: String
   public let status: MatchStatus
@@ -78,7 +78,7 @@ public struct F1MatchModel {
     stadiumInfo = try StadiumInfo(xml)
     let matchInfo = xml.firstChild(staticTag: "MatchInfo")
     let matchInfoAttributes = matchInfo?.attributes
-    day = matchInfoAttributes?["MatchDay"] ?? ""
+    day = Int(matchInfoAttributes?["MatchDay"] ?? "0") ?? 0
     type = MatchType(rawValue: (matchInfoAttributes?["MatchType"] ?? "").lowercased()) ?? .undefined
     let winner = matchInfoAttributes?["MatchWinner"] ?? ""
     let gameWinner = matchInfoAttributes?["GameWinner"] ?? ""
