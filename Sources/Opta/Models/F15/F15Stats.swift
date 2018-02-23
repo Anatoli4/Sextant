@@ -3,6 +3,11 @@
 //  Copyright © 2017 NetcoSports. All rights reserved.
 //
 
+/*
+ Specification:
+ http://praxis.optasports.com/documentation/football-feed-appendices/f15-appendix.aspx
+ */
+
 import UIKit
 
 public class F15Stats {

@@ -48,18 +48,17 @@ public struct F9TeamModel {
     if let usedFormation = allStats?.first(where: { $0.attr("Type") == "formation_used" }) {
       formation = F9TeamFormationModel(usedFormation.stringValue)
     }
-    if let matchPlayers = teamData?.firstChild(staticTag: "PlayerLineUp")?.children(staticTag: "MatchPlayer"),
-      matchPlayers.count > 0 {
-      players = [F9PlayerModel]()
-      for player in matchPlayers {
-        players?.append(try F9PlayerModel(player,
-                                          team: team,
-                                          allGoals: goals,
-                                          allCards: cards,
-                                          allSubstitutions: substitutions,
-                                          allShootOuts: shootOuts))
-      }
-    }
+    let allGoals = goals
+    let allCards = cards
+    let allSubstitutions = substitutions
+    let allShootOuts = shootOuts
+    players = try teamData?.firstChild(staticTag: "PlayerLineUp")?
+      .children(staticTag: "MatchPlayer").flatMap { try F9PlayerModel($0,
+                                                                      team: team,
+                                                                      allGoals: allGoals,
+                                                                      allCards: allCards,
+                                                                      allSubstitutions: allSubstitutions,
+                                                                      allShootOuts: allShootOuts) }
     if let teamOfficial = team?.firstChild(staticTag: "TeamOfficial") {
       official = try F9OfficialModel(teamOfficial)
     }

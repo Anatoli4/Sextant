@@ -9,7 +9,7 @@ import Fuzi
  This class represents F26 live, past and next match. Sample request:
  "/competition.php?feed_type=F26&competition=24"
  Specification:
- http://www.optasports.com/en/praxis/documentation/football-feed-specifications/f26-live-scores.aspx
+ http://praxis.optasports.com/documentation/football-feed-specifications/f26-live-scores.aspx
  */
 
 public struct F26Model: XMLFuziModel {
@@ -48,14 +48,10 @@ public struct F26MatchesSetModel: XMLFuziModel {
       self.date = date
     }
     competitionInfo = try F26CompetitionInfoModel(xml)
-    let results = xml.children(staticTag: "result")
-    if results.count > 0 {
-      matches = [F26MatchModel]()
-      for result in results {
-        matches?.append(try F26MatchModel(result,
-                                          competitionInfo: competitionInfo,
-                                          date: date))
-      }
-    }
+    let info = competitionInfo
+    let date = self.date
+    matches = try xml.children(staticTag: "result").flatMap { try F26MatchModel($0,
+                                                                                competitionInfo: info,
+                                                                                date: date)}
   }
 }

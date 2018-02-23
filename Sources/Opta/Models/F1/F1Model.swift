@@ -9,7 +9,7 @@ import Fuzi
  This class represents F1 competion all matches. Sample request:
  "/competition.php?feed_type=f1&competition=24&season_id=2017"
  Specification:
-  http://optasports.com/en/praxis/documentation/football-feed-specifications/f01-fixtures-and-results.aspx
+  http://praxis.optasports.com/documentation/football-feed-specifications/f01-fixtures-and-results.aspx
  */
 
 public struct F1Model: XMLFuziModel {
@@ -20,9 +20,11 @@ public struct F1Model: XMLFuziModel {
   public init(_ xml: XMLElement) throws {
     competitionInfo = try F1CompetitionInfoModel(xml)
     let teamsInfo = xml.children(staticTag: "Team")
+    let info = competitionInfo
     matches = try xml.children(staticTag: "MatchData")
       .map { try F1MatchModel($0,
-                              teamsInfo: teamsInfo) }
+                              teamsInfo: teamsInfo,
+                              competitionInfo: info) }
     teams = Array(matches.reduce([String: F1TeamMatchesModel]()) { teams, match ->
       [String: F1TeamMatchesModel] in
       var teams = teams
