@@ -30,10 +30,10 @@ public struct F9MatchResultModel: XMLFuziModel {
     case waterloggedPitch = "waterlogged pitch"
     case weather = "weather"
   }
-  private(set) var winnerId: String?
-  private(set) var kind: Kind?
-  private(set) var delayMinutes: Int?
-  private(set) var delayReason: DelayReason?
+  public private(set) var winnerId: String?
+  public private(set) var kind: Kind?
+  public private(set) var delayMinutes: Int?
+  public private(set) var delayReason: DelayReason?
 
   public init(_ xml: XMLElement) throws {
     let attributes = xml.attributes

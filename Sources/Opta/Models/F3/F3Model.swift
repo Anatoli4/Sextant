@@ -15,7 +15,7 @@ import Fuzi
 public struct F3Model: XMLFuziModel {
   public let competitionInfo: F3CompetitionInfoModel
   public let groups: [F3GroupModel]
-  private(set) var qualification: F3QualificationModel?
+  public private(set) var qualification: F3QualificationModel?
 
   public init(_ xml: XMLElement) throws {
     guard let competition = xml.firstChild(staticTag: "Competition") else { throw "F3 miss Competition root" }
@@ -37,8 +37,8 @@ public struct F3CompetitionInfoModel: XMLFuziModel {
   public let code: String
   public let season: String
   public let seasonName: String
-  private(set) var currentRound: Int?
-  private(set) var round: Int?
+  public private(set) var currentRound: Int?
+  public private(set) var round: Int?
 
   public init(_ xml: XMLElement) throws {
     let attributes = xml.attributes

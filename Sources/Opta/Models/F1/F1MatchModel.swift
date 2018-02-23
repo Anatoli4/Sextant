@@ -49,17 +49,17 @@ public struct F1MatchModel {
   public let type: MatchType
   public let winnerId: String
   public let status: MatchStatus
-  private(set) var postponedOrAbandonedReason: PostponedOrAbandonedReason?
-  private(set) var legType: LegType?
-  private(set) var firstLegId: String?
-  private(set) var legWinnerId: String?
-  private(set) var nextMatchId: String?
-  private(set) var nextMatchLoserId: String?
-  private(set) var roundNumber: Int?
-  private(set) var roundType: RoundType?
-  private(set) var groupName: String?
-  private(set) var gameWinnerType: GameWinnerType?
-  private(set) var date: Date?
+  public private(set) var postponedOrAbandonedReason: PostponedOrAbandonedReason?
+  public private(set) var legType: LegType?
+  public private(set) var firstLegId: String?
+  public private(set) var legWinnerId: String?
+  public private(set) var nextMatchId: String?
+  public private(set) var nextMatchLoserId: String?
+  public private(set) var roundNumber: Int?
+  public private(set) var roundType: RoundType?
+  public private(set) var groupName: String?
+  public private(set) var gameWinnerType: GameWinnerType?
+  public private(set) var date: Date?
   public let homeTeam: F1TeamModel
   public let awayTeam: F1TeamModel
 

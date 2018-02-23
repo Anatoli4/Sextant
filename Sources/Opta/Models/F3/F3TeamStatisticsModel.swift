@@ -10,7 +10,7 @@ public struct F3TeamStatisticsModel: XMLFuziModel {
   public let away: F3TeamStatisticModel
   public let total: F3TeamStatisticModel
   public let startDayPosition: Int
-  private(set) var relegationAverage: Int?
+  public private(set) var relegationAverage: Int?
 
   public init(_ xml: XMLElement) throws {
     home = F3TeamStatisticModel.statistics(xml: xml,

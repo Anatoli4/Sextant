@@ -50,7 +50,7 @@ public struct F9PlayerCardModel: XMLFuziModel {
    */
   public let eventNumber: Int
   public let eventId: String
-  private(set) var timeStamp: Date?
+  public private(set) var timeStamp: Date?
 
   public init(_ xml: XMLElement) throws {
     let attributes = xml.attributes

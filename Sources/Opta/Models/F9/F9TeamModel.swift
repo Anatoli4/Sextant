@@ -13,16 +13,16 @@ public struct F9TeamModel {
   public let firstColorHex: String?
   public let secondColorHex: String?
   public let score: Int
-  private(set) var penaltyScore: Int?
-  private(set) var isFirstShootOut: Bool?
-  private(set) var stats: [F9TeamStatModel]?
-  private(set) var formation: F9TeamFormationModel?
-  private(set) var goals: [F9PlayerGoalModel]?
-  private(set) var cards: [F9PlayerCardModel]?
-  private(set) var substitutions: [F9PlayerSubstitutionModel]?
-  private(set) var shootOuts: [F9PlayerShootOutModel]?
-  private(set) var players: [F9PlayerModel]?
-  private(set) var official: F9OfficialModel?
+  public private(set) var penaltyScore: Int?
+  public private(set) var isFirstShootOut: Bool?
+  public private(set) var stats: [F9TeamStatModel]?
+  public private(set) var formation: F9TeamFormationModel?
+  public private(set) var goals: [F9PlayerGoalModel]?
+  public private(set) var cards: [F9PlayerCardModel]?
+  public private(set) var substitutions: [F9PlayerSubstitutionModel]?
+  public private(set) var shootOuts: [F9PlayerShootOutModel]?
+  public private(set) var players: [F9PlayerModel]?
+  public private(set) var official: F9OfficialModel?
 
   public init(_ teamData: XMLElement?,
               team: XMLElement?) throws {

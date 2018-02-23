@@ -286,8 +286,8 @@ public struct F9TeamStatModel: XMLFuziModel {
   public let totalValue: Int
   public let firstHalfValue: Int
   public let secondHalfValue: Int
-  private(set) var firstHalfExtraTimeValue: Int?
-  private(set) var secondHalfExtraTimeValue: Int?
+  public private(set) var firstHalfExtraTimeValue: Int?
+  public private(set) var secondHalfExtraTimeValue: Int?
 
   public init(_ xml: XMLElement) throws {
     let attributes = xml.attributes

@@ -15,7 +15,7 @@ import Fuzi
 public struct F1Model: XMLFuziModel {
   public let competitionInfo: F1CompetitionInfoModel
   public let matches: [F1MatchModel]
-  public var teams: [F1TeamMatchesModel]
+  public private(set) var teams: [F1TeamMatchesModel]
 
   public init(_ xml: XMLElement) throws {
     competitionInfo = try F1CompetitionInfoModel(xml)
